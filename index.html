@@ -1,0 +1,339 @@
+<html>
+    <head>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.2.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+        <script type="text/javascript">
+            var decks = {
+    "Zoroark Lycanroc": {
+        "bye": 1.0,
+        "Zapdos Jirachi": 0.6956521739130435,
+        "Ultra Malamar": 0.5555555555555556,
+        "Buzzwole Lucario": 0.0,
+        "Zoroark Lycanroc Lucario": 0.35294117647058826,
+        "Zoroark Lycanroc": 0.5625,
+        "Sylveon": 0.0,
+        "Pikachu Zekrom": 0.6,
+        "Vileplume": 0.4444444444444444,
+        "Spread": 0.6666666666666666,
+        "Zororark Garbodor": 1.0,
+        "Umbreon Guzzlord": 0.5,
+        "Psychic Malamar": 0.0,
+        "Lapras Quagsire": 1.0,
+        "Malamar Spread": 0.5,
+        "Blacephalon Naganadel": 0.0
+    },
+    "Zoroark Lycanroc Lucario": {
+        "Zapdos Jirachi": 0.75,
+        "Zoroark Lycanroc": 0.7647058823529411,
+        "Vileplume": 0.5,
+        "Celebi Venusaur": 0.0,
+        "Zoroark Lucario Weavile": 1.0,
+        "Ultra Malamar": 0.5384615384615384,
+        "Pikachu Zekrom": 0.625,
+        "Buzzwole Lucario": 0.0,
+        "Zoroark Lycanroc Lucario": 0.5,
+        "Sylveon": 0.0,
+        "Blacephalon Naganadel": 0.25,
+        "Malamar Spread": 1.0,
+        "Spread": 0.0
+    },
+    "Zapdos Jirachi": {
+        "Zoroark Lycanroc Lucario": 0.5,
+        "Zoroark Lycanroc": 0.43478260869565216,
+        "Vileplume": 0.42857142857142855,
+        "Pikachu Zekrom": 0.7272727272727273,
+        "Umbreon Guzzlord": 0.6666666666666666,
+        "Zapdos Jirachi": 0.5,
+        "Lapras Quagsire": 1.0,
+        "Blacephalon Naganadel": 0.5,
+        "Sylveon": 0.4,
+        "Celebi Venusaur": 1.0,
+        "Ultra Malamar": 0.7692307692307693,
+        "Psychic Malamar": 1.0,
+        "Zoroark Lucario Weavile": 0.0,
+        "Malamar Spread": 1.0,
+        "Zororark Garbodor": 0.0,
+        "Spread": 0.0,
+        "Buzzwole Lucario": 0.0
+    },
+    "Ultra Malamar": {
+        "Pikachu Zekrom": 0.5,
+        "Zoroark Lycanroc": 0.7777777777777778,
+        "Vileplume": 0.4,
+        "Malamar Spread": 1.0,
+        "Zoroark Lycanroc Lucario": 0.6923076923076923,
+        "Ultra Malamar": 0.75,
+        "Blacephalon Naganadel": 0.6666666666666666,
+        "Zapdos Jirachi": 0.46153846153846156,
+        "Sylveon": 1.0,
+        "Celebi Venusaur": 1.0,
+        "Lapras Quagsire": 1.0,
+        "Zoroark Lucario Weavile": 1.0,
+        "Spread": 1.0,
+        "Buzzwole Lucario": 1.0
+    },
+    "Pikachu Zekrom": {
+        "Ultra Malamar": 0.5,
+        "Pikachu Zekrom": 0.5,
+        "Zapdos Jirachi": 0.36363636363636365,
+        "Spread": 1.0,
+        "Vileplume": 0.6666666666666666,
+        "Zoroark Lycanroc": 0.6,
+        "Blacephalon Naganadel": 0.4,
+        "Zororark Garbodor": 0.5,
+        "Zoroark Lycanroc Lucario": 0.5,
+        "Buzzwole Lucario": 0.0,
+        "bye": 0.5,
+        "Sylveon": 1.0,
+        "Psychic Malamar": 0.6666666666666666,
+        "Lapras Quagsire": 0.0,
+        "Zoroark Lucario Weavile": 0.0
+    },
+    "Vileplume": {
+        "Zapdos Jirachi": 0.7142857142857143,
+        "Sylveon": 0.0,
+        "Zoroark Lycanroc Lucario": 0.5,
+        "Ultra Malamar": 0.6,
+        "Pikachu Zekrom": 0.6666666666666666,
+        "Zoroark Lycanroc": 0.5555555555555556,
+        "Psychic Malamar": 0.5,
+        "Blacephalon Naganadel": 0.5,
+        "Zororark Garbodor": 0.0,
+        "bye": 1.0,
+        "Spread": 1.0
+    },
+    "Buzzwole Lucario": {
+        "Zoroark Lycanroc": 1.0,
+        "Zoroark Lycanroc Lucario": 1.0,
+        "Pikachu Zekrom": 1.0,
+        "Zapdos Jirachi": 1.0,
+        "Ultra Malamar": 1.0,
+        "Blacephalon Naganadel": 0.0
+    },
+    "Sylveon": {
+        "Vileplume": 1.0,
+        "Zoroark Lycanroc": 1.0,
+        "bye": 0.5,
+        "Zapdos Jirachi": 0.6,
+        "Ultra Malamar": 0.0,
+        "Zoroark Lycanroc Lucario": 1.0,
+        "Pikachu Zekrom": 0.0
+    },
+    "Spread": {
+        "Pikachu Zekrom": 0.0,
+        "Malamar Spread": 1.0,
+        "Zoroark Lycanroc": 0.6666666666666666,
+        "Zapdos Jirachi": 1.0,
+        "Ultra Malamar": 0.0,
+        "Blacephalon Naganadel": 0.0,
+        "Vileplume": 0.0,
+        "Zoroark Lycanroc Lucario": 1.0
+    },
+    "Malamar Spread": {
+        "Ultra Malamar": 1.0,
+        "Spread": 1.0,
+        "Zapdos Jirachi": 0.0,
+        "Zoroark Lycanroc": 1.0,
+        "Zoroark Lycanroc Lucario": 0.0
+    },
+    "Celebi Venusaur": {
+        "Zoroark Lycanroc Lucario": 1.0,
+        "Zapdos Jirachi": 0.0,
+        "Ultra Malamar": 1.0,
+        "Blacephalon Naganadel": 0.0,
+        "Psychic Malamar": 1.0
+    },
+    "Zoroark Lucario Weavile": {
+        "Zoroark Lycanroc Lucario": 0.0,
+        "Psychic Malamar": 1.0,
+        "Zapdos Jirachi": 1.0,
+        "Ultra Malamar": 0.0,
+        "Pikachu Zekrom": 1.0
+    },
+    "Psychic Malamar": {
+        "Blacephalon Naganadel": 1.0,
+        "bye": 0.0,
+        "Vileplume": 0.5,
+        "Zoroark Lucario Weavile": 0.0,
+        "Zapdos Jirachi": 1.0,
+        "Zoroark Lycanroc": 1.0,
+        "Pikachu Zekrom": 1.0,
+        "Celebi Venusaur": 0.0
+    },
+    "Blacephalon Naganadel": {
+        "Psychic Malamar": 0.0,
+        "Ultra Malamar": 0.3333333333333333,
+        "Pikachu Zekrom": 0.6,
+        "Zapdos Jirachi": 1.0,
+        "Umbreon Guzzlord": 1.0,
+        "Zoroark Lycanroc Lucario": 1.0,
+        "Vileplume": 1.0,
+        "Celebi Venusaur": 1.0,
+        "Zoroark Lycanroc": 1.0,
+        "Spread": 1.0,
+        "Zororark Garbodor": 0.0,
+        "Lapras Quagsire": 0.0,
+        "Buzzwole Lucario": 1.0
+    },
+    "Umbreon Guzzlord": {
+        "Zapdos Jirachi": 0.6666666666666666,
+        "Blacephalon Naganadel": 1.0,
+        "Zoroark Lycanroc": 0.5
+    },
+    "Zororark Garbodor": {
+        "Pikachu Zekrom": 0.5,
+        "Zoroark Lycanroc": 1.0,
+        "Zapdos Jirachi": 1.0,
+        "Vileplume": 1.0,
+        "Blacephalon Naganadel": 1.0
+    },
+    "Lapras Quagsire": {
+        "Zapdos Jirachi": 0.5,
+        "Ultra Malamar": 1.0,
+        "Zoroark Lycanroc": 0.0,
+        "Pikachu Zekrom": 1.0,
+        "Blacephalon Naganadel": 1.0
+    }
+}
+            var data = {
+    "labels": [
+        "Zapdos Jirachi",
+        "Zoroark Lycanroc",
+        "Zoroark Lycanroc Lucario",
+        "Pikachu Zekrom",
+        "Ultra Malamar",
+        "Vileplume",
+        "Blacephalon Naganadel",
+        "Sylveon",
+        "Psychic Malamar",
+        "Spread",
+        "Buzzwole Lucario",
+        "Zororark Garbodor",
+        "Zoroark Lucario Weavile",
+        "Umbreon Guzzlord",
+        "Lapras Quagsire",
+        "Celebi Venusaur",
+        "Malamar Spread"
+    ],
+    "datasets": [
+        {
+            "label": "2019 Collinsville TCG Masters Top 99",
+            "data": [
+                19,
+                17,
+                14,
+                13,
+                11,
+                7,
+                4,
+                3,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "backgroundColor": [
+                "rgba(255,193,7,.75)",
+                "rgba(66,66,66 ,.75)",
+                "rgba(66,66,66 ,.75)",
+                "rgba(255,193,7,.75)",
+                "rgba(130,119,23,.75)",
+                "rgba(76,175,80,.75)",
+                "rgba(244,67,54,.75)",
+                "rgba(233,30,99,.75)",
+                "rgba(103,58,183,.75)",
+                "rgba(255,193,7,.75)",
+                "rgba(255,87,34,.75)",
+                "rgba(66,66,66 ,.75)",
+                "rgba(66,66,66 ,.75)",
+                "rgba(66,66,66 ,.75)",
+                "rgba(3,169,244,.75)",
+                "rgba(76,175,80,.75)",
+                "rgba(103,58,183,.75)"
+            ]
+        }
+    ]
+}
+
+            $(document).ready( 
+                function () {
+                    var ctx = $("#deckDistribution");
+                    var myNewChart = new Chart(ctx,{
+                        type: 'pie',
+                        data: data
+                    });  
+                    
+                    var ctx2 = $("#detailedMatchups");
+                    var detailed = new Chart(ctx2, {
+                        type: 'line',
+                        data: {
+    "labels": [
+        "Zapdos Jirachi",
+        "Zoroark Lycanroc",
+        "Zoroark Lycanroc Lucario",
+        "Pikachu Zekrom",
+        "Ultra Malamar",
+        "Vileplume",
+        "Blacephalon Naganadel",
+        "Sylveon",
+        "Psychic Malamar",
+        "Spread",
+        "Buzzwole Lucario",
+        "Zororark Garbodor",
+        "Zoroark Lucario Weavile",
+        "Umbreon Guzzlord",
+        "Lapras Quagsire",
+        "Celebi Venusaur",
+        "Malamar Spread"
+    ],
+    "datasets": [
+    ]
+}
+                    })
+
+                    $("#deckDistribution").click( 
+                        function(evt){
+                            var activeElement = myNewChart.getElementsAtEvent(evt);
+                            var clickedData = data.datasets[activeElement[0]._datasetIndex].data[activeElement[0]._index];
+                            var clickedLabel = data.labels[activeElement[0]._index];
+                            var clickedColor = data.datasets[activeElement[0]._datasetIndex].backgroundColor[activeElement[0]._index];
+                            //alert(clickedLabel);
+
+                            var temp_dataset = {};
+                            temp_dataset["data"] = [];
+                            temp_dataset["label"] = clickedLabel;
+                            temp_dataset["backgroundColor"] = clickedColor;
+
+                            for (var d in decks[clickedLabel]) {
+                                // iterate through labels
+                                for (var i = 0; i < detailed.data.labels.length; i++) {
+                                    temp_dataset["data"].push(decks[clickedLabel][detailed.data.labels[i]])
+                                }
+                            }
+
+                            detailed.data.datasets.push(temp_dataset)
+                            detailed.update();
+                            
+                            //detailed.data.labels.push("four");
+                            //detailed.data.datasets[0]["data"].push(3);
+                            //detailed.update();
+                        }
+                    );    
+                }
+            );
+        </script>
+    </head>
+    <body>
+        <div class="chart-container" style="height:500; width:500">
+            <canvas id="deckDistribution"></canvas>
+        </div>
+        <div class="chart-container" style="height:500; width:1000">
+            <canvas id="detailedMatchups"></canvas>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+{
+    "labels": [
+        "Zapdos Jirachi",
+        "Zoroark Lycanroc",
+        "Zoroark Lycanroc Lucario",
+        "Pikachu Zekrom",
+        "Ultra Malamar",
+        "Vileplume",
+        "Blacephalon Naganadel",
+        "Sylveon",
+        "Psychic Malamar",
+        "Spread",
+        "Buzzwole Lucario",
+        "Zororark Garbodor",
+        "Zoroark Lucario Weavile",
+        "Umbreon Guzzlord",
+        "Lapras Quagsire",
+        "Celebi Venusaur",
+        "Malamar Spread"
+    ],
+    "datasets": [
+        {
+            "label": "2019 Collinsville TCG Masters Top 99",
+            "data": [
+                19,
+                17,
+                14,
+                13,
+                11,
+                7,
+                4,
+                3,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "backgroundColor": [
+                "rgba(255,193,7,1)",
+                "rgba(66,66,66 ,1)",
+                "rgba(66,66,66 ,1)",
+                "rgba(255,193,7,1)",
+                "rgba(130,119,23 ,1)",
+                "rgba(76,175,80,1)",
+                "rgba(244,67,54,1)",
+                "rgba(233,30,99,1)",
+                "rgba(103,58,183,1)",
+                "rgba(255,193,7,1)",
+                "rgba(255,87,34,1)",
+                "rgba(66,66,66 ,1)",
+                "rgba(66,66,66 ,1)",
+                "rgba(66,66,66 ,1)",
+                "rgba(3,169,244,1)",
+                "rgba(76,175,80,1)",
+                "rgba(103,58,183,1)"
+            ]
+        }
+    ]
+}

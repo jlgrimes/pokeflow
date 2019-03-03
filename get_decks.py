@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import json
 
 # Algorithm idea:
 # for each list:
@@ -11,33 +12,101 @@ tournamentUrls = [
     "http://files.rk9labs.com/decklists/20190223-Collinsville-TCG-Masters-Top-99-PHBRMUQA.html"
 ]
 
-archetypes = [
-    ["Blacephalon GX"],
-    ["Buzzwole GX", "Lucario GX"],
-    ["Celebi & Venusaur GX"],
-    ["Lapras GX", "Quagsire"],
+typeColors = {
+    "fire": "rgba(244,67,54,.5)",
+    "water": "rgba(3,169,244,.5)",
+    "grass": "rgba(76,175,80,.5)",
+    "electric": "rgba(255,193,7,.5)",
+    "fighting": "rgba(255,87,34,.5)", 
+    "psychic": "rgba(103,58,183,.5)", 
+    "dark": "rgba(66,66,66,.5)",
+    "metal": "rgba(96,125,139,.5)",
+    "dragon": "rgba(130,119,23,.5)",
+    "fairy": "rgba(233,30,99,.5)",
+    "normal": "rgba(158,158,158,.5)"
+}
+
+archetypes = {
+    "Blacephalon Naganadel": {
+        "names": ["Blacephalon GX"],
+        "type": "fire"
+    },
+    "Buzzwole Lucario": {
+        "names": ["Buzzwole GX", "Lucario GX"],
+        "type": "fighting"
+    },
+    "Celebi Venusaur": {
+        "names": ["Celebi & Venusaur GX"],
+        "type": "grass"
+    },
+    "Lapras Quagsire": {
+        "names": ["Lapras GX", "Quagsire"],
+        "type": "water"
+    },
 
     # Malamar Variants
-    ["Ultra Necrozma GX", "Malamar"],
-    ["Malamar", "Tapu Koko"],
-    ["Malamar"],
+    "Ultra Malamar": {
+        "names": ["Ultra Necrozma GX", "Malamar"],
+        "type": "dragon"
+    },
+    "Malamar Spread": {
+        "names": ["Malamar", "Tapu Koko"],
+        "type": "psychic"
+    },
+    "Psychic Malamar": {
+        "names": ["Malamar"],
+        "type": "psychic"
+    },
 
     # Lightning Variants
-    ["Pikachu & Zekrom GX"],
-    ["Zapdos", "Jirachi"],
+    "Pikachu Zekrom": {
+        "names": ["Pikachu & Zekrom GX"],
+        "type": "electric"
+    },
+    "Zapdos Jirachi": {
+        "names": ["Zapdos", "Jirachi"],
+        "type": "electric"
+    },
 
-    ["Sylveon GX"],
-    ["Umbreon", "Alolan Ninetales GX"],
-    ["Tapu Koko", "Magcargo"],
-    ["Vileplume"],
+    "Sylveon": {
+        "names": ["Sylveon GX"],
+        "type": "fairy"
+    },
+    "Umbreon Guzzlord": {
+        "names": ["Umbreon", "Alolan Ninetales GX", "Guzzlord GX"],
+        "type": "dark"
+    },
+    "Spread": {
+        "names": ["Tapu Koko", "Tapu Lele"],
+        "type": "electric"
+    },
+    "Vileplume": {
+        "names": ["Vileplume"],
+        "type": "grass"
+    },
 
     # Zoroark Variants
-    ["Zoroark GX", "Garbodor"],
-    ["Zoroark GX", "Lucario GX", "Weavile"],
-    ["Zoroark GX", "Lycanroc GX", "Lucario GX"],
-    ["Zoroark GX", "Lycanroc GX"],
-    ["Zoroark GX", "Alolan Ninetales GX"]
-]
+    "Zororark Garbodor": {
+        "names": ["Zoroark GX", "Garbodor"],
+        "type": "dark"
+    },
+    "Zoroark Lucario Weavile": {
+        "names": ["Zoroark GX", "Lucario GX", "Weavile"],
+        "type": "dark"
+    },
+    "Zoroark Lycanroc Lucario": {
+        "names": ["Zoroark GX", "Lycanroc GX", "Lucario GX"],
+        "type": "dark"
+    },
+    "Zoroark Lycanroc": {
+        "names": ["Zoroark GX", "Lycanroc GX"],
+        "type": "dark"
+    },
+    "Zoroark Alolan Ninetales": {
+        "names": ["Zoroark GX", "Alolan Ninetales GX"],
+        "type": "dark"
+    }
+}
 
 def formatName(name):
     n = name.split(" ")[0] + " " + name.split(" ")[1][0]
@@ -48,13 +117,12 @@ class Tournament:
         self.url = url
         self.players = {}
         self.deckMatchups = {}
+        self.deckCounts = {}
 
         self.getHtml()
         self.getTitle()
         self.getLists()
-        self.fetchMatchups()
         self.destruct()
-
 
     def getHtml(self):
         response = requests.get(self.url)
@@ -68,7 +136,16 @@ class Tournament:
         for listHtml in self.soup.findAll("table", {"class": "decklist"}):
             l = List(listHtml)
             self.players[formatName(l.player)] = l
+            
+            # Add a deck counter
+            if l.archetype not in self.deckCounts:
+                self.deckCounts[l.archetype] = 0
+            self.deckCounts[l.archetype] += 1
+
             print("Got list for", l.player, "...")
+
+        # Sort decks by deck count
+        self.deckCounts = sorted(self.deckCounts.items(), key=lambda x: x[1], reverse=True)
 
     def fetchMatchups(self):
         for r in range(10, 19):
@@ -98,6 +175,9 @@ class Tournament:
                             self.updateDeckMatchup(name, opponentName, "losses")
                         else:
                             self.updateDeckMatchup(name, opponentName, "ties")
+
+        self.tidyUpMatchups()
+        self.tidyUpSpecificMatchups()
         
     def updateDeckMatchup(self, name, opponentName, result):
         if formatName(name) in self.players: # if players haven't DROPPED on day two
@@ -123,8 +203,59 @@ class Tournament:
             self.deckMatchups[deck][result] += 1
             self.deckMatchups[deck][opponentDeck][result] += 1
 
+    def tidyUpMatchups(self):
+        print("Tidying matchups...")
+
+        self.tidyMatchups = {}
+        self.tidyMatchups["labels"] = []
+        self.tidyMatchups["datasets"] = []
+        self.tidyMatchups["datasets"].append({})
+        self.tidyMatchups["datasets"][0]["label"] = self.title
+        self.tidyMatchups["datasets"][0]["data"] = []
+        self.tidyMatchups["datasets"][0]["backgroundColor"] = []
+        for deck in self.deckCounts:
+            self.tidyMatchups["labels"].append(deck[0])
+            self.tidyMatchups["datasets"][0]["data"].append(deck[1])
+            self.tidyMatchups["datasets"][0]["backgroundColor"].append(typeColors[archetypes[deck[0]]["type"]])
+            # self.tidyMatchups["datasets"][0].data.append(str(deckStats["wins"]) + "-" + str(deckStats["ties"]) + "-" + str(deckStats["losses"]))
+        self.export(self.title + ".json", self.tidyMatchups)
+
+    def tidyUpSpecificMatchups(self):
+        print("Tidying up specific matchups...")
+
+        # exports the data template for the second graph
+        self.tidySpecificMatchupsBase = {}
+        self.tidySpecificMatchupsBase["labels"] = []
+        self.tidySpecificMatchupsBase["datasets"] = []
+        #self.tidySpecificMatchupsBase["datasets"].append({})
+        #self.tidySpecificMatchupsBase["datasets"][0]["data"] = []
+
+        for deck in self.deckCounts:
+            self.tidySpecificMatchupsBase["labels"].append(deck[0])
+        self.export(self.title + "_detailed.json", self.tidySpecificMatchupsBase)
+
+        # now we work on the specifics
+        self.specificTidyMatchups = {}
+        self.specificTidyMatchups = {}
+        self.specificTidyMatchups
+        for deck in self.deckMatchups:
+            self.specificTidyMatchups[deck] = {}
+
+            for oppDeck in self.deckMatchups[deck]:
+                if oppDeck != "wins" and oppDeck != "ties" and oppDeck != "losses":
+                    stats = self.deckMatchups[deck][oppDeck]
+                    winRatio = (stats["wins"] + 0.5 * stats["ties"]) / (stats["wins"] + stats["ties"] + stats["losses"])
+                    self.specificTidyMatchups[deck][oppDeck] = winRatio
+        self.export(self.title + "_detailed_data.json", self.specificTidyMatchups)
+
+
     def destruct(self):
         del self.soup
+
+    def export(self, filename, data):
+        print("Exporting " + filename + "...")
+        file = open(filename, "+w")
+        file.write(json.dumps(data, indent=4))
 
 
 class List:
@@ -163,18 +294,19 @@ class List:
     def getArchetype(self):
         self.archetype = "none"
 
-        for archetype in archetypes:
+        for archetypeName, archetypeData in archetypes.items():
             archetypeBool = True
-            for name in archetype:
+            for name in archetypeData["names"]:
                 if name not in self.pokemon:
                     archetypeBool = False
 
             if archetypeBool:
-                self.archetype = " ".join(archetype)
+                self.archetype = archetypeName
                 break
 
 def main():
     t = Tournament(tournamentUrls[0])
+    t.fetchMatchups()
 
 if __name__ == "__main__":
     main()
