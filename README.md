@@ -75,3 +75,6 @@ This is what will be generated for each tournament. PokeFlow pulls from RK9labs 
     ...
 }
 ```
+
+## Current Issues
+* Counts dropped players as byes. Since players' decks are grabbed from RK9 final standings, dropped players aren't accounted for.
