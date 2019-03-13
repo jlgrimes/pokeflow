@@ -34,57 +34,77 @@ expandedArchetypes = {
 		"names": ["Magikarp & Wailord GX"],
 		"type": "water"
 	},
-	"Night March": {
-		"names": ["Joltik", "Pumpkaboo"],
-		"type": "psychic"
+	"Buzzwole Garbodor": {
+		"names": ["Buzzwole", "Garbodor"],
+		"type": "fighting"
 	},
-	"Zoroark Garbodor": {
-		"names": ["Zoroark GX", "Garbodor"],
-		"type": "dark"
+	"Egg Drop": {
+		"names": ["Alolan Exeggutor"],
+		"type": "dragon"
 	},
-	"Trevenant": {
-		"names": ["Trevenant"],
+	"Fighting Guys": {
+		"names": ["Lucario GX", "Buzzwole"],
+		"type": "fighting"
+	},
+	"Gallade": {
+		"names": ["Gallade"],
+		"type": "fighting"
+	},
+    "Hitmonchan Wobbuffet": {
+		"names": ["Hitmonchan", "Wobbuffet"],
+		"type": "fighting"
+	},
+	"Mega Gardevoir": {
+		"names": ["Mega Gardevoir"],
 		"type": "psychic"
 	},
 	"Mew Box": {
 		"names": ["Mew", "Sudowoodo"],
 		"type": "psychic"
 	},
+	"Night March": {
+		"names": ["Joltik", "Pumpkaboo"],
+		"type": "psychic"
+	},
+    "Pikachu Zekrom": {
+		"names": ["Pikachu & Zekrom GX"],
+		"type": "electric"
+	},
 	"Shock Lock": {
 		"names": ["Raichu", "Stoutland"],
 		"type": "electric"
 	},
-	"Hitmonchan Wobbuffet": {
-		"names": ["Hitmonchan", "Wobbuffet"],
-		"type": "fighting"
-	},
-	"Fighting Guys": {
-		"names": ["Lucario GX", "Buzzwole"],
-		"type": "fighting"
+    "Trevenant": {
+		"names": ["Trevenant"],
+		"type": "psychic"
 	},
 	"Vespiquen Flareon": {
 		"names": ["Vespiquen", "Flareon"],
 		"type": "grass"
 	},
+	"Yveltal BREAK": {
+		"names": ["Yveltal BREAK"],
+		"type": "dark"
+	},
 	"Zapdos Jirachi": {
 		"names": ["Zapdos", "Jirachi"],
 		"type": "electric"
 	},
-	"Egg Drop": {
-		"names": ["Alolan Exeggutor"],
-		"type": "dragon"
+	"Zoroark Control": {
+		"names": ["Zoroark GX", "Seismitoad EX"],
+		"type": "dark"
+	},
+	"Zoroark Garbodor": {
+		"names": ["Zoroark GX", "Garbodor"],
+		"type": "dark"
 	},
 	"Zoroark Golisopod": {
 		"names": ["Zoroark GX", "Golisopod GX"],
 		"type": "dark"
 	},
-	"Gallade": {
-		"names": ["Gallade"],
-		"type": "fighting"
-	},
-	"Pikachu Zekrom": {
-		"names": ["Pikachu & Zekrom GX"],
-		"type": "electric"
+    "Zoroark Lycanroc": {
+		"names": ["Zoroark GX", "Lycanroc GX"],
+		"type": "dark"
 	}
 }
 
