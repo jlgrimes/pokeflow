@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import pokeflow
 
 # Algorithm idea:
 # for each list:
@@ -8,204 +9,169 @@ import json
 #       if card matches archetype:
 #           return archetype name
 
-tournamentUrls = [
-    "http://files.rk9labs.com/decklists/20190223-Collinsville-TCG-Masters-Top-99-PHBRMUQA.html"
-]
-
-typeColors = {
-    "fire": "rgba(244,67,54,.5)",
-    "water": "rgba(3,169,244,.5)",
-    "grass": "rgba(76,175,80,.5)",
-    "electric": "rgba(255,193,7,.5)",
-    "fighting": "rgba(255,87,34,.5)", 
-    "psychic": "rgba(103,58,183,.5)", 
-    "dark": "rgba(66,66,66,.5)",
-    "metal": "rgba(96,125,139,.5)",
-    "dragon": "rgba(130,119,23,.5)",
-    "fairy": "rgba(233,30,99,.5)",
-    "normal": "rgba(158,158,158,.5)"
-}
-
-archetypes = {
-    "Blacephalon Naganadel": {
-        "names": ["Blacephalon GX"],
-        "type": "fire"
-    },
-    "Buzzwole Lucario": {
-        "names": ["Buzzwole GX", "Lucario GX"],
-        "type": "fighting"
-    },
-    "Celebi Venusaur": {
-        "names": ["Celebi & Venusaur GX"],
-        "type": "grass"
-    },
-    "Lapras Quagsire": {
-        "names": ["Lapras GX", "Quagsire"],
-        "type": "water"
-    },
-
-    # Malamar Variants
-    "Ultra Malamar": {
-        "names": ["Ultra Necrozma GX", "Malamar"],
-        "type": "dragon"
-    },
-    "Malamar Spread": {
-        "names": ["Malamar", "Tapu Koko"],
-        "type": "psychic"
-    },
-    "Psychic Malamar": {
-        "names": ["Malamar"],
-        "type": "psychic"
-    },
-
-    # Lightning Variants
-    "Pikachu Zekrom": {
-        "names": ["Pikachu & Zekrom GX"],
-        "type": "electric"
-    },
-    "Zapdos Jirachi": {
-        "names": ["Zapdos", "Jirachi"],
-        "type": "electric"
-    },
-
-    "Sylveon": {
-        "names": ["Sylveon GX"],
-        "type": "fairy"
-    },
-    "Umbreon Guzzlord": {
-        "names": ["Umbreon", "Alolan Ninetales GX", "Guzzlord GX"],
-        "type": "dark"
-    },
-    "Spread": {
-        "names": ["Tapu Koko", "Tapu Lele"],
-        "type": "electric"
-    },
-    "Vileplume": {
-        "names": ["Vileplume"],
-        "type": "grass"
-    },
-
-    # Zoroark Variants
-    "Zororark Garbodor": {
-        "names": ["Zoroark GX", "Garbodor"],
-        "type": "dark"
-    },
-    "Zoroark Lucario Weavile": {
-        "names": ["Zoroark GX", "Lucario GX", "Weavile"],
-        "type": "dark"
-    },
-    "Zoroark Lycanroc Lucario": {
-        "names": ["Zoroark GX", "Lycanroc GX", "Lucario GX"],
-        "type": "dark"
-    },
-    "Zoroark Lycanroc": {
-        "names": ["Zoroark GX", "Lycanroc GX"],
-        "type": "dark"
-    },
-    "Zoroark Alolan Ninetales": {
-        "names": ["Zoroark GX", "Alolan Ninetales GX"],
-        "type": "dark"
-    }
-}
-
 def formatName(name):
     n = name.split(" ")[0] + " " + name.split(" ")[1][0]
     return n.lower()
 
 class Tournament:
-    def __init__(self, url):
-        self.url = url
+    def __init__(self, tournamentObj):
+        self.url = tournamentObj["listUrl"]
+        self.pairingsUrl = tournamentObj["pairingsUrl"]
+        self.dayTwoRounds = tournamentObj["dayTwoRounds"]
+        
+        if tournamentObj["format"] == "standard":
+            self.archetypes = pokeflow.standardArchetypes
+        if tournamentObj["format"] == "expanded":
+            self.archetypes = pokeflow.expandedArchetypes
+
+        # A dictionary of the form
         self.players = {}
+
+        # A dictionary of the form
+        #   "archetypeName": {
+        #       "opponentDeck": {
+        #           wins = x,
+        #           ties = x,
+        #           losses = x
+        #       }
+        #        ...
+        #       wins = x,
+        #       ties = x,
+        #       losses = x
+        #   }
+        #   ...
+        # Basically stores all of a particular archetype's matchups against every other archetype
+        # Also stores the total wins/ties/losses against all archetypes
+        # Used for displaying subresults in the line graph
         self.deckMatchups = {}
+
+        # A dictionary of the form
+        #   "archetypeName": count
+        #    ...
+        # Used for displaying ratios in the pie chart
         self.deckCounts = {}
 
+        # Parses HTML for the page
         self.getHtml()
+
+        # Gets the name of the tournament
         self.getTitle()
+
+        # Stores all of the lists inside self
         self.getLists()
+
+        # Cleans up a bit (probably not needed)
         self.destruct()
 
     def getHtml(self):
+        # Pulls HTML from self.url and stores the result in self.soup
         response = requests.get(self.url)
         html = response.text
         self.soup = BeautifulSoup(html, 'html.parser')
 
     def getTitle(self):
+        # Gets the tournament name from the soup of RK9
         self.title = self.soup.findAll("title")[0].getText().split("RK9 Decklists of ")[1]
 
     def getLists(self):
+        # Iterate through all decklists on the page
         for listHtml in self.soup.findAll("table", {"class": "decklist"}):
-            l = List(listHtml)
+            # Create a list of type List
+            # List accepts HTML and parses it for useful information about the player/deck
+            l = List(listHtml, self.archetypes)
             self.players[formatName(l.player)] = l
             
-            # Add a deck counter
+            # Add whatever the person's playing to the deckCounts variable
             if l.archetype not in self.deckCounts:
                 self.deckCounts[l.archetype] = 0
             self.deckCounts[l.archetype] += 1
 
             print("Got list for", l.player, "...")
 
-        # Sort decks by deck count
+        # Sort archetypes by deck count, highest number of decks first
         self.deckCounts = sorted(self.deckCounts.items(), key=lambda x: x[1], reverse=True)
 
     def fetchMatchups(self):
-        for r in range(10, 19):
+        # Iterates through day two rounds 10-19
+        for r in range(self.dayTwoRounds[0], self.dayTwoRounds[1]):
             print("Getting matchups for round ", str(r), "...")
 
-            response = requests.get("https://player.rk9labs.com/pairings/BD96502A?round=" + str(r))
+            # Gets the HTML from the specific round page
+            response = requests.get(self.pairingsUrl + str(r))
             html = response.text
             soup = BeautifulSoup(html, 'html.parser')
 
+            # For each match in round r
             for match in soup.findAll("div", {"class": "match"}):
+                # For each player in the match
                 for i in range(0, 2):
+                    # Get the player HTMLs from the page
                     players = match.findAll("div", {"class": "player"})
                     player = players[i]
                     opponent = players[int(not i)]
 
                     if len(player.findAll("span")) > 0: # disregard invalid players
+                        # Gets the player's name from the weird HTML
                         name = str(player.decode_contents()).split('name">')[1].split("<br/>")[0] + " " + str(player.decode_contents()).split('name">')[1].split("<br/>")[1].replace(" ", "").replace("\n", "")
                         
                         if len(opponent.findAll("span")) > 0: # make all invalid opponents byes
+                            # Gets the opponent's name from the weird HTML
                             opponentName = str(opponent.decode_contents()).split('name">')[1].split("<br/>")[0] + " " + str(opponent.decode_contents()).split('name">')[1].split("<br/>")[1].replace(" ", "").replace("\n", "")
                         else:
+                            # If the opponent has no data, we assume it's a bye.
                             opponentName = "bye"
 
-                        if "winner" in str(player):
+                        # Update deckMatchups based off of the player's result
+                        if "winner" in str(player) and "winner" not in str(opponent):
                             self.updateDeckMatchup(name, opponentName, "wins")
                         elif "loser" in str(player):
                             self.updateDeckMatchup(name, opponentName, "losses")
                         else:
                             self.updateDeckMatchup(name, opponentName, "ties")
 
+        # Renders an output for chart.js of the matchup data
         self.tidyUpMatchups()
+
+        # Renders an output for chart.js of the matchup vs matchup data
         self.tidyUpSpecificMatchups()
         
     def updateDeckMatchup(self, name, opponentName, result):
         if formatName(name) in self.players: # if players haven't DROPPED on day two
+            # Get the deck that player is playing
             deck = self.players[formatName(name)].archetype
 
-            if opponentName != "bye" and formatName(opponentName) in self.players:
+            if opponentName != "bye" and formatName(opponentName) in self.players: # omits byes and invvalid players
+                # Sets opponentDeck to whatever the opponent is playing
                 opponentDeck = self.players[formatName(opponentName)].archetype
             else:
                 opponentDeck = "bye"
 
+            # If player's deck isn't in our matchups list, we initialize it
             if deck not in self.deckMatchups:
                 self.deckMatchups[deck] = {}
                 self.deckMatchups[deck]["wins"] = 0
                 self.deckMatchups[deck]["losses"] = 0
                 self.deckMatchups[deck]["ties"] = 0
 
+            # If opponent's deck isn't in our sublist (matchups[deck]), we initialize it
             if opponentDeck not in self.deckMatchups[deck]:
                 self.deckMatchups[deck][opponentDeck] = {}
                 self.deckMatchups[deck][opponentDeck]["wins"] = 0
                 self.deckMatchups[deck][opponentDeck]["ties"] = 0
                 self.deckMatchups[deck][opponentDeck]["losses"] = 0
 
+            # Add one to the deck's TOTAL wins/ties/losses
             self.deckMatchups[deck][result] += 1
+
+            # We add one to both the player's deck result and the opponent's deck result
+            # This may look like double counting, but it's needed
+            # Example: if Zapdos plays against Maalamar and wins, we add one to both Zapdos' wins and Malamar's losses.
             self.deckMatchups[deck][opponentDeck][result] += 1
 
     def tidyUpMatchups(self):
         print("Tidying matchups...")
 
+        # Initialize the data structure, per chart.js's standards :)
         self.tidyMatchups = {}
         self.tidyMatchups["labels"] = []
         self.tidyMatchups["datasets"] = []
@@ -213,17 +179,25 @@ class Tournament:
         self.tidyMatchups["datasets"][0]["label"] = self.title
         self.tidyMatchups["datasets"][0]["data"] = []
         self.tidyMatchups["datasets"][0]["backgroundColor"] = []
+
+        # Iterate through all decks
+        # Here we're adding all of the deck counts to the pie chart json
         for deck in self.deckCounts:
+            # Add deck to pie chart label
             self.tidyMatchups["labels"].append(deck[0])
+
+            # Add each deck's card count to the data
             self.tidyMatchups["datasets"][0]["data"].append(deck[1])
-            self.tidyMatchups["datasets"][0]["backgroundColor"].append(typeColors[archetypes[deck[0]]["type"]])
+
+            # Get the color for each deck and add it to backgroundColor array
+            self.tidyMatchups["datasets"][0]["backgroundColor"].append(pokeflow.typeColors[self.archetypes[deck[0]]["type"]])
             # self.tidyMatchups["datasets"][0].data.append(str(deckStats["wins"]) + "-" + str(deckStats["ties"]) + "-" + str(deckStats["losses"]))
-        self.export(self.title + ".json", self.tidyMatchups)
+        # self.export(self.title + ".json", self.tidyMatchups)
 
     def tidyUpSpecificMatchups(self):
         print("Tidying up specific matchups...")
 
-        # exports the data template for the second graph
+        # Exports the data template for the expanded graph
         self.tidySpecificMatchupsBase = {}
         self.tidySpecificMatchupsBase["labels"] = []
         self.tidySpecificMatchupsBase["datasets"] = []
@@ -232,7 +206,7 @@ class Tournament:
 
         for deck in self.deckCounts:
             self.tidySpecificMatchupsBase["labels"].append(deck[0])
-        self.export(self.title + "_detailed.json", self.tidySpecificMatchupsBase)
+        # self.export(self.title + " labels line chart.json", self.tidySpecificMatchupsBase)
 
         # now we work on the specifics
         self.specificTidyMatchups = {}
@@ -246,7 +220,7 @@ class Tournament:
                     stats = self.deckMatchups[deck][oppDeck]
                     winRatio = (stats["wins"] + 0.5 * stats["ties"]) / (stats["wins"] + stats["ties"] + stats["losses"])
                     self.specificTidyMatchups[deck][oppDeck] = winRatio
-        self.export(self.title + "_detailed_data.json", self.specificTidyMatchups)
+        # self.export(self.title + " matchups line chart.json", self.specificTidyMatchups)
 
 
     def destruct(self):
@@ -257,10 +231,110 @@ class Tournament:
         file = open(filename, "+w")
         file.write(json.dumps(data, indent=4))
 
+    def mergeChartHtml(self):
+        print("Merging into index.html...")
+        file = open("index.html", "+w")
+        file.write("""
+        <b><span style="font-size: large;"><u>Day 2 Meta Spread</u></span></b><br />
+        <br />
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.2.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+        <script type="text/javascript">
+        var decks =
+        """ + 
+        json.dumps(self.specificTidyMatchups, indent=4) +
+        """
+        var data =""" +
+        json.dumps(self.tidyMatchups) +
+        """
+        $(document).ready( 
+            function () {
+                var ctx = $("#deckDistribution");
+                var myNewChart = new Chart(ctx,{
+                        type: 'pie',
+                        data: data
+                    });  
+                    
+                var ctx2 = $("#detailedMatchups");
+                var detailed = new Chart(ctx2, {
+                    type: 'line',
+                    data: 
+        """ +
+        json.dumps(self.tidySpecificMatchupsBase) +
+        """
+                            ,
+                    options: {
+                        scales: {
+                            xAxes: [{
+                                ticks: {
+                                    maxTicksLimit: 100,
+                                    autoSkip: false
+                                }
+                            }]
+                        }
+                    }
+                    })
+
+                    $("#deckDistribution").click( 
+                        function(evt){
+                            var activeElement = myNewChart.getElementsAtEvent(evt);
+                            var clickedData = data.datasets[activeElement[0]._datasetIndex].data[activeElement[0]._index];
+                            var clickedLabel = data.labels[activeElement[0]._index];
+                            var clickedColor = data.datasets[activeElement[0]._datasetIndex].backgroundColor[activeElement[0]._index];
+                            //alert(clickedLabel);
+
+                            var repeat = false;
+                            var i = 0;
+                            
+                            for(var d = 0; d < detailed.data.datasets.length; d++) {
+                                if (detailed.data.datasets[d]["label"] == clickedLabel){
+                                    repeat = true;
+                                    i = d;
+                                }
+                            }
+
+                            if (repeat) {
+                                detailed.data.datasets.splice(i, 1);
+                                detailed.update();
+                            }
+                            else {
+                                var temp_dataset = {};
+                                temp_dataset["data"] = [];
+                                temp_dataset["label"] = clickedLabel;
+                                temp_dataset["backgroundColor"] = clickedColor;
+
+                                for (var d in decks[clickedLabel]) {
+                                    // iterate through labels
+                                    for (var i = 0; i < detailed.data.labels.length; i++) {
+                                        temp_dataset["data"].push(decks[clickedLabel][detailed.data.labels[i]])
+                                    }
+                                }
+
+                                detailed.data.datasets.push(temp_dataset)
+                                detailed.update();
+                            }
+                            
+                            //detailed.data.labels.push("four");
+                            //detailed.data.datasets[0]["data"].push(3);
+                            //detailed.update();
+                        }
+                    );    
+                }
+            );
+        </script>
+        <div class="chart-container" style="height:500; width:500">
+            <canvas id="deckDistribution"></canvas>
+        </div>
+        <div class="chart-container" style="height:500; width:1000">
+            <canvas id="detailedMatchups"></canvas>
+        </div>
+        """
+        )
 
 class List:
-    def __init__(self, listHtml):
+    def __init__(self, listHtml, archetypes):
         self.listHtml = listHtml
+        self.archetypes = archetypes
 
         self.getPlayer()
         self.getStanding()
@@ -294,7 +368,7 @@ class List:
     def getArchetype(self):
         self.archetype = "none"
 
-        for archetypeName, archetypeData in archetypes.items():
+        for archetypeName, archetypeData in self.archetypes.items():
             archetypeBool = True
             for name in archetypeData["names"]:
                 if name not in self.pokemon:
@@ -305,8 +379,10 @@ class List:
                 break
 
 def main():
-    t = Tournament(tournamentUrls[0])
+    t = Tournament(pokeflow.tournaments["2019"]["Toronto"])
     t.fetchMatchups()
+    t.mergeChartHtml()
+    print("done!")
 
 if __name__ == "__main__":
     main()
