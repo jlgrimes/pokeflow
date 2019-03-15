@@ -1,0 +1,18 @@
+{
+    "2019": {
+        "Collinsvile": {
+            "listUrl": "http://files.rk9labs.com/decklists/20190223-Collinsville-TCG-Masters-Top-99-PHBRMUQA.html",
+            "pairingsUrl": "https://player.rk9labs.com/pairings/BD96502A?round=",
+            "dayTwoRounds": [10, 19],
+            "format": "standard",
+            "year": "2019"
+        },
+        "Toronto": {
+            "listUrl": "http://files.rk9labs.com/decklists/20190309-Toronto-TCG-Masters-Top-32-NXWQMNVE.html",
+            "pairingsUrl": "https://player.rk9labs.com/pairings/4335585F?round=",
+            "dayTwoRounds": [10, 17],
+            "format": "expanded",
+            "year": "2019"
+        }
+    } 
+}

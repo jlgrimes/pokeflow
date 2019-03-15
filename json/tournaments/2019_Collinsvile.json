@@ -1,0 +1,3572 @@
+{
+    "zach l": {
+        "player": "Zach Lesage",
+        "standing": "1",
+        "pokemon": {
+            "Blacephalon GX": 4,
+            "Naganadel": 4,
+            "Poipole": 3,
+            "Alolan Muk": 1,
+            "Alolan Grimer": 1,
+            "Marshadow": 2,
+            "Tapu Lele GX": 1,
+            "Ditto \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Ultra Space": 2,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Cynthia": 4,
+            "Guzma": 3,
+            "Erika's Hospitality": 2,
+            "Lillie": 2,
+            "Beast Ring": 4,
+            "Ultra Ball": 4,
+            "Mysterious Treasure": 3,
+            "Energy Switch": 2
+        },
+        "energies": {
+            "Fire Energy - Basic": 15,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1
+        },
+        "archetype": "Blacephalon Naganadel"
+    },
+    "daniel a": {
+        "player": "Daniel Altavilla",
+        "standing": "2",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Rockruff": 1,
+            "Lycanroc GX": 2,
+            "Riolu": 2,
+            "Lucario GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Oranguru": 1,
+            "Tapu Lele GX": 2
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Guzma": 2,
+            "Acerola": 2,
+            "Cynthia": 1,
+            "Judge": 1,
+            "Ultra Ball": 4,
+            "Pokemon Communication": 4,
+            "Nest Ball": 4,
+            "Choice Band": 1,
+            "Rescue Stretcher": 1,
+            "Mallow": 1,
+            "Pal Pad": 1,
+            "Viridian Forest": 2,
+            "Field Blower": 1,
+            "Counter Gain": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Fighting Energy - Basic": 3,
+            "Rainbow Energy - Special": 1
+        },
+        "archetype": "Zoroark Lycanroc Lucario"
+    },
+    "riley h": {
+        "player": "Riley Hulbert",
+        "standing": "3",
+        "pokemon": {
+            "Magikarp & Wailord GX": 1,
+            "Articuno GX": 1,
+            "Shuckle GX": 1,
+            "Hoopa": 2,
+            "Regigigas": 2,
+            "Oddish": 3,
+            "Vileplume": 2,
+            "Unown": 1
+        },
+        "trainers": {
+            "Steven's Resolve": 4,
+            "Bill's Analysis": 4,
+            "Acerola": 3,
+            "Lusamine": 3,
+            "Plumeria": 2,
+            "Gladion": 2,
+            "Copycat": 1,
+            "Team Skull Grunt": 1,
+            "Mars": 1,
+            "Tate & Liza": 1,
+            "Guzma": 1,
+            "Faba": 1,
+            "Nest Ball": 4,
+            "Acro Bike": 3,
+            "Max Potion": 4,
+            "Rare Candy": 2,
+            "Rescue Stretcher": 2,
+            "Counter Catcher": 2,
+            "Enhanced Hammer": 2,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1,
+            "Mount Lanakila": 1,
+            "Life Forest \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Rainbow Energy - Special": 1
+        },
+        "archetype": "Vileplume"
+    },
+    "pablo m": {
+        "player": "Pablo Meza",
+        "standing": "4",
+        "pokemon": {
+            "Jirachi": 3,
+            "Pikachu & Zekrom GX": 2,
+            "Zapdos": 2,
+            "Zeraora GX": 1,
+            "Tapu Koko GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Eevee": 1,
+            "Jolteon GX": 1,
+            "Tapu Lele GX": 1,
+            "Absol": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Guzma": 4,
+            "Volkner": 3,
+            "Erika's Hospitality": 1,
+            "Electropower": 4,
+            "Ultra Ball": 4,
+            "Nest Ball": 3,
+            "Escape Board": 2,
+            "Escape Rope": 2,
+            "Energy Switch": 2,
+            "Switch": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Viridian Forest": 1,
+            "Choice Band": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "francis o": {
+        "player": "Francis O'Brien",
+        "standing": "5",
+        "pokemon": {
+            "Pikachu & Zekrom GX": 3,
+            "Zeraora GX": 2,
+            "Tapu Koko GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Zapdos": 1,
+            "Marshadow": 2,
+            "Tapu Lele GX": 1,
+            "Absol": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Volkner": 3,
+            "Guzma": 4,
+            "Cynthia": 1,
+            "Erika's Hospitality": 1,
+            "Ultra Ball": 4,
+            "Nest Ball": 2,
+            "Acro Bike": 4,
+            "Electropower": 4,
+            "Energy Switch": 3,
+            "Choice Band": 2,
+            "Max Potion": 1,
+            "Weakness Policy": 1,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Aether Paradise Conservation Area": 1
+        },
+        "energies": {
+            "Lightning Energy - Basic": 12
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "tommy s": {
+        "player": "Tommy Souramasing",
+        "standing": "6",
+        "pokemon": {
+            "Inkay": 4,
+            "Malamar": 4,
+            "Ultra Necrozma GX": 2,
+            "Giratina": 2,
+            "Jirachi": 1,
+            "Gengar & Mimikyu GX": 1,
+            "Marshadow GX": 1,
+            "Marshadow": 1,
+            "Tapu Lele GX": 1
+        },
+        "trainers": {
+            "Cynthia": 4,
+            "Lillie": 4,
+            "Guzma": 4,
+            "Acerola": 1,
+            "Mysterious Treasure": 4,
+            "Ultra Ball": 4,
+            "Nest Ball": 2,
+            "Choice Band": 2,
+            "Switch": 2,
+            "Escape Board": 2,
+            "Viridian Forest": 2,
+            "Rescue Stretcher": 1
+        },
+        "energies": {
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1,
+            "Metal Energy - Basic": 3,
+            "Psychic Energy - Basic": 7
+        },
+        "archetype": "Ultra Malamar"
+    },
+    "peter j": {
+        "player": "Peter Joltik",
+        "standing": "7",
+        "pokemon": {
+            "Buzzwole GX": 3,
+            "Buzzwole": 1,
+            "Diancie \u00e2\u0099\u00a2": 1,
+            "Lucario GX": 2,
+            "Riolu": 3,
+            "Jirachi": 2,
+            "Marshadow": 1,
+            "Absol": 1
+        },
+        "trainers": {
+            "Cynthia": 4,
+            "Lillie": 3,
+            "Guzma": 4,
+            "Acerola": 3,
+            "Professor Kukui": 2,
+            "Brooklet Hill": 2,
+            "Rescue Stretcher": 1,
+            "Switch": 3,
+            "Escape Rope": 1,
+            "Ultra Ball": 4,
+            "Nest Ball": 2,
+            "Beast Ring": 3,
+            "Choice Band": 2,
+            "Escape Board": 2
+        },
+        "energies": {
+            "Fighting Energy - Basic": 9,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1
+        },
+        "archetype": "Buzzwole Lucario"
+    },
+    "drew c": {
+        "player": "Drew Cate",
+        "standing": "8",
+        "pokemon": {
+            "Jirachi": 1,
+            "Zapdos": 3,
+            "Eevee": 1,
+            "Jolteon GX": 1,
+            "Tapu Koko GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Buzzwole": 1,
+            "Nihilego": 1,
+            "Wobbuffet": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Volkner": 4,
+            "Guzma": 4,
+            "Cynthia": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Nest Ball": 4,
+            "Electropower": 4,
+            "Switch": 3,
+            "Escape Board": 3,
+            "Escape Rope": 2,
+            "Ultra Ball": 2,
+            "Choice Band": 2,
+            "Rescue Stretcher": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 5,
+            "Rainbow Energy - Special": 4
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "ben h": {
+        "player": "Ben Howard",
+        "standing": "9",
+        "pokemon": {
+            "Ultra Necrozma GX": 2,
+            "Inkay": 4,
+            "Malamar": 4,
+            "Jirachi": 2,
+            "Giratina": 1,
+            "Dawn Wings Necrozma GX": 1,
+            "Tapu Lele GX": 1,
+            "Marshadow GX": 1,
+            "Gengar & Mimikyu GX": 1
+        },
+        "trainers": {
+            "Lillie": 3,
+            "Cynthia": 4,
+            "Guzma": 3,
+            "Mysterious Treasure": 4,
+            "Ultra Ball": 4,
+            "Switch": 3,
+            "Nest Ball": 1,
+            "Rescue Stretcher": 1,
+            "Choice Band": 2,
+            "Escape Board": 2,
+            "Viridian Forest": 3,
+            "Acerola": 1
+        },
+        "energies": {
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1,
+            "Metal Energy - Basic": 3,
+            "Psychic Energy - Basic": 7
+        },
+        "archetype": "Ultra Malamar"
+    },
+    "wesley h": {
+        "player": "Wesley Hollenberg",
+        "standing": "10",
+        "pokemon": {
+            "Zorua": 2,
+            "Rockruff": 1,
+            "Lycanroc GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Grimer": 2,
+            "Alolan Muk": 1,
+            "Riolu": 1,
+            "Lucario GX": 1,
+            "Tapu Lele GX": 2,
+            "Zoroark GX": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Professor Elm's Lecture": 1,
+            "Professor Kukui": 1,
+            "Acerola": 2,
+            "Guzma": 3,
+            "Choice Band": 2,
+            "Ultra Ball": 4,
+            "Nest Ball": 4,
+            "Pokemon Communication": 3,
+            "Cynthia": 1,
+            "Judge": 1,
+            "Multi Switch": 1,
+            "Viridian Forest": 2,
+            "Mallow": 1,
+            "Pal Pad": 1,
+            "Rescue Stretcher": 1
+        },
+        "energies": {
+            "Fighting Energy - Basic": 4,
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc Lucario"
+    },
+    "athavan b": {
+        "player": "Athavan Balendran",
+        "standing": "11",
+        "pokemon": {
+            "Regigigas": 2,
+            "Hoopa": 2,
+            "Magikarp & Wailord GX": 1,
+            "Oddish": 3,
+            "Vileplume": 2,
+            "Articuno GX": 1,
+            "Shuckle GX": 1,
+            "Unown": 1
+        },
+        "trainers": {
+            "Nest Ball": 4,
+            "Max Potion": 4,
+            "Steven's Resolve": 4,
+            "Bill's Analysis": 4,
+            "Acerola": 3,
+            "Lusamine": 3,
+            "Plumeria": 2,
+            "Gladion": 2,
+            "Team Skull Grunt": 1,
+            "Mars": 1,
+            "Copycat": 1,
+            "Tate & Liza": 1,
+            "Guzma": 1,
+            "Faba": 1,
+            "Rare Candy": 2,
+            "Acro Bike": 3,
+            "Rescue Stretcher": 2,
+            "Counter Catcher": 2,
+            "Enhanced Hammer": 2,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1,
+            "Mount Lanakila": 1,
+            "Life Forest \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Rainbow Energy - Special": 1
+        },
+        "archetype": "Vileplume"
+    },
+    "jimmy p": {
+        "player": "jimmy pendarvis",
+        "standing": "12",
+        "pokemon": {
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Oranguru": 1,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Riolu": 2,
+            "Lucario GX": 2,
+            "Rockruff": 1,
+            "Lycanroc GX": 2,
+            "Tapu Lele GX": 2
+        },
+        "trainers": {
+            "Field Blower": 1,
+            "Nest Ball": 4,
+            "Pal Pad": 1,
+            "Pokemon Communication": 4,
+            "Rescue Stretcher": 1,
+            "Ultra Ball": 4,
+            "Viridian Forest": 2,
+            "Acerola": 2,
+            "Cynthia": 1,
+            "Guzma": 2,
+            "Judge": 1,
+            "Lillie": 4,
+            "Mallow": 1,
+            "Choice Band": 1,
+            "Counter Gain": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Rainbow Energy - Special": 1,
+            "Fighting Energy - Basic": 3
+        },
+        "archetype": "Zoroark Lycanroc Lucario"
+    },
+    "evan g": {
+        "player": "Evan Gregory",
+        "standing": "13",
+        "pokemon": {
+            "Pikachu & Zekrom GX": 3,
+            "Zeraora GX": 2,
+            "Tapu Koko GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Marshadow": 2,
+            "Tapu Lele GX": 1,
+            "Oranguru": 1,
+            "Absol": 1
+        },
+        "trainers": {
+            "Cynthia": 4,
+            "Lillie": 3,
+            "Guzma": 3,
+            "Acerola": 2,
+            "Ultra Ball": 4,
+            "Acro Bike": 4,
+            "Electropower": 4,
+            "Nest Ball": 2,
+            "Energy Switch": 4,
+            "Multi Switch": 2,
+            "Choice Band": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Lightning Energy - Basic": 12
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "andrew m": {
+        "player": "Andrew Mahone",
+        "standing": "21",
+        "pokemon": {
+            "Zapdos": 3,
+            "Jirachi": 4,
+            "Zebstrika": 1,
+            "Blitzle": 1,
+            "Jolteon GX": 1,
+            "Eevee": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Tapu Koko GX": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Cynthia": 2,
+            "Volkner": 1,
+            "Guzma": 4,
+            "Nest Ball": 4,
+            "Switch": 4,
+            "Escape Rope": 2,
+            "Choice Band": 3,
+            "Energy Loto": 1,
+            "Rescue Stretcher": 2,
+            "Judge": 1,
+            "Ultra Ball": 2,
+            "Shrine of Punishment": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Electropower": 4,
+            "Escape Board": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 8
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "aaron t": {
+        "player": "Aaron Tarbell",
+        "standing": "15",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Rockruff": 2,
+            "Lycanroc GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Buzzwole": 1,
+            "Oranguru": 1,
+            "Machoke": 1,
+            "Alolan Ninetales GX": 1,
+            "Tapu Lele GX": 2,
+            "Alolan Vulpix": 2
+        },
+        "trainers": {
+            "Judge": 1,
+            "Guzma": 2,
+            "Professor Kukui": 2,
+            "Acerola": 2,
+            "Cynthia": 3,
+            "Professor Elm's Lecture": 3,
+            "Rescue Stretcher": 1,
+            "Devoured Field": 2,
+            "Choice Band": 2,
+            "Timer Ball": 2,
+            "Ultra Ball": 4,
+            "Counter Gain": 1,
+            "Field Blower": 1,
+            "Pal Pad": 1,
+            "Multi Switch": 1,
+            "Switch": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Unit Energy FDY - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "noah s": {
+        "player": "Noah Sawyer",
+        "standing": "16",
+        "pokemon": {
+            "Giratina": 3,
+            "Giratina \u00e2\u0099\u00a2": 1,
+            "Malamar": 4,
+            "Inkay": 4,
+            "Marshadow": 1,
+            "Jirachi": 2,
+            "Larvitar": 1
+        },
+        "trainers": {
+            "Spell Tag": 4,
+            "Ultra Ball": 3,
+            "Mysterious Treasure": 4,
+            "Switch": 2,
+            "Escape Board": 2,
+            "Lillie": 4,
+            "Cynthia": 4,
+            "Guzma": 4,
+            "Shrine of Punishment": 2,
+            "Acro Bike": 3,
+            "Rescue Stretcher": 2
+        },
+        "energies": {
+            "Psychic Energy - Basic": 10
+        },
+        "archetype": "Psychic Malamar"
+    },
+    "johnny r": {
+        "player": "Johnny Rabus",
+        "standing": "17",
+        "pokemon": {
+            "Eevee": 1,
+            "Jolteon GX": 1,
+            "Jirachi": 4,
+            "Zapdos": 3,
+            "Buzzwole": 2,
+            "Wobbuffet": 1,
+            "Absol": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Tapu Koko GX": 1
+        },
+        "trainers": {
+            "Guzma": 4,
+            "Lillie": 4,
+            "Volkner": 2,
+            "Nest Ball": 4,
+            "Ultra Ball": 2,
+            "Electropower": 4,
+            "Cynthia": 2,
+            "Choice Band": 3,
+            "Switch": 3,
+            "Escape Rope": 2,
+            "Viridian Forest": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Rescue Stretcher": 1,
+            "Escape Board": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 7,
+            "Fighting Energy - Basic": 2
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "justin b": {
+        "player": "Justin Bokhari",
+        "standing": "18",
+        "pokemon": {
+            "Zapdos": 2,
+            "Eevee": 1,
+            "Jolteon GX": 1,
+            "Jirachi": 2,
+            "Marshadow": 1,
+            "Absol": 1,
+            "Tapu Koko GX": 1,
+            "Pikachu & Zekrom GX": 2,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Wobbuffet": 1,
+            "Zeraora GX": 1
+        },
+        "trainers": {
+            "Ultra Ball": 3,
+            "Nest Ball": 3,
+            "Electropower": 4,
+            "Lillie": 4,
+            "Volkner": 2,
+            "Guzma": 4,
+            "Viridian Forest": 1,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Escape Board": 2,
+            "Energy Switch": 2,
+            "Escape Rope": 2,
+            "Choice Band": 2,
+            "Switch": 2,
+            "Rescue Stretcher": 1,
+            "Cynthia": 3
+        },
+        "energies": {
+            "Lightning Energy - Basic": 10
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "alex c": {
+        "player": "Alex Cole",
+        "standing": "19",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Trubbish": 2,
+            "Garbodor": 2,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Buzzwole": 1,
+            "Nihilego": 1,
+            "Marshadow": 1,
+            "Kartana GX": 1,
+            "Lucario GX": 1,
+            "Tapu Lele GX": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Guzma": 3,
+            "Cynthia": 3,
+            "Acerola": 1,
+            "Professor Kukui": 1,
+            "Ultra Ball": 4,
+            "Nest Ball": 4,
+            "Pokemon Communication": 2,
+            "Field Blower": 2,
+            "Rescue Stretcher": 1,
+            "Pal Pad": 1,
+            "Choice Band": 2,
+            "Devoured Field": 2
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Rainbow Energy - Special": 4
+        },
+        "archetype": "Zororark Garbodor"
+    },
+    "austin e": {
+        "player": "Austin Ellis",
+        "standing": "20",
+        "pokemon": {
+            "Ultra Necrozma GX": 2,
+            "Dawn Wings Necrozma GX": 1,
+            "Inkay": 4,
+            "Malamar": 4,
+            "Jirachi": 2,
+            "Giratina": 2,
+            "Tapu Lele GX": 1,
+            "Marshadow": 1
+        },
+        "trainers": {
+            "Cynthia": 4,
+            "Lillie": 4,
+            "Guzma": 3,
+            "Viridian Forest": 2,
+            "Mysterious Treasure": 4,
+            "Ultra Ball": 4,
+            "Escape Board": 2,
+            "Choice Band": 2,
+            "Rescue Stretcher": 2,
+            "Nest Ball": 2,
+            "Switch": 3
+        },
+        "energies": {
+            "Psychic Energy - Basic": 7,
+            "Metal Energy - Basic": 3,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1
+        },
+        "archetype": "Ultra Malamar"
+    },
+    "rahul r": {
+        "player": "Rahul Reddy",
+        "standing": "22",
+        "pokemon": {
+            "Jirachi": 4,
+            "Zapdos": 1,
+            "Jolteon GX": 2,
+            "Eevee": 2,
+            "Zeraora GX": 1,
+            "Tapu Koko GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Absol": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Guzma": 4,
+            "Volkner": 4,
+            "Cynthia": 2,
+            "Electropower": 4,
+            "Ultra Ball": 3,
+            "Nest Ball": 4,
+            "Switch": 3,
+            "Choice Band": 2,
+            "Escape Board": 2,
+            "Escape Rope": 1,
+            "Max Potion": 1,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Viridian Forest": 1
+        },
+        "energies": {
+            "Lightning Energy - Basic": 9
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "benjamin f": {
+        "player": "Benjamin Ferrel",
+        "standing": "23",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 1,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Tapu Lele GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Persian": 1,
+            "Rockruff": 3,
+            "Lycanroc GX": 1
+        },
+        "trainers": {
+            "Nest Ball": 4,
+            "Ultra Ball": 4,
+            "Pokemon Communication": 3,
+            "Choice Band": 2,
+            "Counter Gain": 1,
+            "Rescue Stretcher": 1,
+            "Pal Pad": 1,
+            "Viridian Forest": 1,
+            "Devoured Field": 1,
+            "Acerola": 2,
+            "Cynthia": 1,
+            "Professor Kukui": 1,
+            "Tate & Liza": 1,
+            "Mallow": 1,
+            "Judge": 1,
+            "Lillie": 4,
+            "Guzma": 3
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Fighting Energy - Basic": 3,
+            "Rainbow Energy - Special": 1
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "jose m": {
+        "player": "Jose Marrero",
+        "standing": "24",
+        "pokemon": {
+            "Pikachu & Zekrom GX": 3,
+            "Marshadow GX": 1,
+            "Tapu Lele GX": 1,
+            "Tapu Koko GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Oranguru": 1,
+            "Absol": 1,
+            "Eevee": 1,
+            "Jolteon GX": 1,
+            "Xurkitree GX": 1,
+            "Marshadow": 1,
+            "Zeraora GX": 1
+        },
+        "trainers": {
+            "Cynthia": 3,
+            "Guzma": 3,
+            "Acro Bike": 4,
+            "Ultra Ball": 4,
+            "Energy Switch": 4,
+            "Electropower": 4,
+            "Choice Band": 2,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Lillie": 4,
+            "Nest Ball": 2,
+            "Multi Switch": 1,
+            "Acerola": 1
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "malachi s": {
+        "player": "Malachi Sparks",
+        "standing": "25",
+        "pokemon": {
+            "Eevee": 4,
+            "Sylveon GX": 3,
+            "Oddish": 1,
+            "Vileplume": 1
+        },
+        "trainers": {
+            "Plumeria": 3,
+            "Lusamine": 3,
+            "Acerola": 3,
+            "Faba": 1,
+            "Guzma": 2,
+            "Gladion": 2,
+            "Judge": 1,
+            "Team Skull Grunt": 1,
+            "Brock's Grit": 1,
+            "Max Potion": 4,
+            "Counter Catcher": 2,
+            "Enhanced Hammer": 2,
+            "Nest Ball": 2,
+            "Bodybuilding Dumbbells": 2,
+            "Fairy Charm UB": 1,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1,
+            "Mount Lanakila": 1,
+            "Viridian Forest": 1,
+            "Crushing Hammer": 3,
+            "Cynthia": 1,
+            "Professor Kukui": 1,
+            "Rare Candy": 1
+        },
+        "energies": {
+            "Fairy Energy - Basic": 10,
+            "Double Colorless Energy - Special": 2
+        },
+        "archetype": "Sylveon"
+    },
+    "cody w": {
+        "player": "Cody Walinski",
+        "standing": "26",
+        "pokemon": {
+            "Jirachi": 4,
+            "Zapdos": 3,
+            "Buzzwole": 2,
+            "Eevee": 1,
+            "Jolteon GX": 1,
+            "Tapu Koko GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Beast Ring": 1,
+            "Electropower": 4,
+            "Escape Rope": 3,
+            "Nest Ball": 4,
+            "Rescue Stretcher": 2,
+            "Switch": 3,
+            "Ultra Ball": 1,
+            "Choice Band": 2,
+            "Escape Board": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Viridian Forest": 1,
+            "Cynthia": 2,
+            "Guzma": 4,
+            "Lillie": 4,
+            "Professor Kukui": 2,
+            "Volkner": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 6,
+            "Fighting Energy - Basic": 3
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "caleb c": {
+        "player": "Caleb Cosby",
+        "standing": "27",
+        "pokemon": {
+            "Eevee": 4,
+            "Sylveon GX": 3,
+            "Shuckle GX": 1
+        },
+        "trainers": {
+            "Crushing Hammer": 4,
+            "Enhanced Hammer": 3,
+            "Field Blower": 1,
+            "Max Potion": 4,
+            "Nest Ball": 1,
+            "Pal Pad": 1,
+            "Mount Lanakila": 1,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1,
+            "Acerola": 2,
+            "Bill's Analysis": 2,
+            "Guzma": 3,
+            "Judge": 2,
+            "Lusamine": 2,
+            "Plumeria": 4,
+            "Professor Kukui": 2,
+            "Team Skull Grunt": 2,
+            "Bodybuilding Dumbbells": 2,
+            "Fairy Charm UB": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 2,
+            "Fairy Energy - Basic": 12
+        },
+        "archetype": "Sylveon"
+    },
+    "adam h": {
+        "player": "Adam Horn",
+        "standing": "28",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Rockruff": 3,
+            "Lycanroc GX": 2,
+            "Alolan Grimer": 2,
+            "Alolan Muk": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Tapu Lele GX": 2
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Guzma": 3,
+            "Cynthia": 2,
+            "Acerola": 2,
+            "Judge": 1,
+            "Professor Kukui": 1,
+            "Mallow": 1,
+            "Ultra Ball": 3,
+            "Pokemon Communication": 3,
+            "Rescue Stretcher": 1,
+            "Choice Band": 2,
+            "Counter Gain": 1,
+            "Devoured Field": 3,
+            "Nest Ball": 4,
+            "Pal Pad": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Fighting Energy - Basic": 4
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "corey s": {
+        "player": "Corey Smith",
+        "standing": "29",
+        "pokemon": {
+            "Jirachi": 4,
+            "Zapdos": 3,
+            "Zebstrika": 1,
+            "Blitzle": 1,
+            "Jolteon GX": 1,
+            "Eevee": 1,
+            "Zeraora GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Tapu Koko GX": 1
+        },
+        "trainers": {
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Shrine of Punishment": 2,
+            "Lillie": 4,
+            "Guzma": 4,
+            "Volkner": 3,
+            "Erika's Hospitality": 1,
+            "Electropower": 4,
+            "Nest Ball": 4,
+            "Escape Board": 3,
+            "Switch": 3,
+            "Escape Rope": 3,
+            "Ultra Ball": 2,
+            "Rescue Stretcher": 2,
+            "Choice Band": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 8
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "ian r": {
+        "player": "Ian Robb",
+        "standing": "30",
+        "pokemon": {
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Tapu Lele GX": 2,
+            "Alolan Muk": 1,
+            "Alolan Grimer": 2,
+            "Riolu": 1,
+            "Lucario GX": 1,
+            "Lycanroc GX": 2,
+            "Rockruff": 2,
+            "Zorua": 4,
+            "Zoroark GX": 1
+        },
+        "trainers": {
+            "Pokemon Communication": 3,
+            "Ultra Ball": 4,
+            "Nest Ball": 4,
+            "Max Potion": 1,
+            "Choice Band": 2,
+            "Multi Switch": 1,
+            "Pal Pad": 1,
+            "Rescue Stretcher": 1,
+            "Professor Elm's Lecture": 1,
+            "Professor Kukui": 1,
+            "Acerola": 1,
+            "Judge": 1,
+            "Mallow": 1,
+            "Cynthia": 1,
+            "Guzma": 3,
+            "Lillie": 4,
+            "Viridian Forest": 2
+        },
+        "energies": {
+            "Fighting Energy - Basic": 4,
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc Lucario"
+    },
+    "kenny b": {
+        "player": "Kenny Britton",
+        "standing": "31",
+        "pokemon": {
+            "Alolan Muk": 1,
+            "Alolan Grimer": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Tapu Lele GX": 2,
+            "Lycanroc GX": 1,
+            "Rockruff": 3,
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Weavile": 1,
+            "Sneasel": 1
+        },
+        "trainers": {
+            "Nest Ball": 4,
+            "Ultra Ball": 4,
+            "Pokemon Communication": 3,
+            "Pal Pad": 1,
+            "Devoured Field": 2,
+            "Choice Band": 2,
+            "Rescue Stretcher": 1,
+            "Professor Kukui": 1,
+            "Mallow": 1,
+            "Judge": 1,
+            "Cynthia": 1,
+            "Guzma": 2,
+            "Acerola": 2,
+            "Lillie": 4,
+            "Counter Gain": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Unit Energy FDY - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "andrew e": {
+        "player": "Andrew Estrada",
+        "standing": "32",
+        "pokemon": {
+            "Zoroark GX": 4,
+            "Zorua": 4,
+            "Weavile": 1,
+            "Sneasel": 1,
+            "Lycanroc GX": 2,
+            "Rockruff": 2,
+            "Alolan Muk": 1,
+            "Alolan Grimer": 1,
+            "Tapu Lele GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Ninetales GX": 1,
+            "Alolan Vulpix": 1,
+            "Marshadow": 1
+        },
+        "trainers": {
+            "Devoured Field": 1,
+            "Lillie": 2,
+            "Guzma": 2,
+            "Professor Elm's Lecture": 1,
+            "Professor Kukui": 1,
+            "Acerola": 1,
+            "Mallow": 1,
+            "Judge": 1,
+            "Ultra Ball": 4,
+            "Nest Ball": 4,
+            "Pokemon Communication": 2,
+            "Choice Band": 2,
+            "Timer Ball": 1,
+            "Rescue Stretcher": 1,
+            "Pal Pad": 1,
+            "Energy Loto": 1,
+            "Counter Gain": 1,
+            "Switch": 1,
+            "Cynthia": 2
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Unit Energy FDY - Special": 3,
+            "Fighting Energy - Basic": 1
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "bryan h": {
+        "player": "Bryan Hunter",
+        "standing": "33",
+        "pokemon": {
+            "Jirachi": 1,
+            "Eevee": 2,
+            "Jolteon GX": 2,
+            "Absol": 1,
+            "Tapu Koko GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Zapdos": 3
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Guzma": 4,
+            "Professor Kukui": 3,
+            "Choice Band": 2,
+            "Escape Board": 3,
+            "Switch": 3,
+            "Escape Rope": 2,
+            "Electropower": 4,
+            "Nest Ball": 4,
+            "Ultra Ball": 2,
+            "Rescue Stretcher": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Viridian Forest": 2,
+            "Volkner": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 8
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "brendan d": {
+        "player": "Brendan Dixon",
+        "standing": "34",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Tapu Lele GX": 2,
+            "Rockruff": 2,
+            "Lycanroc GX": 2,
+            "Riolu": 2,
+            "Lucario GX": 2,
+            "Alolan Grimer": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Muk": 1
+        },
+        "trainers": {
+            "Cynthia": 1,
+            "Lillie": 4,
+            "Guzma": 2,
+            "Judge": 1,
+            "Mallow": 1,
+            "Ultra Ball": 4,
+            "Choice Band": 2,
+            "Field Blower": 1,
+            "Devoured Field": 2,
+            "Professor Kukui": 2,
+            "Pokemon Communication": 3,
+            "Nest Ball": 4,
+            "Acerola": 2,
+            "Rescue Stretcher": 1,
+            "Pal Pad": 1
+        },
+        "energies": {
+            "Fighting Energy - Basic": 4,
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc Lucario"
+    },
+    "andrew o": {
+        "player": "Andrew Oakes",
+        "standing": "35",
+        "pokemon": {
+            "Jirachi": 4,
+            "Zapdos": 2,
+            "Eevee": 2,
+            "Jolteon GX": 2,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Tapu Koko GX": 1,
+            "Absol": 1,
+            "Buzzwole": 1
+        },
+        "trainers": {
+            "Electropower": 4,
+            "Nest Ball": 4,
+            "Ultra Ball": 2,
+            "Switch": 2,
+            "Escape Rope": 2,
+            "Beast Ring": 1,
+            "Max Potion": 1,
+            "Rescue Stretcher": 1,
+            "Escape Board": 3,
+            "Choice Band": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Viridian Forest": 1,
+            "Lillie": 4,
+            "Guzma": 4,
+            "Volkner": 3,
+            "Erika's Hospitality": 1
+        },
+        "energies": {
+            "Lightning Energy - Basic": 7,
+            "Fighting Energy - Basic": 2
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "anthony s": {
+        "player": "Anthony Strange",
+        "standing": "36",
+        "pokemon": {
+            "Eevee": 4,
+            "Sylveon GX": 3,
+            "Girafarig": 1
+        },
+        "trainers": {
+            "Max Potion": 4,
+            "Crushing Hammer": 4,
+            "Bodybuilding Dumbbells": 2,
+            "Nest Ball": 2,
+            "Counter Catcher": 2,
+            "Pal Pad": 1,
+            "Field Blower": 1,
+            "Fairy Charm UB": 1,
+            "Enhanced Hammer": 3,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1,
+            "Professor Kukui": 1,
+            "Mars": 1,
+            "Judge": 1,
+            "Gladion": 1,
+            "Faba": 1,
+            "Diantha": 1,
+            "Brock's Grit": 1,
+            "Team Skull Grunt": 2,
+            "Guzma": 2,
+            "Plumeria": 2,
+            "Acerola": 2,
+            "Lusamine": 3
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 2,
+            "Fairy Energy - Basic": 11
+        },
+        "archetype": "Sylveon"
+    },
+    "benjamin s": {
+        "player": "Benjamin Sauk",
+        "standing": "37",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Rockruff": 3,
+            "Lycanroc GX": 1,
+            "Tapu Lele GX": 2,
+            "Alolan Grimer": 2,
+            "Alolan Muk": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Sneasel": 1,
+            "Weavile": 1
+        },
+        "trainers": {
+            "Acerola": 2,
+            "Cynthia": 1,
+            "Judge": 1,
+            "Lillie": 4,
+            "Professor Kukui": 1,
+            "Choice Band": 2,
+            "Nest Ball": 4,
+            "Ultra Ball": 4,
+            "Pal Pad": 1,
+            "Rescue Stretcher": 1,
+            "Devoured Field": 2,
+            "Guzma": 2,
+            "Mallow": 1,
+            "Counter Gain": 1,
+            "Pokemon Communication": 3
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Unit Energy FDY - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "jesse p": {
+        "player": "Jesse Parker",
+        "standing": "38",
+        "pokemon": {
+            "Pikachu & Zekrom GX": 3,
+            "Zeraora GX": 2,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Oranguru": 1,
+            "Absol": 1,
+            "Raikou": 1,
+            "Eevee": 1,
+            "Jolteon GX": 1,
+            "Tapu Lele GX": 1,
+            "Tapu Koko GX": 1,
+            "Marshadow": 2
+        },
+        "trainers": {
+            "Cynthia": 3,
+            "Lillie": 4,
+            "Guzma": 3,
+            "Acro Bike": 4,
+            "Ultra Ball": 4,
+            "Mysterious Treasure": 1,
+            "Max Potion": 1,
+            "Nest Ball": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Energy Switch": 4,
+            "Weakness Policy": 2,
+            "Electropower": 4
+        },
+        "energies": {
+            "Lightning Energy - Basic": 12
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "carl s": {
+        "player": "Carl Sitavi",
+        "standing": "39",
+        "pokemon": {
+            "Regigigas": 2,
+            "Hoopa": 1,
+            "Shaymin": 4,
+            "Vileplume": 2,
+            "Oddish": 4,
+            "Alolan Vulpix": 2,
+            "Alolan Ninetales": 1,
+            "Spiritomb": 1,
+            "Virizion GX": 1
+        },
+        "trainers": {
+            "Steven's Resolve": 4,
+            "Bill's Analysis": 4,
+            "Nest Ball": 4,
+            "Ultra Ball": 4,
+            "Rare Candy": 4,
+            "Guzma": 1,
+            "Counter Catcher": 2,
+            "Max Potion": 3,
+            "Acerola": 1,
+            "Lusamine": 2,
+            "Team Skull Grunt": 1,
+            "Rescue Stretcher": 2,
+            "Plumeria": 2,
+            "Enhanced Hammer": 2,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1,
+            "Life Forest \u00e2\u0099\u00a2": 1,
+            "Gladion": 2,
+            "Cynthia": 1
+        },
+        "energies": {
+            "Rainbow Energy - Special": 1
+        },
+        "archetype": "Vileplume"
+    },
+    "matthew d": {
+        "player": "Matthew Demmond",
+        "standing": "40",
+        "pokemon": {
+            "Alolan Muk": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Tapu Lele GX": 1,
+            "Marshadow": 1,
+            "Blacephalon GX": 3,
+            "Poipole": 4,
+            "Naganadel": 4
+        },
+        "trainers": {
+            "Beast Ring": 4,
+            "Sophocles": 2,
+            "Guzma": 3,
+            "Erika's Hospitality": 2,
+            "Cynthia": 4,
+            "Ultra Space": 2,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Ultra Ball": 4,
+            "Switch": 1,
+            "Energy Switch": 1,
+            "Rescue Stretcher": 1,
+            "Mysterious Treasure": 4
+        },
+        "energies": {
+            "Fire Energy - Basic": 15,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1
+        },
+        "archetype": "Blacephalon Naganadel"
+    },
+    "dalton l": {
+        "player": "Dalton Lott",
+        "standing": "41",
+        "pokemon": {
+            "Zoroark GX": 4,
+            "Zorua": 4,
+            "Lycanroc GX": 2,
+            "Rockruff": 2,
+            "Tapu Lele GX": 2,
+            "Alolan Muk": 1,
+            "Alolan Grimer": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Buzzwole": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Guzma": 3,
+            "Acerola": 2,
+            "Mallow": 1,
+            "Professor Elm's Lecture": 1,
+            "Professor Kukui": 1,
+            "Pokemon Communication": 4,
+            "Nest Ball": 3,
+            "Ultra Ball": 4,
+            "Choice Band": 2,
+            "Counter Gain": 1,
+            "Rescue Stretcher": 1,
+            "Energy Switch": 1,
+            "Devoured Field": 2,
+            "Cynthia": 3
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Fighting Energy - Basic": 5
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "ahmad a": {
+        "player": "Ahmad Akhrass",
+        "standing": "42",
+        "pokemon": {
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Oranguru": 1,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Zorua": 4,
+            "Riolu": 2,
+            "Lucario GX": 2,
+            "Rockruff": 1,
+            "Lycanroc GX": 2,
+            "Tapu Lele GX": 2,
+            "Zoroark GX": 4
+        },
+        "trainers": {
+            "Field Blower": 1,
+            "Nest Ball": 4,
+            "Pal Pad": 1,
+            "Pokemon Communication": 4,
+            "Rescue Stretcher": 1,
+            "Ultra Ball": 4,
+            "Viridian Forest": 2,
+            "Acerola": 2,
+            "Cynthia": 1,
+            "Guzma": 2,
+            "Judge": 1,
+            "Lillie": 4,
+            "Mallow": 1,
+            "Choice Band": 1,
+            "Counter Gain": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Rainbow Energy - Special": 1,
+            "Fighting Energy - Basic": 3
+        },
+        "archetype": "Zoroark Lycanroc Lucario"
+    },
+    "ross c": {
+        "player": "Ross Cawthon",
+        "standing": "43",
+        "pokemon": {
+            "Alolan Vulpix": 4,
+            "Alolan Ninetales": 3,
+            "Alolan Ninetales GX": 2,
+            "Oddish": 4,
+            "Vileplume": 3,
+            "Tapu Lele GX": 2,
+            "Virizion GX": 1
+        },
+        "trainers": {
+            "Cynthia": 4,
+            "Lillie": 2,
+            "Professor Elm's Lecture": 4,
+            "Gladion": 1,
+            "Lusamine": 2,
+            "Guzma": 1,
+            "Gardenia": 2,
+            "Brock's Grit": 1,
+            "Ultra Ball": 4,
+            "Timer Ball": 1,
+            "Pokemon Communication": 1,
+            "Rare Candy": 3,
+            "Switch": 1,
+            "Last Chance Potion": 3,
+            "Viridian Forest": 1,
+            "Life Forest \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Fairy Energy - Basic": 3,
+            "Grass Energy - Basic": 3,
+            "Counter Energy - Special": 3
+        },
+        "archetype": "Vileplume"
+    },
+    "dalton d": {
+        "player": "Dalton Didelot",
+        "standing": "44",
+        "pokemon": {
+            "Ultra Necrozma GX": 2,
+            "Inkay": 4,
+            "Malamar": 1,
+            "Giratina": 2,
+            "Marshadow GX": 1,
+            "Tapu Lele GX": 1,
+            "Tapu Koko": 1
+        },
+        "trainers": {
+            "Ultra Ball": 4,
+            "Mysterious Treasure": 4,
+            "Cynthia": 4,
+            "Lillie": 4,
+            "Guzma": 3,
+            "Nest Ball": 2,
+            "Switch": 4,
+            "Acro Bike": 4,
+            "Rescue Stretcher": 2,
+            "Viridian Forest": 2,
+            "Erika's Hospitality": 1
+        },
+        "energies": {
+            "Psychic Energy - Basic": 7,
+            "Metal Energy - Basic": 3,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1
+        },
+        "archetype": "Ultra Malamar"
+    },
+    "jason a": {
+        "player": "Jason Annichiarico",
+        "standing": "45",
+        "pokemon": {
+            "Blacephalon GX": 4,
+            "Poipole": 4,
+            "Naganadel": 3,
+            "Tapu Lele GX": 1,
+            "Marshadow": 1,
+            "Wobbuffet": 1
+        },
+        "trainers": {
+            "Beast Ring": 4,
+            "Guzma": 4,
+            "Cynthia": 4,
+            "Lillie": 3,
+            "Erika's Hospitality": 2,
+            "Ultra Ball": 4,
+            "Mysterious Treasure": 3,
+            "Energy Switch": 2,
+            "Rescue Stretcher": 1,
+            "Ultra Space": 2,
+            "Heat Factory \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 15,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1
+        },
+        "archetype": "Blacephalon Naganadel"
+    },
+    "john m": {
+        "player": "John Mostowy",
+        "standing": "46",
+        "pokemon": {
+            "Shuckle GX": 3,
+            "Magikarp & Wailord GX": 2,
+            "Hoopa": 2,
+            "Xurkitree GX": 1,
+            "Tapu Lele GX": 2,
+            "Vileplume": 1,
+            "Oddish": 2,
+            "Unown": 1
+        },
+        "trainers": {
+            "Steven's Resolve": 4,
+            "Pokemon Fan Club": 4,
+            "Lusamine": 3,
+            "Plumeria": 3,
+            "Cynthia": 3,
+            "Acerola": 2,
+            "Guzma": 2,
+            "Gladion": 2,
+            "Faba": 1,
+            "Mars": 1,
+            "Tate & Liza": 1,
+            "Team Skull Grunt": 1,
+            "Max Potion": 4,
+            "Crushing Hammer": 4,
+            "Enhanced Hammer": 3,
+            "Counter Catcher": 3,
+            "Rare Candy": 1,
+            "Rescue Stretcher": 1,
+            "Mount Lanakila": 1,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Rainbow Energy - Special": 1
+        },
+        "archetype": "Vileplume"
+    },
+    "sydney m": {
+        "player": "Sydney Morisoli",
+        "standing": "47",
+        "pokemon": {
+            "Zapdos": 3,
+            "Rockruff": 2,
+            "Lycanroc GX": 1,
+            "Jirachi": 4,
+            "Absol": 1,
+            "Tapu Koko GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Buzzwole": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Volkner": 4,
+            "Guzma": 4,
+            "Professor Kukui": 1,
+            "Electropower": 4,
+            "Escape Board": 3,
+            "Escape Rope": 3,
+            "Nest Ball": 4,
+            "Ultra Ball": 2,
+            "Choice Band": 2,
+            "Rescue Stretcher": 2,
+            "Beast Ring": 1,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Switch": 1
+        },
+        "energies": {
+            "Lightning Energy - Basic": 7,
+            "Fighting Energy - Basic": 3
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "nathaniel o": {
+        "player": "Nathaniel Orr",
+        "standing": "48",
+        "pokemon": {
+            "Ultra Necrozma GX": 1,
+            "Malamar": 2,
+            "Inkay": 4,
+            "Giratina": 2,
+            "Marshadow": 1,
+            "Jirachi": 1,
+            "Marshadow GX": 1,
+            "Ditto \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Choice Band": 2,
+            "Nest Ball": 2,
+            "Lillie": 4,
+            "Escape Board": 2,
+            "Rescue Stretcher": 2,
+            "Mysterious Treasure": 4,
+            "Guzma": 3,
+            "Switch": 3,
+            "Viridian Forest": 2,
+            "Cynthia": 4,
+            "Ultra Ball": 4
+        },
+        "energies": {
+            "Metal Energy - Basic": 3,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1,
+            "Psychic Energy - Basic": 7
+        },
+        "archetype": "Ultra Malamar"
+    },
+    "phuc n": {
+        "player": "phuc nguyen",
+        "standing": "49",
+        "pokemon": {
+            "Inkay": 4,
+            "Malamar": 4,
+            "Tapu Koko": 1,
+            "Marshadow": 1,
+            "Marshadow GX": 1,
+            "Giratina": 1,
+            "Mimikyu": 1,
+            "Ultra Necrozma GX": 1,
+            "Tapu Lele GX": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Jirachi": 1
+        },
+        "trainers": {
+            "Ultra Ball": 4,
+            "Mysterious Treasure": 4,
+            "Nest Ball": 3,
+            "Switch": 3,
+            "Acro Bike": 4,
+            "Viridian Forest": 2,
+            "Rescue Stretcher": 2,
+            "Escape Board": 1,
+            "Lillie": 4,
+            "Cynthia": 3,
+            "Acerola": 1,
+            "Guzma": 3
+        },
+        "energies": {
+            "Psychic Energy - Basic": 7,
+            "Metal Energy - Basic": 2
+        },
+        "archetype": "Ultra Malamar"
+    },
+    "tyler k": {
+        "player": "Tyler Keller",
+        "standing": "50",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Riolu": 2,
+            "Lucario GX": 1,
+            "Rockruff": 2,
+            "Lycanroc GX": 2,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Diancie \u00e2\u0099\u00a2": 1,
+            "Tapu Lele GX": 2
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Guzma": 3,
+            "Judge": 1,
+            "Ultra Ball": 4,
+            "Nest Ball": 4,
+            "Pokemon Communication": 2,
+            "Choice Band": 2,
+            "Field Blower": 1,
+            "Acerola": 2,
+            "Pal Pad": 1,
+            "Rescue Stretcher": 1,
+            "Mallow": 1,
+            "Cynthia": 1,
+            "Counter Gain": 1,
+            "Devoured Field": 2
+        },
+        "energies": {
+            "Fighting Energy - Basic": 4,
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc Lucario"
+    },
+    "emmet h": {
+        "player": "Emmet Hurley",
+        "standing": "51",
+        "pokemon": {
+            "Zoroark GX": 4,
+            "Zorua": 4,
+            "Lycanroc GX": 2,
+            "Rockruff": 2,
+            "Weavile": 2,
+            "Sneasel": 2,
+            "Tapu Lele GX": 2,
+            "Alolan Muk": 1,
+            "Alolan Grimer": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Marshadow": 1
+        },
+        "trainers": {
+            "Devoured Field": 2,
+            "Choice Band": 2,
+            "Lillie": 4,
+            "Judge": 1,
+            "Professor Kukui": 1,
+            "Acerola": 2,
+            "Guzma": 2,
+            "Cynthia": 2,
+            "Ultra Ball": 4,
+            "Nest Ball": 4,
+            "Pokemon Communication": 2,
+            "Rescue Stretcher": 2,
+            "Field Blower": 1,
+            "Pal Pad": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Unit Energy FDY - Special": 3,
+            "Fighting Energy - Basic": 1
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "austin c": {
+        "player": "Austin Cruz",
+        "standing": "52",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Rockruff": 1,
+            "Lycanroc GX": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Tapu Lele GX": 2
+        },
+        "trainers": {
+            "Lillie": 3,
+            "Cynthia": 1,
+            "Judge": 1,
+            "Professor Elm's Lecture": 1,
+            "Guzma": 3,
+            "Acerola": 2,
+            "Ultra Ball": 4,
+            "Pokemon Communication": 3,
+            "Nest Ball": 3,
+            "Pal Pad": 1,
+            "Devoured Field": 3,
+            "Multi Switch": 1,
+            "Counter Gain": 1,
+            "Mallow": 1,
+            "Rescue Stretcher": 1,
+            "Escape Rope": 1,
+            "Choice Band": 2,
+            "Field Blower": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Rainbow Energy - Special": 1,
+            "Unit Energy FDY - Special": 2,
+            "Fighting Energy - Basic": 1
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "alex g": {
+        "player": "Alex Garcia",
+        "standing": "53",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Riolu": 2,
+            "Lucario GX": 2,
+            "Sneasel": 2,
+            "Weavile": 2,
+            "Tapu Lele GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Diancie \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Acerola": 2,
+            "Guzma": 2,
+            "Cynthia": 1,
+            "Mallow": 1,
+            "Professor Kukui": 1,
+            "Nanu": 1,
+            "Judge": 1,
+            "Ultra Ball": 4,
+            "Nest Ball": 3,
+            "Pokemon Communication": 3,
+            "Choice Band": 2,
+            "Pal Pad": 1,
+            "Field Blower": 1,
+            "Devoured Field": 1,
+            "Black Market \u00e2\u0099\u00a2": 1,
+            "Rescue Stretcher": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Unit Energy FDY - Special": 3,
+            "Rainbow Energy - Special": 1
+        },
+        "archetype": "Zoroark Lucario Weavile"
+    },
+    "patrick s": {
+        "player": "Patrick Smith",
+        "standing": "54",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 2,
+            "Riolu": 2,
+            "Lucario GX": 2,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Tapu Lele GX": 2,
+            "Rockruff": 1,
+            "Lycanroc GX": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Guzma": 2,
+            "Acerola": 2,
+            "Judge": 2,
+            "Cynthia": 1,
+            "Mallow": 1,
+            "Ultra Ball": 4,
+            "Nest Ball": 4,
+            "Pokemon Communication": 4,
+            "Weakness Policy": 2,
+            "Counter Gain": 1,
+            "Field Blower": 1,
+            "Rescue Stretcher": 1,
+            "Pal Pad": 1,
+            "Viridian Forest": 2,
+            "Nanu": 1
+        },
+        "energies": {
+            "Fighting Energy - Basic": 4,
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc Lucario"
+    },
+    "addison m": {
+        "player": "Addison Miller",
+        "standing": "55",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Rockruff": 3,
+            "Lycanroc GX": 2,
+            "Tapu Lele GX": 2,
+            "Alolan Muk": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Grimer": 1,
+            "Sneasel": 1,
+            "Weavile": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Acerola": 2,
+            "Guzma": 2,
+            "Judge": 1,
+            "Cynthia": 1,
+            "Mallow": 1,
+            "Nest Ball": 4,
+            "Ultra Ball": 4,
+            "Choice Band": 2,
+            "Weakness Policy": 1,
+            "Counter Gain": 1,
+            "Pal Pad": 1,
+            "Field Blower": 1,
+            "Rescue Stretcher": 1,
+            "Devoured Field": 2,
+            "Pokemon Communication": 3
+        },
+        "energies": {
+            "Unit Energy FDY - Special": 4,
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "mason g": {
+        "player": "Mason Galvan",
+        "standing": "56",
+        "pokemon": {
+            "Zapdos": 1,
+            "Jirachi": 4,
+            "Wobbuffet": 1,
+            "Tapu Koko GX": 1,
+            "Eevee": 2,
+            "Jolteon GX": 2,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Zeraora GX": 1
+        },
+        "trainers": {
+            "Rescue Stretcher": 1,
+            "Cynthia": 3,
+            "Volkner": 3,
+            "Erika's Hospitality": 2,
+            "Guzma": 4,
+            "Ultra Ball": 2,
+            "Nest Ball": 4,
+            "Choice Band": 2,
+            "Escape Board": 2,
+            "Adventure Bag": 1,
+            "Escape Rope": 2,
+            "Electropower": 4,
+            "Shrine of Punishment": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Switch": 3,
+            "Acerola": 1
+        },
+        "energies": {
+            "Lightning Energy - Basic": 8
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "damien m": {
+        "player": "Damien Mayfield",
+        "standing": "57",
+        "pokemon": {
+            "Marshadow": 1,
+            "Absol": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Tapu Lele GX": 1,
+            "Tapu Koko GX": 1,
+            "Jolteon GX": 2,
+            "Eevee": 2,
+            "Zeraora GX": 2,
+            "Pikachu & Zekrom GX": 2
+        },
+        "trainers": {
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Viridian Forest": 2,
+            "Cynthia": 3,
+            "Nest Ball": 4,
+            "Ultra Ball": 4,
+            "Lillie": 4,
+            "Acro Bike": 4,
+            "Erika's Hospitality": 1,
+            "Guzma": 4,
+            "Energy Switch": 4,
+            "Choice Band": 2,
+            "Electropower": 4
+        },
+        "energies": {
+            "Lightning Energy - Basic": 10
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "eddie n": {
+        "player": "Eddie North",
+        "standing": "58",
+        "pokemon": {
+            "Inkay": 4,
+            "Malamar": 4,
+            "Ultra Necrozma GX": 2,
+            "Marshadow GX": 1,
+            "Tapu Lele GX": 1,
+            "Giratina": 2,
+            "Jirachi": 3
+        },
+        "trainers": {
+            "Ultra Ball": 4,
+            "Mysterious Treasure": 4,
+            "Nest Ball": 3,
+            "Switch": 3,
+            "Escape Board": 2,
+            "Choice Band": 1,
+            "Viridian Forest": 2,
+            "Cynthia": 4,
+            "Guzma": 4,
+            "Lillie": 4,
+            "Rescue Stretcher": 1
+        },
+        "energies": {
+            "Psychic Energy - Basic": 8,
+            "Metal Energy - Basic": 2,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1
+        },
+        "archetype": "Ultra Malamar"
+    },
+    "dennis p": {
+        "player": "Dennis Peroff",
+        "standing": "59",
+        "pokemon": {
+            "Ultra Necrozma GX": 2,
+            "Malamar": 4,
+            "Inkay": 4,
+            "Tapu Lele GX": 1,
+            "Giratina": 2,
+            "Tapu Koko": 1,
+            "Jirachi": 2
+        },
+        "trainers": {
+            "Ultra Ball": 4,
+            "Rescue Stretcher": 2,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1,
+            "Viridian Forest": 2,
+            "Mysterious Treasure": 4,
+            "Nest Ball": 2,
+            "Lillie": 4,
+            "Cynthia": 3,
+            "Erika's Hospitality": 1,
+            "Guzma": 3,
+            "Switch": 2,
+            "Escape Rope": 1,
+            "Escape Board": 2,
+            "Choice Band": 2
+        },
+        "energies": {
+            "Psychic Energy - Basic": 7,
+            "Metal Energy - Basic": 3,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1
+        },
+        "archetype": "Ultra Malamar"
+    },
+    "hayden g": {
+        "player": "Hayden Guyse",
+        "standing": "60",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Rockruff": 1,
+            "Riolu": 2,
+            "Lucario GX": 2,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Oranguru": 1,
+            "Tapu Lele GX": 2,
+            "Lycanroc GX": 1,
+            "Ditto \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Lillie": 3,
+            "Guzma": 3,
+            "Acerola": 2,
+            "Judge": 1,
+            "Cynthia": 1,
+            "Mallow": 1,
+            "Ultra Ball": 4,
+            "Nest Ball": 4,
+            "Pokemon Communication": 2,
+            "Weakness Policy": 1,
+            "Choice Band": 2,
+            "Pal Pad": 1,
+            "Field Blower": 2,
+            "Rescue Stretcher": 1,
+            "Counter Gain": 1,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1,
+            "Viridian Forest": 2,
+            "Switch": 1
+        },
+        "energies": {
+            "Fighting Energy - Basic": 3,
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc Lucario"
+    },
+    "kyle h": {
+        "player": "Kyle Haverland",
+        "standing": "61",
+        "pokemon": {
+            "Alolan Vulpix": 4,
+            "Alolan Ninetales": 2,
+            "Alolan Ninetales GX": 2,
+            "Eevee": 4,
+            "Umbreon": 3,
+            "Guzzlord GX": 1,
+            "Tapu Lele GX": 1
+        },
+        "trainers": {
+            "Nest Ball": 4,
+            "Ultra Ball": 4,
+            "Beast Ring": 3,
+            "Energy Recycle System": 1,
+            "Switch": 2,
+            "Rescue Stretcher": 1,
+            "Choice Band": 1,
+            "Lillie": 4,
+            "Cynthia": 4,
+            "Erika's Hospitality": 1,
+            "Devoured Field": 3,
+            "Guzma": 3
+        },
+        "energies": {
+            "Darkness Energy - Basic": 10,
+            "Unit Energy FDY - Special": 2
+        },
+        "archetype": "Umbreon Guzzlord"
+    },
+    "marc m": {
+        "player": "Marc Mabray",
+        "standing": "62",
+        "pokemon": {
+            "Zoroark GX": 1,
+            "Zorua": 2,
+            "Lycanroc GX": 2,
+            "Rockruff": 2,
+            "Tapu Lele GX": 2,
+            "Alolan Muk": 1,
+            "Alolan Grimer": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Lucario GX": 1,
+            "Riolu": 1
+        },
+        "trainers": {
+            "Nest Ball": 4,
+            "Lillie": 4,
+            "Great Ball": 3,
+            "Ultra Ball": 3,
+            "Cynthia": 3,
+            "Guzma": 2,
+            "Acerola": 2,
+            "Viridian Forest": 2,
+            "Choice Band": 2,
+            "Judge": 1,
+            "Professor Kukui": 1,
+            "Devoured Field": 1,
+            "Multi Switch": 1,
+            "Pokemon Communication": 1,
+            "Pal Pad": 1,
+            "Field Blower": 1,
+            "Rescue Stretcher": 1
+        },
+        "energies": {
+            "Fighting Energy - Basic": 4,
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc Lucario"
+    },
+    "nicolas g": {
+        "player": "Nicolas Galaz",
+        "standing": "63",
+        "pokemon": {
+            "Tapu Lele GX": 1,
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Rockruff": 3,
+            "Lycanroc GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Persian": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Ultra Ball": 4,
+            "Nest Ball": 4,
+            "Pokemon Communication": 3,
+            "Cynthia": 1,
+            "Judge": 1,
+            "Tate & Liza": 1,
+            "Professor Kukui": 1,
+            "Counter Gain": 1,
+            "Guzma": 3,
+            "Pal Pad": 1,
+            "Devoured Field": 1,
+            "Viridian Forest": 1,
+            "Choice Band": 2,
+            "Mallow": 1,
+            "Acerola": 2,
+            "Rescue Stretcher": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Rainbow Energy - Special": 1,
+            "Fighting Energy - Basic": 3
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "ian m": {
+        "player": "Ian McGregor",
+        "standing": "64",
+        "pokemon": {
+            "Zoroark GX": 4,
+            "Zorua": 4,
+            "Rockruff": 2,
+            "Lycanroc GX": 2,
+            "Riolu": 2,
+            "Lucario GX": 2,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Tapu Lele GX": 2,
+            "Diancie \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Guzma": 2,
+            "Acerola": 2,
+            "Judge": 1,
+            "Mallow": 1,
+            "Cynthia": 1,
+            "Professor Kukui": 1,
+            "Ultra Ball": 4,
+            "Nest Ball": 4,
+            "Pokemon Communication": 3,
+            "Pal Pad": 1,
+            "Field Blower": 1,
+            "Rescue Stretcher": 1,
+            "Choice Band": 2,
+            "Viridian Forest": 1,
+            "Counter Gain": 1
+        },
+        "energies": {
+            "Fighting Energy - Basic": 4,
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc Lucario"
+    },
+    "kyle k": {
+        "player": "Kyle Kigar",
+        "standing": "65",
+        "pokemon": {
+            "Lapras GX": 3,
+            "Wooper": 3,
+            "Quagsire": 2,
+            "Shining Volcanion": 1,
+            "Volcanion \u00e2\u0099\u00a2": 1,
+            "Kyogre": 1,
+            "Onix": 1,
+            "Oranguru": 1,
+            "Tapu Lele GX": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Cynthia": 4,
+            "Guzma": 4,
+            "Brooklet Hill": 3,
+            "Acro Bike": 4,
+            "Aqua Patch": 4,
+            "Choice Band": 4,
+            "Exp. Share": 4,
+            "Ultra Ball": 4,
+            "Rescue Stretcher": 1
+        },
+        "energies": {
+            "Water Energy - Basic": 10
+        },
+        "archetype": "Lapras Quagsire"
+    },
+    "alex k": {
+        "player": "Alex Krekeler",
+        "standing": "66",
+        "pokemon": {
+            "Malamar": 4,
+            "Inkay": 4,
+            "Jirachi": 2,
+            "Tapu Lele GX": 1,
+            "Marshadow": 1,
+            "Marshadow GX": 1,
+            "Gengar & Mimikyu GX": 1,
+            "Giratina": 2,
+            "Ultra Necrozma GX": 2
+        },
+        "trainers": {
+            "Cynthia": 4,
+            "Lillie": 4,
+            "Guzma": 3,
+            "Acerola": 1,
+            "Switch": 4,
+            "Beast Ring": 2,
+            "Viridian Forest": 2,
+            "Rescue Stretcher": 1,
+            "Ultra Ball": 4,
+            "Nest Ball": 2,
+            "Mysterious Treasure": 4
+        },
+        "energies": {
+            "Metal Energy - Basic": 3,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1,
+            "Psychic Energy - Basic": 7
+        },
+        "archetype": "Ultra Malamar"
+    },
+    "gordon l": {
+        "player": "Gordon Lai",
+        "standing": "67",
+        "pokemon": {
+            "Malamar": 4,
+            "Inkay": 4,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Jirachi": 1,
+            "Marshadow": 1,
+            "Giratina": 1,
+            "Mimikyu": 1,
+            "Tapu Koko": 1,
+            "Marshadow GX": 1,
+            "Tapu Lele GX": 1,
+            "Ultra Necrozma GX": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Cynthia": 4,
+            "Guzma": 3,
+            "Acro Bike": 4,
+            "Switch": 3,
+            "Viridian Forest": 2,
+            "Rescue Stretcher": 2,
+            "Escape Board": 1,
+            "Mysterious Treasure": 4,
+            "Ultra Ball": 4,
+            "Nest Ball": 3
+        },
+        "energies": {
+            "Psychic Energy - Basic": 7,
+            "Metal Energy - Basic": 2
+        },
+        "archetype": "Ultra Malamar"
+    },
+    "ben d": {
+        "player": "Ben Dobberstein",
+        "standing": "68",
+        "pokemon": {
+            "Zapdos": 2,
+            "Zebstrika": 1,
+            "Blitzle": 1,
+            "Buzzwole": 1,
+            "Nihilego": 1,
+            "Absol": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Tapu Koko GX": 1,
+            "Jirachi": 2
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Cynthia": 2,
+            "Guzma": 4,
+            "Volkner": 1,
+            "Nest Ball": 4,
+            "Ultra Ball": 2,
+            "Electropower": 4,
+            "Switch": 3,
+            "Escape Board": 3,
+            "Escape Rope": 2,
+            "Rescue Stretcher": 2,
+            "Choice Band": 2,
+            "Shrine of Punishment": 3
+        },
+        "energies": {
+            "Lightning Energy - Basic": 5,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1,
+            "Rainbow Energy - Special": 4
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "ryne m": {
+        "player": "Ryne Morgan",
+        "standing": "69",
+        "pokemon": {
+            "Celebi & Venusaur GX": 4,
+            "Shaymin": 4,
+            "Shaymin \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Lusamine": 2,
+            "Cynthia": 4,
+            "Potion": 3,
+            "Lillie": 3,
+            "Judge": 1,
+            "Judge Whistle": 4,
+            "Erika's Hospitality": 3,
+            "Guzma": 2,
+            "Acerola": 2,
+            "Gardenia": 1,
+            "Net Ball": 4,
+            "Nest Ball": 1,
+            "Buff Padding": 3,
+            "Life Forest \u00e2\u0099\u00a2": 1,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1,
+            "Aether Paradise Conservation Area": 1,
+            "Crushing Hammer": 3,
+            "Enhanced Hammer": 1,
+            "Plumeria": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Grass Energy - Basic": 6
+        },
+        "archetype": "Celebi Venusaur"
+    },
+    "will j": {
+        "player": "Will Jenkins",
+        "standing": "70",
+        "pokemon": {
+            "Zapdos": 2,
+            "Marshadow": 1,
+            "Tapu Koko GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Absol": 1,
+            "Wobbuffet": 1,
+            "Jirachi": 2,
+            "Eevee": 1,
+            "Jolteon GX": 1,
+            "Pikachu & Zekrom GX": 2,
+            "Zeraora GX": 1
+        },
+        "trainers": {
+            "Electropower": 4,
+            "Nest Ball": 3,
+            "Escape Rope": 2,
+            "Escape Board": 2,
+            "Rescue Stretcher": 1,
+            "Lillie": 4,
+            "Guzma": 4,
+            "Cynthia": 3,
+            "Volkner": 2,
+            "Viridian Forest": 1,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Choice Band": 2,
+            "Energy Switch": 2,
+            "Switch": 2,
+            "Ultra Ball": 3
+        },
+        "energies": {
+            "Lightning Energy - Basic": 10
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "ryan b": {
+        "player": "Ryan Bentley",
+        "standing": "71",
+        "pokemon": {
+            "Absol": 1,
+            "Marshadow": 1,
+            "Zapdos": 2,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Tapu Lele GX": 1,
+            "Tapu Koko GX": 1,
+            "Rayquaza GX": 1,
+            "Pikachu & Zekrom GX": 3,
+            "Zeraora GX": 2
+        },
+        "trainers": {
+            "Ultra Ball": 4,
+            "Energy Switch": 4,
+            "Electropower": 4,
+            "Choice Band": 2,
+            "Multi Switch": 1,
+            "Mysterious Treasure": 1,
+            "Nest Ball": 1,
+            "Erika's Hospitality": 1,
+            "Guzma": 3,
+            "Lillie": 3,
+            "Cynthia": 3,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Aether Paradise Conservation Area": 2,
+            "Acro Bike": 3,
+            "Volkner": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 12
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "dallas w": {
+        "player": "Dallas Wright",
+        "standing": "72",
+        "pokemon": {
+            "Tapu Koko": 4,
+            "Magcargo": 2,
+            "Shaymin": 1,
+            "Larvitar": 1,
+            "Mr. Mime": 1,
+            "Oranguru": 1,
+            "Tapu Lele": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Muk": 1,
+            "Alolan Grimer": 1,
+            "Slugma": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Cynthia": 2,
+            "Judge": 1,
+            "Judge Whistle": 3,
+            "Professor Kukui": 2,
+            "Ultra Ball": 4,
+            "Nest Ball": 4,
+            "Electropower": 4,
+            "Shrine of Punishment": 3,
+            "Choice Band": 3,
+            "Rescue Stretcher": 2,
+            "Switch": 2,
+            "Counter Catcher": 2,
+            "Guzma": 1
+        },
+        "energies": {
+            "Counter Energy - Special": 4,
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Spread"
+    },
+    "fraser c": {
+        "player": "Fraser Cuviello",
+        "standing": "73",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Rockruff": 3,
+            "Lycanroc GX": 1,
+            "Alolan Vulpix": 2,
+            "Alolan Ninetales": 1,
+            "Alolan Ninetales GX": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Tapu Lele GX": 2
+        },
+        "trainers": {
+            "Lillie": 3,
+            "Guzma": 2,
+            "Cynthia": 1,
+            "Judge": 1,
+            "Acerola": 1,
+            "Professor Kukui": 1,
+            "Mallow": 1,
+            "Ultra Ball": 4,
+            "Pokemon Communication": 3,
+            "Nest Ball": 3,
+            "Choice Band": 2,
+            "Rescue Stretcher": 1,
+            "Counter Gain": 1,
+            "Pal Pad": 1,
+            "Multi Switch": 1,
+            "Switch": 1,
+            "Devoured Field": 2
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Unit Energy FDY - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "caleb r": {
+        "player": "Caleb Rice",
+        "standing": "74",
+        "pokemon": {
+            "Zoroark GX": 4,
+            "Zorua": 4,
+            "Lycanroc GX": 1,
+            "Rockruff": 3,
+            "Alolan Muk": 1,
+            "Alolan Grimer": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Marshadow": 1,
+            "Tapu Lele GX": 2
+        },
+        "trainers": {
+            "Ultra Ball": 4,
+            "Choice Band": 2,
+            "Timer Ball": 2,
+            "Counter Gain": 1,
+            "Rescue Stretcher": 1,
+            "Bodybuilding Dumbbells": 1,
+            "Pal Pad": 1,
+            "Switch": 1,
+            "Pokemon Communication": 1,
+            "Professor Elm's Lecture": 4,
+            "Guzma": 3,
+            "Acerola": 2,
+            "Cynthia": 2,
+            "Professor Kukui": 2,
+            "Judge": 1,
+            "Lillie": 1,
+            "Mallow": 1,
+            "Devoured Field": 2
+        },
+        "energies": {
+            "Fighting Energy - Basic": 3,
+            "Double Colorless Energy - Special": 4,
+            "Rainbow Energy - Special": 1
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "kendon k": {
+        "player": "Kendon Kula",
+        "standing": "75",
+        "pokemon": {
+            "Oddish": 4,
+            "Vileplume": 3,
+            "Alolan Vulpix": 4,
+            "Alolan Ninetales GX": 1,
+            "Alolan Ninetales": 2,
+            "Tapu Lele GX": 2,
+            "Carbink": 1,
+            "Eevee & Snorlax GX": 1,
+            "Virizion GX": 1
+        },
+        "trainers": {
+            "Steven's Resolve": 4,
+            "Lusamine": 2,
+            "Gladion": 2,
+            "Tate & Liza": 1,
+            "Acerola": 1,
+            "Guzma": 1,
+            "Nest Ball": 4,
+            "Ultra Ball": 3,
+            "Pokemon Communication": 3,
+            "Rare Candy": 3,
+            "Counter Catcher": 1,
+            "Counter Gain": 1,
+            "Switch": 1,
+            "Fairy Charm UB": 1,
+            "Rescue Stretcher": 1,
+            "Shrine of Punishment": 1,
+            "Life Forest \u00e2\u0099\u00a2": 1,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1,
+            "Professor Elm's Lecture": 1,
+            "Gardenia": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 3,
+            "Rainbow Energy - Special": 3,
+            "Counter Energy - Special": 1
+        },
+        "archetype": "Vileplume"
+    },
+    "carter b": {
+        "player": "Carter Barsh",
+        "standing": "76",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Tapu Lele GX": 2,
+            "Rockruff": 1,
+            "Lycanroc GX": 2,
+            "Riolu": 2,
+            "Lucario GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Oranguru": 1,
+            "Magcargo": 1
+        },
+        "trainers": {
+            "Nest Ball": 4,
+            "Ultra Ball": 4,
+            "Pokemon Communication": 3,
+            "Choice Band": 2,
+            "Rescue Stretcher": 1,
+            "Pal Pad": 1,
+            "Lillie": 4,
+            "Acerola": 2,
+            "Guzma": 2,
+            "Tate & Liza": 1,
+            "Mallow": 1,
+            "Judge": 1,
+            "Devoured Field": 2,
+            "Cynthia": 1
+        },
+        "energies": {
+            "Fighting Energy - Basic": 4,
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc Lucario"
+    },
+    "kevin k": {
+        "player": "Kevin Krueger",
+        "standing": "77",
+        "pokemon": {
+            "Malamar": 4,
+            "Inkay": 4,
+            "Giratina": 2,
+            "Tapu Koko": 1,
+            "Dawn Wings Necrozma GX": 1,
+            "Ultra Necrozma GX": 1,
+            "Tapu Lele GX": 1,
+            "Onix": 1,
+            "Oricorio": 1,
+            "Marshadow": 1,
+            "Chimecho": 1,
+            "Necrozma GX": 1,
+            "Marshadow GX": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Cynthia": 4,
+            "Guzma": 3,
+            "Tate & Liza": 2,
+            "Ultra Ball": 4,
+            "Mysterious Treasure": 4,
+            "Rescue Stretcher": 2,
+            "Viridian Forest": 2,
+            "Switch": 4,
+            "Pokemon Communication": 2
+        },
+        "energies": {
+            "Psychic Energy - Basic": 7,
+            "Metal Energy - Basic": 1,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1
+        },
+        "archetype": "Ultra Malamar"
+    },
+    "dustin p": {
+        "player": "Dustin Parker",
+        "standing": "78",
+        "pokemon": {
+            "Jirachi": 4,
+            "Zapdos": 4,
+            "Eevee": 1,
+            "Jolteon GX": 1,
+            "Nihilego": 1,
+            "Buzzwole": 1,
+            "Wobbuffet": 1
+        },
+        "trainers": {
+            "Nest Ball": 4,
+            "Ultra Ball": 2,
+            "Electropower": 4,
+            "Switch": 3,
+            "Escape Rope": 2,
+            "Choice Band": 3,
+            "Escape Board": 3,
+            "Rescue Stretcher": 1,
+            "Guzma": 4,
+            "Lillie": 4,
+            "Volkner": 3,
+            "Cynthia": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Shrine of Punishment": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 5,
+            "Rainbow Energy - Special": 3,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "miguel p": {
+        "player": "Miguel Polanco",
+        "standing": "79",
+        "pokemon": {
+            "Pikachu & Zekrom GX": 1,
+            "Zeraora GX": 2,
+            "Raikou": 2,
+            "Zapdos": 1,
+            "Tapu Koko GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Tapu Lele GX": 1,
+            "Oranguru": 1,
+            "Absol": 1,
+            "Marshadow": 2
+        },
+        "trainers": {
+            "Ultra Ball": 4,
+            "Mysterious Treasure": 1,
+            "Nest Ball": 2,
+            "Energy Switch": 4,
+            "Acro Bike": 4,
+            "Electropower": 4,
+            "Choice Band": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Viridian Forest": 1,
+            "Cynthia": 3,
+            "Lillie": 4,
+            "Guzma": 4
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "chance s": {
+        "player": "Chance Swafford",
+        "standing": "80",
+        "pokemon": {
+            "Jirachi": 4,
+            "Zapdos": 3,
+            "Eevee": 1,
+            "Jolteon GX": 1,
+            "Absol": 1,
+            "Wobbuffet": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Tapu Koko GX": 1,
+            "Marshadow": 1
+        },
+        "trainers": {
+            "Electropower": 4,
+            "Nest Ball": 4,
+            "Switch": 4,
+            "Escape Rope": 3,
+            "Choice Band": 2,
+            "Ultra Ball": 2,
+            "Escape Board": 2,
+            "Rescue Stretcher": 2,
+            "Guzma": 4,
+            "Volkner": 2,
+            "Cynthia": 2,
+            "Lillie": 3,
+            "Erika's Hospitality": 1,
+            "Shrine of Punishment": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Lightning Energy - Basic": 8
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "sean a": {
+        "player": "Sean Adam",
+        "standing": "81",
+        "pokemon": {
+            "Inkay": 4,
+            "Malamar": 3,
+            "Larvitar": 1,
+            "Onix": 1,
+            "Shining Arceus": 1,
+            "Tapu Koko": 1,
+            "Tapu Lele": 1,
+            "Necrozma GX": 1,
+            "Marshadow": 1,
+            "Giratina": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Cynthia": 4,
+            "Erika's Hospitality": 1,
+            "Guzma": 3,
+            "Switch": 1,
+            "Mysterious Treasure": 4,
+            "Nest Ball": 4,
+            "Ultra Ball": 2,
+            "Rescue Stretcher": 2,
+            "Shrine of Punishment": 3,
+            "Acro Bike": 3
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Psychic Energy - Basic": 7
+        },
+        "archetype": "Malamar Spread"
+    },
+    "kevin b": {
+        "player": "Kevin Baxter",
+        "standing": "82",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Rockruff": 3,
+            "Lycanroc GX": 2,
+            "Tapu Lele GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Marshadow": 1
+        },
+        "trainers": {
+            "Professor Elm's Lecture": 4,
+            "Cynthia": 4,
+            "Guzma": 2,
+            "Professor Kukui": 2,
+            "Acerola": 2,
+            "Mallow": 1,
+            "Judge": 1,
+            "Ultra Ball": 4,
+            "Timer Ball": 2,
+            "Pokemon Communication": 2,
+            "Choice Band": 2,
+            "Counter Gain": 2,
+            "Bodybuilding Dumbbells": 1,
+            "Pal Pad": 1,
+            "Rescue Stretcher": 1,
+            "Devoured Field": 2
+        },
+        "energies": {
+            "Fighting Energy - Basic": 3,
+            "Rainbow Energy - Special": 1,
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "brian s": {
+        "player": "Brian Simon",
+        "standing": "83",
+        "pokemon": {
+            "Tapu Koko GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Absol": 1,
+            "Wobbuffet": 1,
+            "Jirachi": 1,
+            "Zapdos": 3
+        },
+        "trainers": {
+            "Shrine of Punishment": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Escape Rope": 3,
+            "Escape Board": 3,
+            "Rescue Stretcher": 2,
+            "Nest Ball": 4,
+            "Electropower": 4,
+            "Ultra Ball": 2,
+            "Switch": 4,
+            "Guzma": 4,
+            "Choice Band": 2,
+            "Erika's Hospitality": 2,
+            "Cynthia": 2,
+            "Lillie": 2,
+            "Volkner": 3
+        },
+        "energies": {
+            "Lightning Energy - Basic": 8
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "jason b": {
+        "player": "Jason Burch",
+        "standing": "84",
+        "pokemon": {
+            "Jirachi": 4,
+            "Zapdos": 3,
+            "Buzzwole": 2,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Tapu Koko GX": 1,
+            "Zebstrika": 1,
+            "Blitzle": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Guzma": 4,
+            "Cynthia": 3,
+            "Nest Ball": 4,
+            "Electropower": 4,
+            "Escape Board": 3,
+            "Switch": 3,
+            "Escape Rope": 2,
+            "Ultra Ball": 2,
+            "Beast Ring": 2,
+            "Rescue Stretcher": 2,
+            "Choice Band": 2,
+            "Viridian Forest": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Fighting Energy - Basic": 3,
+            "Lightning Energy - Basic": 6
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "chris m": {
+        "player": "Chris Mack",
+        "standing": "93",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Rockruff": 3,
+            "Lycanroc GX": 1,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Sneasel": 1,
+            "Weavile": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Tapu Lele GX": 2
+        },
+        "trainers": {
+            "Professor Elm's Lecture": 4,
+            "Professor Kukui": 2,
+            "Cynthia": 2,
+            "Guzma": 2,
+            "Acerola": 2,
+            "Mallow": 1,
+            "Judge": 1,
+            "Erika's Hospitality": 1,
+            "Ultra Ball": 4,
+            "Timer Ball": 2,
+            "Pokemon Communication": 2,
+            "Choice Band": 2,
+            "Field Blower": 1,
+            "Rescue Stretcher": 1,
+            "Counter Gain": 1,
+            "Pal Pad": 1,
+            "Devoured Field": 1,
+            "Black Market \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Rainbow Energy - Special": 1,
+            "Unit Energy FDY - Special": 3,
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "john b": {
+        "player": "John Bennett",
+        "standing": "86",
+        "pokemon": {
+            "Marshadow": 1,
+            "Zapdos": 2,
+            "Absol": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Jirachi": 3,
+            "Tapu Lele GX": 1,
+            "Zeraora GX": 1,
+            "Pikachu & Zekrom GX": 2,
+            "Tapu Koko GX": 1
+        },
+        "trainers": {
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Viridian Forest": 1,
+            "Erika's Hospitality": 1,
+            "Cynthia": 1,
+            "Lillie": 3,
+            "Volkner": 4,
+            "Guzma": 3,
+            "Escape Board": 2,
+            "Electropower": 4,
+            "Ultra Ball": 3,
+            "Switch": 2,
+            "Escape Rope": 2,
+            "Choice Band": 2,
+            "Field Blower": 1,
+            "Nest Ball": 3,
+            "Energy Switch": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "austen v": {
+        "player": "Austen Vance",
+        "standing": "87",
+        "pokemon": {
+            "Marshadow": 1,
+            "Larvitar": 1,
+            "Jirachi": 2,
+            "Giratina": 3,
+            "Malamar": 4,
+            "Inkay": 4
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Guzma": 4,
+            "Cynthia": 4,
+            "Switch": 2,
+            "Escape Board": 2,
+            "Rescue Stretcher": 2,
+            "Acro Bike": 3,
+            "Shrine of Punishment": 3,
+            "Ultra Ball": 3,
+            "Mysterious Treasure": 4,
+            "Spell Tag": 4
+        },
+        "energies": {
+            "Psychic Energy - Basic": 10
+        },
+        "archetype": "Psychic Malamar"
+    },
+    "danny s": {
+        "player": "Danny Sedam",
+        "standing": "88",
+        "pokemon": {
+            "Zoroark GX": 4,
+            "Zorua": 4,
+            "Tapu Lele": 1,
+            "Wobbuffet": 1,
+            "Tapu Koko": 1,
+            "Alolan Vulpix": 4,
+            "Alolan Ninetales": 2,
+            "Alolan Ninetales GX": 3,
+            "Tapu Lele GX": 2
+        },
+        "trainers": {
+            "Professor Elm's Lecture": 3,
+            "Cynthia": 3,
+            "Lillie": 2,
+            "Professor Kukui": 1,
+            "Guzma": 4,
+            "Acerola": 1,
+            "Pokemon Communication": 4,
+            "Choice Band": 2,
+            "Counter Gain": 1,
+            "Energy Switch": 1,
+            "Max Potion": 1,
+            "Devoured Field": 2,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1,
+            "Rescue Stretcher": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Fairy Energy - Basic": 7
+        },
+        "archetype": "Spread"
+    },
+    "ernie e": {
+        "player": "Ernie Espinosa ",
+        "standing": "89",
+        "pokemon": {
+            "Zapdos": 4,
+            "Jirachi": 4,
+            "Tapu Koko GX": 1,
+            "Oranguru": 1,
+            "Absol": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Garbodor": 1,
+            "Trubbish": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Guzma": 4,
+            "Volkner": 2,
+            "Cynthia": 2,
+            "Electropower": 4,
+            "Nest Ball": 4,
+            "Switch": 4,
+            "Escape Board": 3,
+            "Shrine of Punishment": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Choice Band": 2,
+            "Rescue Stretcher": 2,
+            "Ultra Ball": 2,
+            "Escape Rope": 2
+        },
+        "energies": {
+            "Unit Energy LPM - Special": 3,
+            "Lightning Energy - Basic": 5
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "mike n": {
+        "player": "Mike Newey",
+        "standing": "90",
+        "pokemon": {
+            "Blacephalon GX": 4,
+            "Poipole": 3,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Naganadel": 3,
+            "Tapu Lele GX": 1,
+            "Marshadow": 1,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Cynthia": 4,
+            "Erika's Hospitality": 1,
+            "Ultra Ball": 4,
+            "Ultra Space": 2,
+            "Mysterious Treasure": 3,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Energy Switch": 2,
+            "Beast Ring": 4,
+            "Guzma": 4
+        },
+        "energies": {
+            "Fire Energy - Basic": 15,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1
+        },
+        "archetype": "Blacephalon Naganadel"
+    },
+    "paul l": {
+        "player": "Paul Liu",
+        "standing": "91",
+        "pokemon": {
+            "Absol": 1,
+            "Pikachu & Zekrom GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Zapdos": 2,
+            "Zeraora GX": 1,
+            "Jirachi": 2,
+            "Marshadow": 1,
+            "Tapu Lele GX": 1,
+            "Tapu Koko GX": 1
+        },
+        "trainers": {
+            "Electropower": 4,
+            "Energy Switch": 3,
+            "Nest Ball": 3,
+            "Ultra Ball": 4,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Viridian Forest": 1,
+            "Acerola": 1,
+            "Cynthia": 2,
+            "Lillie": 4,
+            "Lisia": 1,
+            "Volkner": 2,
+            "Choice Band": 2,
+            "Escape Board": 2,
+            "Acro Bike": 2,
+            "Guzma": 4
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "mark d": {
+        "player": "Mark Dizon",
+        "standing": "92",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Rockruff": 3,
+            "Lycanroc GX": 1,
+            "Tapu Lele GX": 2,
+            "Alolan Muk": 1,
+            "Alolan Grimer": 1,
+            "Sneasel": 1,
+            "Weavile": 1,
+            "Ditto \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Professor Elm's Lecture": 3,
+            "Cynthia": 2,
+            "Lillie": 1,
+            "Guzma": 3,
+            "Professor Kukui": 2,
+            "Acerola": 2,
+            "Mallow": 1,
+            "Judge": 1,
+            "Pal Pad": 1,
+            "Rescue Stretcher": 1,
+            "Pokemon Communication": 1,
+            "Ultra Ball": 4,
+            "Timer Ball": 2,
+            "Choice Band": 2,
+            "Devoured Field": 2,
+            "Multi Switch": 1,
+            "Switch": 1,
+            "Counter Gain": 1
+        },
+        "energies": {
+            "Rainbow Energy - Special": 1,
+            "Unit Energy FDY - Special": 2,
+            "Fighting Energy - Basic": 1,
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "nick g": {
+        "player": "Nick Garren",
+        "standing": "94",
+        "pokemon": {
+            "Zapdos": 4,
+            "Jirachi": 4,
+            "Zebstrika": 1,
+            "Blitzle": 1,
+            "Jolteon GX": 1,
+            "Eevee": 1,
+            "Absol": 1,
+            "Tapu Koko GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Shrine of Punishment": 2,
+            "Cynthia": 2,
+            "Lillie": 4,
+            "Volkner": 3,
+            "Guzma": 4,
+            "Ultra Ball": 1,
+            "Nest Ball": 4,
+            "Electropower": 4,
+            "Switch": 3,
+            "Escape Rope": 3,
+            "Escape Board": 3,
+            "Choice Band": 2,
+            "Rescue Stretcher": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 7
+        },
+        "archetype": "Zapdos Jirachi"
+    },
+    "kris k": {
+        "player": "Kris Krueger",
+        "standing": "95",
+        "pokemon": {
+            "Pikachu & Zekrom GX": 2,
+            "Zeraora GX": 2,
+            "Tapu Koko GX": 1,
+            "Tapu Lele GX": 1,
+            "Zapdos": 2,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Marshadow": 2,
+            "Eevee": 1,
+            "Jolteon GX": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Cynthia": 3,
+            "Guzma": 3,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1,
+            "Ultra Ball": 4,
+            "Acro Bike": 4,
+            "Electropower": 4,
+            "Energy Switch": 4,
+            "Nest Ball": 3,
+            "Choice Band": 2,
+            "Weakness Policy": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 12
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "reid m": {
+        "player": "Reid Marshall",
+        "standing": "96",
+        "pokemon": {
+            "Lucario GX": 2,
+            "Riolu": 2,
+            "Rockruff": 2,
+            "Lycanroc GX": 2,
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Tapu Lele GX": 2,
+            "Diancie \u00e2\u0099\u00a2": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Muk": 1,
+            "Alolan Grimer": 1,
+            "Absol": 1
+        },
+        "trainers": {
+            "Lillie": 3,
+            "Guzma": 3,
+            "Cynthia": 2,
+            "Professor Kukui": 1,
+            "Judge": 1,
+            "Acerola": 2,
+            "Viridian Forest": 2,
+            "Pokemon Communication": 3,
+            "Nest Ball": 3,
+            "Ultra Ball": 4,
+            "Choice Band": 2,
+            "Pal Pad": 1,
+            "Rescue Stretcher": 1,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Fighting Energy - Basic": 4
+        },
+        "archetype": "Zoroark Lycanroc Lucario"
+    },
+    "michael c": {
+        "player": "Michael Catron",
+        "standing": "97",
+        "pokemon": {
+            "Regigigas": 3,
+            "Vileplume": 2,
+            "Oddish": 3,
+            "Hoopa": 2,
+            "Virizion GX": 1,
+            "Shuckle GX": 1,
+            "Magikarp & Wailord GX": 1,
+            "Goomy": 1,
+            "Unown": 1
+        },
+        "trainers": {
+            "Steven's Resolve": 4,
+            "Bill's Analysis": 4,
+            "Plumeria": 3,
+            "Lusamine": 3,
+            "Acerola": 2,
+            "Gladion": 2,
+            "Tate & Liza": 1,
+            "Faba": 1,
+            "Team Skull Grunt": 1,
+            "Guzma": 1,
+            "Nest Ball": 4,
+            "Max Potion": 4,
+            "Rare Candy": 2,
+            "Counter Catcher": 2,
+            "Rescue Stretcher": 2,
+            "Enhanced Hammer": 2,
+            "Crushing Hammer": 2,
+            "Switch": 1,
+            "Mount Lanakila": 1,
+            "Life Forest \u00e2\u0099\u00a2": 1,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Rainbow Energy - Special": 1
+        },
+        "archetype": "Vileplume"
+    },
+    "zander b": {
+        "player": "Zander Bennett",
+        "standing": "98",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Rockruff": 3,
+            "Lycanroc GX": 1,
+            "Tapu Lele GX": 2,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Marshadow": 1,
+            "Alolan Vulpix": 1,
+            "Alolan Ninetales": 1
+        },
+        "trainers": {
+            "Professor Elm's Lecture": 4,
+            "Cynthia": 2,
+            "Guzma": 2,
+            "Professor Kukui": 2,
+            "Acerola": 2,
+            "Judge": 1,
+            "Mallow": 1,
+            "Ultra Ball": 4,
+            "Timer Ball": 2,
+            "Choice Band": 2,
+            "Pokemon Communication": 1,
+            "Counter Gain": 1,
+            "Rescue Stretcher": 1,
+            "Pal Pad": 1,
+            "Switch": 1,
+            "Lillie": 1,
+            "Lysandre Labs": 2
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Unit Energy FDY - Special": 4
+        },
+        "archetype": "Zoroark Lycanroc"
+    },
+    "will m": {
+        "player": "Will Mantho",
+        "standing": "99",
+        "pokemon": {
+            "Jirachi": 4,
+            "Zapdos": 3,
+            "Jolteon GX": 1,
+            "Eevee": 1,
+            "Zebstrika": 1,
+            "Blitzle": 1,
+            "Tapu Koko GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Cynthia": 2,
+            "Judge": 1,
+            "Volkner": 1,
+            "Guzma": 4,
+            "Electropower": 4,
+            "Nest Ball": 4,
+            "Ultra Ball": 2,
+            "Switch": 4,
+            "Escape Rope": 2,
+            "Choice Band": 3,
+            "Escape Board": 2,
+            "Rescue Stretcher": 2,
+            "Energy Loto": 1,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Shrine of Punishment": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 8
+        },
+        "archetype": "Zapdos Jirachi"
+    }
+}

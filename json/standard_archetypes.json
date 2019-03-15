@@ -1,0 +1,81 @@
+{
+    "Blacephalon Naganadel": {
+        "names": ["Blacephalon GX"],
+        "type": "fire"
+    },
+    "Buzzwole Lucario": {
+        "names": ["Buzzwole GX", "Lucario GX"],
+        "type": "fighting"
+    },
+    "Celebi Venusaur": {
+        "names": ["Celebi & Venusaur GX"],
+        "type": "grass"
+    },
+    "Lapras Quagsire": {
+        "names": ["Lapras GX", "Quagsire"],
+        "type": "water"
+    },
+
+
+    "Ultra Malamar": {
+        "names": ["Ultra Necrozma GX", "Malamar"],
+        "type": "dragon"
+    },
+    "Malamar Spread": {
+        "names": ["Malamar", "Tapu Koko"],
+        "type": "psychic"
+    },
+    "Psychic Malamar": {
+        "names": ["Malamar"],
+        "type": "psychic"
+    },
+
+
+    "Pikachu Zekrom": {
+        "names": ["Pikachu & Zekrom GX"],
+        "type": "electric"
+    },
+    "Zapdos Jirachi": {
+        "names": ["Zapdos", "Jirachi"],
+        "type": "electric"
+    },
+
+    "Sylveon": {
+        "names": ["Sylveon GX"],
+        "type": "fairy"
+    },
+    "Umbreon Guzzlord": {
+        "names": ["Umbreon", "Alolan Ninetales GX", "Guzzlord GX"],
+        "type": "dark"
+    },
+    "Spread": {
+        "names": ["Tapu Koko", "Tapu Lele"],
+        "type": "electric"
+    },
+    "Vileplume": {
+        "names": ["Vileplume"],
+        "type": "grass"
+    },
+
+
+    "Zororark Garbodor": {
+        "names": ["Zoroark GX", "Garbodor"],
+        "type": "dark"
+    },
+    "Zoroark Lucario Weavile": {
+        "names": ["Zoroark GX", "Lucario GX", "Weavile"],
+        "type": "dark"
+    },
+    "Zoroark Lycanroc Lucario": {
+        "names": ["Zoroark GX", "Lycanroc GX", "Lucario GX"],
+        "type": "dark"
+    },
+    "Zoroark Lycanroc": {
+        "names": ["Zoroark GX", "Lycanroc GX"],
+        "type": "dark"
+    },
+    "Zoroark Alolan Ninetales": {
+        "names": ["Zoroark GX", "Alolan Ninetales GX"],
+        "type": "dark"
+    }
+}

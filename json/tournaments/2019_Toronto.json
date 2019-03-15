@@ -1,0 +1,1260 @@
+{
+    "james p": {
+        "player": "James Pendarvis",
+        "standing": "1",
+        "pokemon": {
+            "Shaymin EX": 2,
+            "Marshadow GX": 1,
+            "Marshadow": 1,
+            "Joltik": 4,
+            "Pumpkaboo": 4,
+            "Lampent": 4,
+            "Tapu Lele GX": 1,
+            "Oranguru": 1
+        },
+        "trainers": {
+            "Parallel City": 1,
+            "Dimension Valley": 1,
+            "Silent Lab": 1,
+            "Guzma": 1,
+            "N": 1,
+            "Teammates": 1,
+            "Professor Sycamore": 3,
+            "Float Stone": 1,
+            "Special Charge": 1,
+            "Battle Compressor": 4,
+            "Electropower": 2,
+            "Order Pad": 3,
+            "Field Blower": 1,
+            "Rescue Stretcher": 1,
+            "Choice Band": 2,
+            "VS Seeker": 4,
+            "Trainers' Mail": 4,
+            "Ultra Ball": 4,
+            "Escape Rope": 1,
+            "Dowsing Machine - ACESPEC": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Night March"
+    },
+    "noah b": {
+        "player": "Noah Bujak",
+        "standing": "2",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Zoroark": 1,
+            "Trubbish": 2,
+            "Garbodor": 1,
+            "Exeggcute": 2,
+            "Shaymin EX": 2,
+            "Tapu Lele GX": 2,
+            "Wobbuffet": 1,
+            "Sudowoodo": 1,
+            "Klefki": 1,
+            "Ditto \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Ultra Ball": 4,
+            "Choice Band": 2,
+            "Float Stone": 2,
+            "Battle Compressor": 1,
+            "Red Card": 1,
+            "Field Blower": 1,
+            "Pokemon Communication": 1,
+            "Rescue Stretcher": 1,
+            "Super Rod": 1,
+            "Special Charge": 1,
+            "Hypnotoxic Laser": 1,
+            "Dowsing Machine - ACESPEC": 1,
+            "Colress": 2,
+            "Professor Juniper": 1,
+            "N": 1,
+            "Guzma": 1,
+            "Brigette": 1,
+            "Teammates": 1,
+            "Sky Field": 3,
+            "VS Seeker": 3
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Psychic Energy - Basic": 2
+        },
+        "archetype": "Zoroark Garbodor"
+    },
+    "will j": {
+        "player": "Will Jenkins",
+        "standing": "3",
+        "pokemon": {
+            "Phantump": 4,
+            "Trevenant": 4,
+            "Trevenant BREAK": 3,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Marshadow": 1,
+            "Tapu Lele GX": 1,
+            "Espeon EX": 1,
+            "Wobbuffet": 2
+        },
+        "trainers": {
+            "Enhanced Hammer": 4,
+            "Mysterious Treasure": 4,
+            "VS Seeker": 4,
+            "Rescue Scarf": 4,
+            "Counter Catcher": 2,
+            "Super Rod": 1,
+            "Computer Search - ACESPEC": 1,
+            "Professor Juniper": 3,
+            "Guzma": 1,
+            "Brigette": 1,
+            "Ace Trainer": 1,
+            "Dimension Valley": 4,
+            "N": 4
+        },
+        "energies": {
+            "Mystery Energy - Special": 4,
+            "Psychic Energy - Basic": 4,
+            "Counter Energy - Special": 1
+        },
+        "archetype": "Trevenant"
+    },
+    "sam e": {
+        "player": "Sam Ertman",
+        "standing": "4",
+        "pokemon": {
+            "Phantump": 4,
+            "Trevenant": 4,
+            "Trevenant BREAK": 3,
+            "Wobbuffet": 1,
+            "Tapu Lele GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Muk": 1,
+            "Espeon EX": 1
+        },
+        "trainers": {
+            "N": 4,
+            "Professor Juniper": 2,
+            "Ace Trainer": 1,
+            "Cynthia": 1,
+            "Guzma": 1,
+            "VS Seeker": 4,
+            "Dimension Valley": 4,
+            "Mysterious Treasure": 4,
+            "Enhanced Hammer": 4,
+            "Counter Catcher": 3,
+            "Super Rod": 1,
+            "Rescue Scarf": 4,
+            "Computer Search - ACESPEC": 1,
+            "Colress": 1
+        },
+        "energies": {
+            "Psychic Energy - Basic": 4,
+            "Mystery Energy - Special": 4
+        },
+        "archetype": "Trevenant"
+    },
+    "simon t": {
+        "player": "Simon Trottier-Lacasse",
+        "standing": "5",
+        "pokemon": {
+            "Oranguru": 1,
+            "Articuno": 1,
+            "Sudowoodo": 2,
+            "Sableye": 1,
+            "Mr.Mime": 1,
+            "Shaymin": 1,
+            "Victini": 1,
+            "Cobalion": 1,
+            "Oricorio": 1,
+            "Mew": 3,
+            "White Kyurem": 1,
+            "Giratina": 1
+        },
+        "trainers": {
+            "Rescue Stretcher": 2,
+            "VS Seeker": 3,
+            "Computer Search - ACESPEC": 1,
+            "Town Map": 1,
+            "Special Charge": 1,
+            "Switch": 1,
+            "Counter Gain": 1,
+            "Choice Band": 2,
+            "Counter Catcher": 2,
+            "Field Blower": 1,
+            "Order Pad": 4,
+            "Professor Sycamore": 4,
+            "N": 1,
+            "Guzma": 1,
+            "Nest Ball": 2,
+            "Battle Compressor": 1,
+            "Dimension Valley": 2,
+            "Teammates": 2,
+            "Pokemon Ranger": 1,
+            "Silent Lab": 1
+        },
+        "energies": {
+            "Prism Energy - Special": 4,
+            "Counter Energy - Special": 4,
+            "Rainbow Energy - Special": 2
+        },
+        "archetype": "Mew Box"
+    },
+    "chris s": {
+        "player": "Chris Siakala ",
+        "standing": "6",
+        "pokemon": {
+            "Trevenant": 4,
+            "Phantump": 4,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Marshadow": 1,
+            "Trevenant BREAK": 3,
+            "Tapu Lele GX": 1,
+            "Espeon EX": 1,
+            "Wobbuffet": 2
+        },
+        "trainers": {
+            "Mysterious Treasure": 4,
+            "N": 4,
+            "Ace Trainer": 1,
+            "Brigette": 1,
+            "Guzma": 1,
+            "Professor Juniper": 3,
+            "Super Rod": 1,
+            "Counter Catcher": 2,
+            "Dimension Valley": 4,
+            "VS Seeker": 4,
+            "Rescue Scarf": 4,
+            "Enhanced Hammer": 4,
+            "Computer Search - ACESPEC": 1
+        },
+        "energies": {
+            "Psychic Energy - Basic": 4,
+            "Mystery Energy - Special": 4,
+            "Counter Energy - Special": 1
+        },
+        "archetype": "Trevenant"
+    },
+    "russell l": {
+        "player": "Russell Laparre",
+        "standing": "7",
+        "pokemon": {
+            "Volcanion \u00e2\u0099\u00a2": 1,
+            "Shaymin EX": 3,
+            "Blastoise": 2,
+            "Palkia GX": 1,
+            "Exeggcute": 2,
+            "Giratina": 1,
+            "Tapu Lele GX": 1,
+            "Magikarp & Wailord GX": 1,
+            "Onix": 1
+        },
+        "trainers": {
+            "N": 1,
+            "Professor Juniper": 1,
+            "Guzma": 1,
+            "Acerola": 1,
+            "Archie's Ace in the Hole": 2,
+            "VS Seeker": 4,
+            "Superior Energy Retrieval": 4,
+            "Professor's Letter": 1,
+            "Silent Lab": 1,
+            "Field Blower": 1,
+            "Battle Compressor": 4,
+            "Ultra Ball": 4,
+            "Float Stone": 1,
+            "Computer Search - ACESPEC": 1,
+            "Trainers' Mail": 4,
+            "Viridian Forest": 1,
+            "Choice Band": 1,
+            "Order Pad": 2
+        },
+        "energies": {
+            "Water Energy - Basic": 11
+        },
+        "archetype": "Archie's Blastoise"
+    },
+    "marvin l": {
+        "player": "Marvin Lu-Banzon",
+        "standing": "8",
+        "pokemon": {
+            "Phantump": 4,
+            "Trevenant": 4,
+            "Trevenant BREAK": 3,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Litleo": 1,
+            "Pyroar": 1,
+            "Espeon EX": 1,
+            "Tapu Lele GX": 2,
+            "Alolan Muk": 1
+        },
+        "trainers": {
+            "Dimension Valley": 3,
+            "Enhanced Hammer": 3,
+            "Counter Catcher": 3,
+            "Rescue Scarf": 3,
+            "Super Rod": 1,
+            "VS Seeker": 4,
+            "Teammates": 1,
+            "Ace Trainer": 1,
+            "Scoop Up Cyclone - ACESPEC": 1,
+            "Guzma": 1,
+            "N": 3,
+            "Professor Juniper": 3,
+            "Mysterious Treasure": 3,
+            "Ultra Ball": 2,
+            "Brigette": 1
+        },
+        "energies": {
+            "Counter Energy - Special": 1,
+            "Mystery Energy - Special": 2,
+            "Blend Energy GRPD - Special": 2,
+            "Psychic Energy - Basic": 4
+        },
+        "archetype": "Trevenant"
+    },
+    "ciaran f": {
+        "player": "Ciaran Farah",
+        "standing": "9",
+        "pokemon": {
+            "Phantump": 4,
+            "Trevenant": 4,
+            "Trevenant BREAK": 3,
+            "Tapu Lele GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Pyroar": 1,
+            "Espeon EX": 1
+        },
+        "trainers": {
+            "N": 4,
+            "Professor Juniper": 3,
+            "Guzma": 1,
+            "Ace Trainer": 1,
+            "AZ": 1,
+            "Brigette": 1,
+            "Faba": 1,
+            "VS Seeker": 4,
+            "Mysterious Treasure": 3,
+            "Ultra Ball": 1,
+            "Computer Search - ACESPEC": 1,
+            "Enhanced Hammer": 3,
+            "Rescue Scarf": 3,
+            "Counter Catcher": 3,
+            "Super Rod": 1,
+            "Dimension Valley": 4
+        },
+        "energies": {
+            "Psychic Energy - Basic": 3,
+            "Mystery Energy - Special": 3,
+            "Blend Energy GRPD - Special": 2,
+            "Counter Energy - Special": 1
+        },
+        "archetype": "Trevenant"
+    },
+    "bryan h": {
+        "player": "Bryan Hunter",
+        "standing": "10",
+        "pokemon": {
+            "Phantump": 4,
+            "Trevenant": 4,
+            "Trevenant BREAK": 3,
+            "Marshadow": 1,
+            "Wobbuffet": 2,
+            "Tapu Lele GX": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Espeon EX": 1
+        },
+        "trainers": {
+            "Brigette": 1,
+            "Computer Search - ACESPEC": 1,
+            "Professor Sycamore": 3,
+            "Super Rod": 1,
+            "Ace Trainer": 1,
+            "Rescue Scarf": 4,
+            "Counter Catcher": 2,
+            "N": 4,
+            "Mysterious Treasure": 4,
+            "Enhanced Hammer": 4,
+            "VS Seeker": 4,
+            "Guzma": 1,
+            "Dimension Valley": 4
+        },
+        "energies": {
+            "Mystery Energy - Special": 4,
+            "Psychic Energy - Basic": 5
+        },
+        "archetype": "Trevenant"
+    },
+    "andrew e": {
+        "player": "Andrew Estrada",
+        "standing": "11",
+        "pokemon": {
+            "Trevenant BREAK": 3,
+            "Trevenant": 4,
+            "Phantump": 4,
+            "Tapu Lele GX": 2,
+            "Espeon EX": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Pyroar": 1
+        },
+        "trainers": {
+            "Dimension Valley": 4,
+            "Professor Sycamore": 3,
+            "N": 4,
+            "Brigette": 1,
+            "Faba": 1,
+            "Guzma": 1,
+            "AZ": 1,
+            "Ace Trainer": 1,
+            "Mysterious Treasure": 3,
+            "VS Seeker": 4,
+            "Enhanced Hammer": 3,
+            "Rescue Scarf": 3,
+            "Counter Catcher": 3,
+            "Super Rod": 1,
+            "Computer Search - ACESPEC": 1,
+            "Ultra Ball": 1
+        },
+        "energies": {
+            "Psychic Energy - Basic": 3,
+            "Mystery Energy - Special": 3,
+            "Blend Energy GRPD - Special": 2,
+            "Counter Energy - Special": 1
+        },
+        "archetype": "Trevenant"
+    },
+    "main a": {
+        "player": "Main Ahmed",
+        "standing": "12",
+        "pokemon": {
+            "Phantump": 4,
+            "Trevenant": 4,
+            "Trevenant BREAK": 3,
+            "Tapu Lele GX": 2,
+            "Marshadow": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Litleo": 1,
+            "Pyroar": 1,
+            "Espeon EX": 1,
+            "Tapu Lele": 1
+        },
+        "trainers": {
+            "Mysterious Treasure": 3,
+            "Ultra Ball": 2,
+            "Professor Juniper": 3,
+            "N": 3,
+            "Colress": 1,
+            "Guzma": 1,
+            "Faba": 1,
+            "Ace Trainer": 1,
+            "Brigette": 1,
+            "Dimension Valley": 4,
+            "Rescue Scarf": 4,
+            "VS Seeker": 4,
+            "Scoop Up Cyclone - ACESPEC": 1,
+            "Counter Catcher": 2,
+            "Super Rod": 1
+        },
+        "energies": {
+            "Psychic Energy - Basic": 3,
+            "Blend Energy GRPD - Special": 1,
+            "Counter Energy - Special": 1,
+            "Mystery Energy - Special": 4
+        },
+        "archetype": "Trevenant"
+    },
+    "zac c": {
+        "player": "Zac Cooper",
+        "standing": "13",
+        "pokemon": {
+            "Herdier": 2,
+            "Stoutland": 3,
+            "Pikachu": 2,
+            "Raichu": 2,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1,
+            "Goomy": 1,
+            "Goodra": 1,
+            "Tapu Lele GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Mr. Mime": 1,
+            "Lillipup": 4
+        },
+        "trainers": {
+            "Professor Juniper": 3,
+            "AZ": 2,
+            "Brigette": 2,
+            "Bill's Analysis": 1,
+            "Gladion": 1,
+            "Tate & Liza": 1,
+            "Lysandre": 1,
+            "Faba": 1,
+            "Ultra Ball": 4,
+            "Rare Candy": 4,
+            "Devolution Spray": 3,
+            "VS Seeker": 2,
+            "Level Ball": 1,
+            "Pal Pad": 1,
+            "Special Charge": 1,
+            "Field Blower": 1,
+            "Rescue Stretcher": 1,
+            "Computer Search - ACESPEC": 1,
+            "Tropical Beach": 4
+        },
+        "energies": {
+            "Memory Energy": 4
+        },
+        "archetype": "Shock Lock"
+    },
+    "david t": {
+        "player": "David Tomhave",
+        "standing": "14",
+        "pokemon": {
+            "Zoroark GX": 4,
+            "Zorua": 4,
+            "Garbodor": 1,
+            "Trubbish": 1,
+            "Tapu Lele GX": 2,
+            "Shaymin EX": 2,
+            "Exeggcute": 2,
+            "Klefki": 1,
+            "Sudowoodo": 1,
+            "Mr.Mime": 1,
+            "Wobbuffet": 1,
+            "Ditto \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Colress": 2,
+            "N": 2,
+            "Brigette": 1,
+            "Guzma": 1,
+            "Ultra Ball": 4,
+            "VS Seeker": 4,
+            "Field Blower": 2,
+            "Battle Compressor": 1,
+            "Pokemon Communication": 1,
+            "Counter Catcher": 1,
+            "Rescue Stretcher": 1,
+            "Super Rod": 1,
+            "Dowsing Machine - ACESPEC": 1,
+            "Choice Band": 2,
+            "Float Stone": 2,
+            "Sky Field": 3
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Psychic Energy - Basic": 2
+        },
+        "archetype": "Zoroark Garbodor"
+    },
+    "andr\u00e3\u00a9 c": {
+        "player": "Andr\u00c3\u00a9 Chiasson",
+        "standing": "15",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Tapu Lele GX": 2,
+            "Shaymin EX": 2,
+            "Trubbish": 2,
+            "Garbodor": 2,
+            "Exeggcute": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Klefki": 1,
+            "Sudowoodo": 1,
+            "Zoroark": 1
+        },
+        "trainers": {
+            "Sky Field": 3,
+            "Brigette": 2,
+            "Colress": 2,
+            "Guzma": 2,
+            "N": 2,
+            "VS Seeker": 4,
+            "Ultra Ball": 4,
+            "Choice Band": 2,
+            "Float Stone": 2,
+            "Battle Compressor": 2,
+            "Field Blower": 2,
+            "Red Card": 2,
+            "Rescue Stretcher": 2,
+            "Pokemon Communication": 1,
+            "Special Charge": 1,
+            "Dowsing Machine - ACESPEC": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Zoroark Garbodor"
+    },
+    "jon e": {
+        "player": "Jon Eng",
+        "standing": "16",
+        "pokemon": {
+            "Hitmonchan": 3,
+            "Hitmonlee": 1,
+            "Buzzwole": 1,
+            "Wobbuffet": 4,
+            "Oranguru": 1,
+            "Nihilego": 1,
+            "Diancie \u00e2\u0099\u00a2": 1,
+            "Shuckle GX": 1,
+            "Kartana GX": 1
+        },
+        "trainers": {
+            "Nest Ball": 4,
+            "VS Seeker": 4,
+            "Float Stone": 3,
+            "Muscle Band": 3,
+            "Ultra Ball": 1,
+            "Rescue Stretcher": 1,
+            "Enhanced Hammer": 1,
+            "Adventure Bag": 1,
+            "Computer Search - ACESPEC": 1,
+            "Cynthia": 1,
+            "Korrina": 2,
+            "Teammates": 2,
+            "Guzma": 3,
+            "N": 3,
+            "Professor Sycamore": 4,
+            "Shrine of Punishment": 3
+        },
+        "energies": {
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1,
+            "Strong Energy - Special": 4,
+            "Prism Energy - Special": 4
+        },
+        "archetype": "Hitmonchan Wobbuffet"
+    },
+    "zach l": {
+        "player": "Zach Lesage",
+        "standing": "17",
+        "pokemon": {
+            "Wobbuffet": 4,
+            "Hitmonchan": 3,
+            "Marshadow": 1,
+            "Diancie \u00e2\u0099\u00a2": 1,
+            "Buzzwole": 1,
+            "Mr.Mime": 1,
+            "Nihilego": 1,
+            "Oricorio": 1,
+            "Goomy": 1
+        },
+        "trainers": {
+            "Computer Search - ACESPEC": 1,
+            "Shrine of Punishment": 2,
+            "Korrina": 4,
+            "Professor Juniper": 2,
+            "Teammates": 2,
+            "Cynthia": 2,
+            "N": 2,
+            "Colress": 1,
+            "Guzma": 1,
+            "Float Stone": 4,
+            "VS Seeker": 4,
+            "Enhanced Hammer": 2,
+            "Choice Band": 2,
+            "Mysterious Treasure": 1,
+            "Rescue Stretcher": 1,
+            "Counter Catcher": 1,
+            "Special Charge": 1,
+            "Adventure Bag": 1,
+            "Muscle Band": 1,
+            "Energy Loto": 1,
+            "Focus Sash": 1,
+            "Nest Ball": 1
+        },
+        "energies": {
+            "Strong Energy - Special": 4,
+            "Prism Energy - Special": 3,
+            "Fighting Energy - Basic": 1
+        },
+        "archetype": "Hitmonchan Wobbuffet"
+    },
+    "justin b": {
+        "player": "Justin Bokhari",
+        "standing": "18",
+        "pokemon": {
+            "Trevenant": 4,
+            "Phantump": 4,
+            "Wobbuffet": 2,
+            "Espeon EX": 1,
+            "Tapu Lele GX": 1,
+            "Marshadow": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Trevenant BREAK": 3
+        },
+        "trainers": {
+            "N": 4,
+            "Professor Juniper": 3,
+            "Brigette": 1,
+            "Ace Trainer": 1,
+            "Guzma": 1,
+            "VS Seeker": 4,
+            "Mysterious Treasure": 4,
+            "Enhanced Hammer": 4,
+            "Rescue Scarf": 4,
+            "Counter Catcher": 2,
+            "Computer Search - ACESPEC": 1,
+            "Super Rod": 1,
+            "Dimension Valley": 4
+        },
+        "energies": {
+            "Psychic Energy - Basic": 4,
+            "Mystery Energy - Special": 4,
+            "Counter Energy - Special": 1
+        },
+        "archetype": "Trevenant"
+    },
+    "andrew a": {
+        "player": "Andrew Amistad",
+        "standing": "19",
+        "pokemon": {
+            "Phantump": 4,
+            "Trevenant": 4,
+            "Trevenant BREAK": 3,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Muk": 1,
+            "Tapu Lele GX": 1,
+            "Marshadow": 1,
+            "Espeon EX": 1
+        },
+        "trainers": {
+            "N": 3,
+            "Professor Sycamore": 3,
+            "Ace Trainer": 1,
+            "Guzma": 1,
+            "Brigette": 1,
+            "Faba": 1,
+            "VS Seeker": 4,
+            "Mysterious Treasure": 4,
+            "Rescue Scarf": 4,
+            "Enhanced Hammer": 4,
+            "Counter Catcher": 3,
+            "Super Rod": 1,
+            "Dowsing Machine - ACESPEC": 1,
+            "Dimension Valley": 3,
+            "Silent Lab": 1
+        },
+        "energies": {
+            "Mystery Energy - Special": 4,
+            "Psychic Energy - Basic": 4,
+            "Counter Energy - Special": 1
+        },
+        "archetype": "Trevenant"
+    },
+    "st\u00e3\u00a9phane i": {
+        "player": "St\u00c3\u00a9phane Ivanoff",
+        "standing": "20",
+        "pokemon": {
+            "Hitmonchan": 3,
+            "Hitmonlee": 1,
+            "Diancie \u00e2\u0099\u00a2": 1,
+            "Buzzwole": 1,
+            "Wobbuffet": 4,
+            "Oranguru": 1,
+            "Nihilego": 1,
+            "Kartana GX": 1,
+            "Shuckle GX": 1
+        },
+        "trainers": {
+            "Professor Juniper": 4,
+            "N": 3,
+            "Cynthia": 1,
+            "Guzma": 3,
+            "Korrina": 2,
+            "Teammates": 2,
+            "VS Seeker": 4,
+            "Nest Ball": 4,
+            "Ultra Ball": 1,
+            "Muscle Band": 3,
+            "Float Stone": 3,
+            "Adventure Bag": 1,
+            "Rescue Stretcher": 1,
+            "Enhanced Hammer": 1,
+            "Computer Search - ACESPEC": 1,
+            "Shrine of Punishment": 3
+        },
+        "energies": {
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1,
+            "Strong Energy - Special": 4,
+            "Prism Energy - Special": 4
+        },
+        "archetype": "Hitmonchan Wobbuffet"
+    },
+    "vincent v": {
+        "player": "Vincent Vuong",
+        "standing": "21",
+        "pokemon": {
+            "Lucario GX": 2,
+            "Riolu": 3,
+            "Sudowoodo": 1,
+            "Buzzwole": 1,
+            "Remoraid": 1,
+            "Octillery": 1,
+            "Tapu Lele GX": 1,
+            "Landorus EX": 1,
+            "Mr. Mime": 1,
+            "Diancie \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Enhanced Hammer": 2,
+            "Float Stone": 2,
+            "Field Blower": 1,
+            "Brooklet Hill": 2,
+            "Ultra Ball": 4,
+            "Scoop Up Cyclone - ACESPEC": 1,
+            "Silent Lab": 1,
+            "Level Ball": 1,
+            "Professor Sycamore": 2,
+            "Professor's Letter": 1,
+            "Focus Sash": 3,
+            "Colress": 2,
+            "Guzma": 2,
+            "N": 3,
+            "Faba": 1,
+            "Korrina": 3,
+            "Acerola": 2,
+            "VS Seeker": 3
+        },
+        "energies": {
+            "Strong Energy - Special": 4,
+            "Fighting Energy - Basic": 6
+        },
+        "archetype": "Fighting Guys"
+    },
+    "aj b": {
+        "player": "AJ Broski",
+        "standing": "22",
+        "pokemon": {
+            "Joltik": 4,
+            "Pumpkaboo": 4,
+            "Lampent": 4,
+            "Shaymin EX": 2,
+            "Marshadow GX": 2,
+            "Oranguru": 1,
+            "Mr. Mime": 1
+        },
+        "trainers": {
+            "Professor Juniper": 3,
+            "N": 1,
+            "Faba": 1,
+            "Guzma": 1,
+            "Teammates": 1,
+            "Choice Band": 2,
+            "Float Stone": 2,
+            "Target Whistle": 1,
+            "Rescue Stretcher": 1,
+            "Computer Search - ACESPEC": 1,
+            "Trainers' Mail": 4,
+            "VS Seeker": 4,
+            "Ultra Ball": 4,
+            "Battle Compressor": 4,
+            "Silent Lab": 1,
+            "Dimension Valley": 3,
+            "Enhanced Hammer": 1,
+            "Field Blower": 1,
+            "Special Charge": 2
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Night March"
+    },
+    "benjamin s": {
+        "player": "Benjamin Souriol",
+        "standing": "23",
+        "pokemon": {
+            "Mr.Mime": 1,
+            "Garbodor": 1,
+            "Trubbish": 1,
+            "Exeggcute": 2,
+            "Klefki": 1,
+            "Sudowoodo": 1,
+            "Tapu Lele GX": 2,
+            "Shaymin EX": 2,
+            "Zorua": 1,
+            "Zoroark": 1,
+            "Zoroark GX": 4,
+            "Ditto \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Guzma": 2,
+            "N": 1,
+            "Brigette": 1,
+            "Colress": 3,
+            "VS Seeker": 4,
+            "Ultra Ball": 4,
+            "Choice Band": 2,
+            "Float Stone": 2,
+            "Battle Compressor": 2,
+            "Field Blower": 2,
+            "Special Charge": 1,
+            "Red Card": 1,
+            "Super Rod": 1,
+            "Rescue Stretcher": 1,
+            "Dowsing Machine - ACESPEC": 1,
+            "Sky Field": 3
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Psychic Energy - Basic": 2
+        },
+        "archetype": "Zoroark Garbodor"
+    },
+    "nicholas m": {
+        "player": "Nicholas Moffitt",
+        "standing": "24",
+        "pokemon": {
+            "Combee": 4,
+            "Vespiquen": 4,
+            "Eevee": 1,
+            "Flareon": 2,
+            "Shaymin EX": 1,
+            "Tapu Lele GX": 1,
+            "Oranguru": 1,
+            "Mr.Mime": 1,
+            "Oricorio": 1,
+            "Sudowoodo": 1,
+            "Unown": 4,
+            "Swampert": 1,
+            "Exeggcute": 1
+        },
+        "trainers": {
+            "Battle Compressor": 4,
+            "VS Seeker": 4,
+            "Professor Sycamore": 3,
+            "N": 1,
+            "Colress": 1,
+            "Teammates": 1,
+            "Guzma": 1,
+            "Archie's Ace in the Hole": 1,
+            "Ultra Ball": 4,
+            "Computer Search - ACESPEC": 1,
+            "Field Blower": 1,
+            "Choice Band": 2,
+            "Float Stone": 1,
+            "Parallel City": 1,
+            "Silent Lab": 1,
+            "Special Charge": 1,
+            "Rescue Stretcher": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Counter Energy - Special": 2
+        },
+        "archetype": "Vespiquen Flareon"
+    },
+    "dan i": {
+        "player": "Dan Irish",
+        "standing": "25",
+        "pokemon": {
+            "Riolu": 3,
+            "Lucario GX": 3,
+            "Buzzwole GX": 2,
+            "Buzzwole": 1,
+            "Mr. Mime": 1,
+            "Diancie \u00e2\u0099\u00a2": 1,
+            "Sudowoodo": 1,
+            "Remoraid": 1,
+            "Octillery": 1,
+            "Tapu Lele GX": 1
+        },
+        "trainers": {
+            "Korrina": 3,
+            "N": 3,
+            "Colress": 2,
+            "Professor Juniper": 2,
+            "Acerola": 2,
+            "Guzma": 2,
+            "VS Seeker": 3,
+            "Brooklet Hill": 2,
+            "Silent Lab": 1,
+            "Ultra Ball": 4,
+            "Focus Sash": 4,
+            "Float Stone": 2,
+            "Super Rod": 1,
+            "Enhanced Hammer": 1,
+            "Beast Ring": 1,
+            "Field Blower": 1,
+            "Scoop Up Cyclone - ACESPEC": 1
+        },
+        "energies": {
+            "Fighting Energy - Basic": 6,
+            "Strong Energy - Special": 4
+        },
+        "archetype": "Fighting Guys"
+    },
+    "caleb g": {
+        "player": "Caleb Gedemer",
+        "standing": "26",
+        "pokemon": {
+            "Joltik": 4,
+            "Lampent": 4,
+            "Marshadow": 1,
+            "Marshadow GX": 1,
+            "Oranguru": 1,
+            "Pumpkaboo": 4,
+            "Shaymin EX": 2,
+            "Tapu Lele GX": 1
+        },
+        "trainers": {
+            "Dimension Valley": 1,
+            "Parallel City": 1,
+            "Silent Lab": 1,
+            "Guzma": 1,
+            "N": 1,
+            "Professor Sycamore": 3,
+            "Teammates": 1,
+            "Battle Compressor": 4,
+            "Choice Band": 2,
+            "Dowsing Machine - ACESPEC": 1,
+            "Electropower": 2,
+            "Escape Rope": 1,
+            "Field Blower": 1,
+            "Float Stone": 1,
+            "Order Pad": 3,
+            "Rescue Stretcher": 1,
+            "Special Charge": 1,
+            "Trainers' Mail": 4,
+            "Ultra Ball": 4,
+            "VS Seeker": 4
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Night March"
+    },
+    "wesley t": {
+        "player": "Wesley Tam",
+        "standing": "27",
+        "pokemon": {
+            "Zapdos": 3,
+            "Trubbish": 2,
+            "Garbodor": 2,
+            "Jirachi": 3,
+            "Nihilego": 1,
+            "Buzzwole": 2
+        },
+        "trainers": {
+            "Shrine of Punishment": 3,
+            "Professor Juniper": 4,
+            "Guzma": 3,
+            "Teammates": 2,
+            "N": 1,
+            "Erika's Hospitality": 1,
+            "VS Seeker": 4,
+            "Nest Ball": 4,
+            "Dowsing Machine - ACESPEC": 1,
+            "Choice Band": 1,
+            "Muscle Band": 2,
+            "Rescue Stretcher": 2,
+            "Electropower": 4,
+            "Switch": 2,
+            "Escape Rope": 1,
+            "Escape Board": 3
+        },
+        "energies": {
+            "Rainbow Energy - Special": 4,
+            "Prism Energy - Special": 4,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1
+        },
+        "archetype": "Buzzwole Garbodor"
+    },
+    "frank p": {
+        "player": "Frank Percic",
+        "standing": "28",
+        "pokemon": {
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Ditto": 3,
+            "Exeggcute": 2,
+            "Alolan Exeggutor": 4,
+            "Mr. Mime": 1,
+            "Noivern GX": 1
+        },
+        "trainers": {
+            "Professor Sycamore": 4,
+            "N": 2,
+            "Lysandre": 1,
+            "Teammates": 1,
+            "Lance \u00e2\u0099\u00a2": 1,
+            "Ultra Ball": 4,
+            "Level Ball": 3,
+            "VS Seeker": 4,
+            "Trainers' Mail": 4,
+            "Battle Compressor": 3,
+            "Field Blower": 3,
+            "Rescue Stretcher": 2,
+            "Special Charge": 2,
+            "Town Map": 1,
+            "Dowsing Machine - ACESPEC": 1,
+            "Choice Band": 3,
+            "Shrine of Punishment": 2,
+            "Silent Lab": 1
+        },
+        "energies": {
+            "Double Dragon Energy - Special": 4
+        },
+        "archetype": "Egg Drop"
+    },
+    "charlie l": {
+        "player": "Charlie Lockyer",
+        "standing": "29",
+        "pokemon": {
+            "Zorua": 4,
+            "Zoroark GX": 4,
+            "Shaymin EX": 2,
+            "Tapu Lele GX": 2,
+            "Exeggcute": 2,
+            "Golisopod GX": 1,
+            "Wimpod": 2,
+            "Litleo": 1,
+            "Pyroar": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Mr.Mime": 1,
+            "Gengar & Mimikyu GX": 1,
+            "Sudowoodo": 1,
+            "Alolan Grimer": 1,
+            "Alolan Muk": 1
+        },
+        "trainers": {
+            "VS Seeker": 4,
+            "Ultra Ball": 4,
+            "Pokemon Communication": 2,
+            "Choice Band": 2,
+            "Sky Field": 3,
+            "Field Blower": 1,
+            "Rescue Stretcher": 1,
+            "Float Stone": 1,
+            "Computer Search - ACESPEC": 1,
+            "Colress": 2,
+            "Professor Juniper": 1,
+            "N": 1,
+            "Brigette": 1,
+            "Guzma": 1,
+            "Acerola": 1,
+            "Mallow": 1,
+            "Faba": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4,
+            "Rainbow Energy - Special": 3
+        },
+        "archetype": "Zoroark Golisopod"
+    },
+    "nathan b": {
+        "player": "Nathan Brower",
+        "standing": "30",
+        "pokemon": {
+            "Gallade": 4,
+            "Kirlia": 1,
+            "Ralts": 4,
+            "Jirachi": 3,
+            "Diancie \u00e2\u0099\u00a2": 1,
+            "Oranguru": 1,
+            "Mr. Mime": 1
+        },
+        "trainers": {
+            "Lillie": 3,
+            "Professor Juniper": 2,
+            "Guzma": 2,
+            "Teammates": 2,
+            "N": 1,
+            "Korrina": 1,
+            "Professor Kukui": 1,
+            "Faba": 1,
+            "VS Seeker": 4,
+            "Nest Ball": 4,
+            "Rare Candy": 4,
+            "Ultra Ball": 3,
+            "Escape Board": 3,
+            "Focus Sash": 3,
+            "Rescue Stretcher": 2,
+            "Computer Search - ACESPEC": 1,
+            "Silent Lab": 1,
+            "Enhanced Hammer": 1,
+            "Field Blower": 1,
+            "Special Charge": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Gallade"
+    },
+    "isaiah w": {
+        "player": "Isaiah Williams",
+        "standing": "31",
+        "pokemon": {
+            "Marshadow": 1,
+            "Oranguru": 1,
+            "Tapu Lele GX": 1,
+            "Marshadow GX": 1,
+            "Shaymin EX": 2,
+            "Pumpkaboo": 4,
+            "Joltik": 4,
+            "Lampent": 4
+        },
+        "trainers": {
+            "Float Stone": 1,
+            "Choice Band": 2,
+            "Silent Lab": 1,
+            "Dimension Valley": 1,
+            "Rescue Stretcher": 1,
+            "Parallel City": 1,
+            "Escape Rope": 1,
+            "Field Blower": 1,
+            "Electropower": 2,
+            "Ultra Ball": 4,
+            "Professor Sycamore": 3,
+            "N": 1,
+            "Teammates": 1,
+            "Guzma": 1,
+            "Special Charge": 1,
+            "VS Seeker": 4,
+            "Trainers' Mail": 4,
+            "Order Pad": 3,
+            "Battle Compressor": 4,
+            "Dowsing Machine - ACESPEC": 1
+        },
+        "energies": {
+            "Double Colorless Energy - Special": 4
+        },
+        "archetype": "Night March"
+    },
+    "colin n": {
+        "player": "Colin Norman",
+        "standing": "32",
+        "pokemon": {
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Tapu Lele GX": 1,
+            "Shaymin EX": 2,
+            "Pikachu & Zekrom GX": 3,
+            "Marshadow": 1,
+            "Marshadow GX": 1,
+            "Zeraora GX": 2,
+            "Xurkitree GX": 1
+        },
+        "trainers": {
+            "Electropower": 4,
+            "VS Seeker": 4,
+            "Professor Juniper": 2,
+            "Colress": 1,
+            "Guzma": 1,
+            "Ultra Ball": 4,
+            "Max Elixir": 4,
+            "Trainers' Mail": 4,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "N": 1,
+            "Lillie": 1,
+            "Choice Band": 2,
+            "Computer Search - ACESPEC": 1,
+            "Energy Switch": 2,
+            "Nest Ball": 1,
+            "Battle Compressor": 1
+        },
+        "energies": {
+            "Flash Energy - Special": 3,
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    }
+}

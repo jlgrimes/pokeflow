@@ -1,0 +1,867 @@
+{
+    "Zoroark Lycanroc": {
+        "wins": 40,
+        "losses": 51,
+        "ties": 17,
+        "bye": {
+            "wins": 1,
+            "ties": 1,
+            "losses": 0
+        },
+        "Zapdos Jirachi": {
+            "wins": 13,
+            "ties": 3,
+            "losses": 7
+        },
+        "Ultra Malamar": {
+            "wins": 2,
+            "ties": 3,
+            "losses": 4
+        },
+        "Buzzwole Lucario": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zoroark Lycanroc Lucario": {
+            "wins": 4,
+            "ties": 2,
+            "losses": 11
+        },
+        "Zoroark Lycanroc": {
+            "wins": 7,
+            "ties": 2,
+            "losses": 7
+        },
+        "Sylveon": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 4
+        },
+        "Pikachu Zekrom": {
+            "wins": 6,
+            "ties": 3,
+            "losses": 6
+        },
+        "Vileplume": {
+            "wins": 4,
+            "ties": 0,
+            "losses": 5
+        },
+        "Spread": {
+            "wins": 1,
+            "ties": 1,
+            "losses": 1
+        },
+        "Zororark Garbodor": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Umbreon Guzzlord": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 1
+        },
+        "Psychic Malamar": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 2
+        },
+        "Lapras Quagsire": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Malamar Spread": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 1
+        },
+        "Blacephalon Naganadel": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        }
+    },
+    "Zoroark Lycanroc Lucario": {
+        "wins": 37,
+        "losses": 32,
+        "ties": 12,
+        "Zapdos Jirachi": {
+            "wins": 10,
+            "ties": 5,
+            "losses": 5
+        },
+        "Zoroark Lycanroc": {
+            "wins": 11,
+            "ties": 2,
+            "losses": 4
+        },
+        "Vileplume": {
+            "wins": 3,
+            "ties": 0,
+            "losses": 3
+        },
+        "Celebi Venusaur": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zoroark Lucario Weavile": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 0
+        },
+        "Ultra Malamar": {
+            "wins": 4,
+            "ties": 3,
+            "losses": 6
+        },
+        "Pikachu Zekrom": {
+            "wins": 4,
+            "ties": 1,
+            "losses": 3
+        },
+        "Buzzwole Lucario": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 2
+        },
+        "Zoroark Lycanroc Lucario": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 2
+        },
+        "Sylveon": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 2
+        },
+        "Blacephalon Naganadel": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 3
+        },
+        "Malamar Spread": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Spread": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        }
+    },
+    "Zapdos Jirachi": {
+        "wins": 44,
+        "losses": 53,
+        "ties": 18,
+        "Zoroark Lycanroc Lucario": {
+            "wins": 5,
+            "ties": 5,
+            "losses": 10
+        },
+        "Zoroark Lycanroc": {
+            "wins": 7,
+            "ties": 3,
+            "losses": 13
+        },
+        "Vileplume": {
+            "wins": 2,
+            "ties": 1,
+            "losses": 4
+        },
+        "Pikachu Zekrom": {
+            "wins": 7,
+            "ties": 1,
+            "losses": 3
+        },
+        "Umbreon Guzzlord": {
+            "wins": 1,
+            "ties": 1,
+            "losses": 1
+        },
+        "Zapdos Jirachi": {
+            "wins": 10,
+            "ties": 0,
+            "losses": 10
+        },
+        "Lapras Quagsire": {
+            "wins": 1,
+            "ties": 1,
+            "losses": 0
+        },
+        "Blacephalon Naganadel": {
+            "wins": 0,
+            "ties": 2,
+            "losses": 2
+        },
+        "Sylveon": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 3
+        },
+        "Celebi Venusaur": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Ultra Malamar": {
+            "wins": 7,
+            "ties": 3,
+            "losses": 3
+        },
+        "Psychic Malamar": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Zoroark Lucario Weavile": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Malamar Spread": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Zororark Garbodor": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Spread": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Buzzwole Lucario": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        }
+    },
+    "Ultra Malamar": {
+        "wins": 27,
+        "losses": 23,
+        "ties": 17,
+        "Pikachu Zekrom": {
+            "wins": 4,
+            "ties": 0,
+            "losses": 4
+        },
+        "Zoroark Lycanroc": {
+            "wins": 4,
+            "ties": 3,
+            "losses": 2
+        },
+        "Vileplume": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 3
+        },
+        "Malamar Spread": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Zoroark Lycanroc Lucario": {
+            "wins": 6,
+            "ties": 3,
+            "losses": 4
+        },
+        "Ultra Malamar": {
+            "wins": 2,
+            "ties": 4,
+            "losses": 2
+        },
+        "Blacephalon Naganadel": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zapdos Jirachi": {
+            "wins": 3,
+            "ties": 3,
+            "losses": 7
+        },
+        "Sylveon": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Celebi Venusaur": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Lapras Quagsire": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Zoroark Lucario Weavile": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Spread": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 0
+        },
+        "Buzzwole Lucario": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        }
+    },
+    "Pikachu Zekrom": {
+        "wins": 33,
+        "losses": 38,
+        "ties": 10,
+        "Ultra Malamar": {
+            "wins": 4,
+            "ties": 0,
+            "losses": 4
+        },
+        "Pikachu Zekrom": {
+            "wins": 5,
+            "ties": 0,
+            "losses": 5
+        },
+        "Zapdos Jirachi": {
+            "wins": 3,
+            "ties": 1,
+            "losses": 7
+        },
+        "Spread": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 0
+        },
+        "Vileplume": {
+            "wins": 3,
+            "ties": 3,
+            "losses": 3
+        },
+        "Zoroark Lycanroc": {
+            "wins": 6,
+            "ties": 3,
+            "losses": 6
+        },
+        "Blacephalon Naganadel": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 3
+        },
+        "Zororark Garbodor": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zoroark Lycanroc Lucario": {
+            "wins": 3,
+            "ties": 1,
+            "losses": 4
+        },
+        "Buzzwole Lucario": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "bye": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 1
+        },
+        "Sylveon": {
+            "wins": 3,
+            "ties": 0,
+            "losses": 0
+        },
+        "Psychic Malamar": {
+            "wins": 0,
+            "ties": 2,
+            "losses": 1
+        },
+        "Lapras Quagsire": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zoroark Lucario Weavile": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        }
+    },
+    "Vileplume": {
+        "wins": 21,
+        "losses": 18,
+        "ties": 5,
+        "Zapdos Jirachi": {
+            "wins": 4,
+            "ties": 1,
+            "losses": 2
+        },
+        "Sylveon": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zoroark Lycanroc Lucario": {
+            "wins": 3,
+            "ties": 0,
+            "losses": 3
+        },
+        "Ultra Malamar": {
+            "wins": 3,
+            "ties": 0,
+            "losses": 2
+        },
+        "Pikachu Zekrom": {
+            "wins": 3,
+            "ties": 3,
+            "losses": 3
+        },
+        "Zoroark Lycanroc": {
+            "wins": 5,
+            "ties": 0,
+            "losses": 4
+        },
+        "Psychic Malamar": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 1
+        },
+        "Blacephalon Naganadel": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 1
+        },
+        "Zororark Garbodor": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "bye": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Spread": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        }
+    },
+    "Buzzwole Lucario": {
+        "wins": 5,
+        "losses": 1,
+        "ties": 1,
+        "Zoroark Lycanroc": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Zoroark Lycanroc Lucario": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 0
+        },
+        "Pikachu Zekrom": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Zapdos Jirachi": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Ultra Malamar": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Blacephalon Naganadel": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        }
+    },
+    "Sylveon": {
+        "wins": 11,
+        "losses": 7,
+        "ties": 0,
+        "Vileplume": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Zoroark Lycanroc": {
+            "wins": 4,
+            "ties": 0,
+            "losses": 0
+        },
+        "bye": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zapdos Jirachi": {
+            "wins": 3,
+            "ties": 0,
+            "losses": 2
+        },
+        "Ultra Malamar": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zoroark Lycanroc Lucario": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 0
+        },
+        "Pikachu Zekrom": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 3
+        }
+    },
+    "Spread": {
+        "wins": 3,
+        "losses": 7,
+        "ties": 2,
+        "Pikachu Zekrom": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 2
+        },
+        "Malamar Spread": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Zoroark Lycanroc": {
+            "wins": 1,
+            "ties": 1,
+            "losses": 1
+        },
+        "Zapdos Jirachi": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Ultra Malamar": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 2
+        },
+        "Blacephalon Naganadel": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Vileplume": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zoroark Lycanroc Lucario": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        }
+    },
+    "Malamar Spread": {
+        "wins": 1,
+        "losses": 2,
+        "ties": 3,
+        "Ultra Malamar": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Spread": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Zapdos Jirachi": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zoroark Lycanroc": {
+            "wins": 1,
+            "ties": 1,
+            "losses": 0
+        },
+        "Zoroark Lycanroc Lucario": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        }
+    },
+    "Celebi Venusaur": {
+        "wins": 2,
+        "losses": 3,
+        "ties": 1,
+        "Zoroark Lycanroc Lucario": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Zapdos Jirachi": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Ultra Malamar": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Blacephalon Naganadel": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 2
+        },
+        "Psychic Malamar": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        }
+    },
+    "Zoroark Lucario Weavile": {
+        "wins": 3,
+        "losses": 3,
+        "ties": 0,
+        "Zoroark Lycanroc Lucario": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 2
+        },
+        "Psychic Malamar": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Zapdos Jirachi": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Ultra Malamar": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Pikachu Zekrom": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        }
+    },
+    "Psychic Malamar": {
+        "wins": 5,
+        "losses": 4,
+        "ties": 3,
+        "Blacephalon Naganadel": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "bye": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Vileplume": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zoroark Lucario Weavile": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zapdos Jirachi": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Zoroark Lycanroc": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 0
+        },
+        "Pikachu Zekrom": {
+            "wins": 1,
+            "ties": 2,
+            "losses": 0
+        },
+        "Celebi Venusaur": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        }
+    },
+    "Blacephalon Naganadel": {
+        "wins": 15,
+        "losses": 7,
+        "ties": 5,
+        "Psychic Malamar": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Ultra Malamar": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 2
+        },
+        "Pikachu Zekrom": {
+            "wins": 3,
+            "ties": 0,
+            "losses": 2
+        },
+        "Zapdos Jirachi": {
+            "wins": 2,
+            "ties": 2,
+            "losses": 0
+        },
+        "Umbreon Guzzlord": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Zoroark Lycanroc Lucario": {
+            "wins": 3,
+            "ties": 1,
+            "losses": 0
+        },
+        "Vileplume": {
+            "wins": 1,
+            "ties": 1,
+            "losses": 0
+        },
+        "Celebi Venusaur": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 0
+        },
+        "Zoroark Lycanroc": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Spread": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Zororark Garbodor": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Lapras Quagsire": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Buzzwole Lucario": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        }
+    },
+    "Umbreon Guzzlord": {
+        "wins": 2,
+        "losses": 2,
+        "ties": 2,
+        "Zapdos Jirachi": {
+            "wins": 1,
+            "ties": 1,
+            "losses": 1
+        },
+        "Blacephalon Naganadel": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Zoroark Lycanroc": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 1
+        }
+    },
+    "Zororark Garbodor": {
+        "wins": 4,
+        "losses": 1,
+        "ties": 1,
+        "Pikachu Zekrom": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zoroark Lycanroc": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Zapdos Jirachi": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Vileplume": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Blacephalon Naganadel": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        }
+    },
+    "Lapras Quagsire": {
+        "wins": 2,
+        "losses": 2,
+        "ties": 2,
+        "Zapdos Jirachi": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 1
+        },
+        "Ultra Malamar": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Zoroark Lycanroc": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Pikachu Zekrom": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Blacephalon Naganadel": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        }
+    }
+}
