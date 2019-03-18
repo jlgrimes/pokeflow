@@ -2,8 +2,7 @@
 
 A radical new framework for how tournament results are managed.
 
-## Tournament Data
 
-Tournament data will be stored as follows:
+### Todo
 
-README will be updated soon...
+* Generates charts for blank tournaments?

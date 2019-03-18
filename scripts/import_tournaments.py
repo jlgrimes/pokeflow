@@ -2,7 +2,7 @@ import requests
 import os
 from bs4 import BeautifulSoup
 import json
-import pokeflow_vars
+from scripts import pokeflow_vars
 
 # Algorithm idea:
 # for each list:
@@ -225,9 +225,14 @@ deck_data = {
     "expanded": {}
 }
 
-def updateDeckData(data, tournament):
-    filename = tournament["year"] + "_" + tournament['format'] + ".json"
+def updateDeckData(data, tournament, name, year):
+    totalFilename = year + "_" + tournament['format'] + ".json"
+    totalFile = open("./json/decks/" + totalFilename, "w+")
+
+    filename = year + "_" + name + ".json"
     file = open("./json/decks/" + filename, "w+")
+
+    temp_deck_data = data
 
     # Updates ONE TOURNAMENT into the deck_data global
     if not deck_data[tournament['format']]:
@@ -253,9 +258,11 @@ def updateDeckData(data, tournament):
             # If an archetype isn't in the base struct add it in
             else:
                 deck_data[tournament['format']][deck] = data[deck]
+                temp_deck_data[tournament['format']][deck] = data[deck]
 
     # Override the file every time just to be safe!
-    file.write(json.dumps(data, indent=4))
+    file.write(json.dumps(temp_deck_data, indent=4))
+    totalFile.write(json.dumps(data, indent=4))
 
     print(filename, "dumped!")
 
@@ -271,7 +278,7 @@ def main():
                 t = Tournament(tournamentData)
                 t.fetchMatchups()
                 t.export(filename, t.players)
-                updateDeckData(t.deckMatchups, tournamentData)
+                updateDeckData(t.deckMatchups, tournamentData, tournamentName, year)
             
     print("done!")
 

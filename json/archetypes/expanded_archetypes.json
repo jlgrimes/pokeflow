@@ -7,6 +7,14 @@
 		"names": ["Buzzwole", "Garbodor"],
 		"type": "fighting"
 	},
+	"Celebi Venusaur": {
+		"names": ["Celebi & Venusaur GX"],
+		"type": "grass"
+	},
+	"Drampa Garbodor": {
+		"names": ["Drampa GX", "Garbodor"],
+		"type": "normal"
+	},
 	"Egg Drop": {
 		"names": ["Alolan Exeggutor"],
 		"type": "dragon"
@@ -35,9 +43,13 @@
 		"names": ["Joltik", "Pumpkaboo"],
 		"type": "psychic"
 	},
-    "Pikachu Zekrom": {
+  "Pikachu Zekrom": {
 		"names": ["Pikachu & Zekrom GX"],
 		"type": "electric"
+	},
+	"Seismitoad Garbodor": {
+		"names": ["Sesmitoad EX", "Garbodor"],
+		"type": "water"
 	},
 	"Shock Lock": {
 		"names": ["Raichu", "Stoutland"],

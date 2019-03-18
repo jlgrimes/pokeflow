@@ -1,0 +1,203 @@
+<b><span style="font-size: large;"><u>Day 2 Meta Spread</u></span></b><br />
+    <br />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script type="text/javascript">
+    var decks =
+    {
+    "Trevenant": {
+        "Trevenant": 0.5,
+        "bye": 0.7,
+        "Vespiquen Flareon": 1.0,
+        "Shock Lock": 0.5,
+        "Fighting Guys": 0.75,
+        "Gallade": 1.0,
+        "Night March": 0.5714285714285714,
+        "Hitmonchan Wobbuffet": 1.0,
+        "Mew Box": 1.0,
+        "Zoroark Garbodor": 0.35714285714285715,
+        "Archie's Blastoise": 0.3333333333333333,
+        "Egg Drop": 1.0,
+        "Buzzwole Garbodor": 1.0
+    },
+    "Mew Box": {
+        "Archie's Blastoise": 0.5,
+        "Trevenant": 0.0,
+        "bye": 1.0,
+        "Vespiquen Flareon": 1.0,
+        "Hitmonchan Wobbuffet": 1.0,
+        "Zoroark Garbodor": 0.0
+    },
+    "Archie's Blastoise": {
+        "Mew Box": 0.5,
+        "Night March": 0.5,
+        "Trevenant": 0.6666666666666666
+    },
+    "Night March": {
+        "Hitmonchan Wobbuffet": 0.3333333333333333,
+        "Zoroark Golisopod": 1.0,
+        "Zoroark Garbodor": 1.0,
+        "Trevenant": 0.42857142857142855,
+        "Archie's Blastoise": 0.5,
+        "Fighting Guys": 0.5,
+        "Vespiquen Flareon": 0.0,
+        "bye": 0.0,
+        "Pikachu Zekrom": 1.0,
+        "Shock Lock": 0.0,
+        "Night March": 0.5
+    },
+    "Hitmonchan Wobbuffet": {
+        "Night March": 0.6666666666666666,
+        "Buzzwole Garbodor": 1.0,
+        "Trevenant": 0.0,
+        "Zoroark Garbodor": 0.25,
+        "Mew Box": 0.0,
+        "Egg Drop": 1.0
+    },
+    "Buzzwole Garbodor": {
+        "Hitmonchan Wobbuffet": 0.0,
+        "Fighting Guys": 0.5,
+        "Egg Drop": 0.0,
+        "Trevenant": 0.0,
+        "Pikachu Zekrom": 1.0
+    },
+    "Fighting Guys": {
+        "Egg Drop": 0.5,
+        "Trevenant": 0.25,
+        "Night March": 0.5,
+        "Buzzwole Garbodor": 0.5,
+        "Fighting Guys": 0.5,
+        "Zoroark Garbodor": 0.5,
+        "Gallade": 1.0
+    },
+    "Egg Drop": {
+        "Fighting Guys": 0.5,
+        "Zoroark Garbodor": 0.0,
+        "Buzzwole Garbodor": 1.0,
+        "Trevenant": 0.0,
+        "Hitmonchan Wobbuffet": 0.0
+    },
+    "Zoroark Garbodor": {
+        "bye": 0.5,
+        "Night March": 0.0,
+        "Pikachu Zekrom": 1.0,
+        "Shock Lock": 1.0,
+        "Egg Drop": 1.0,
+        "Trevenant": 0.6428571428571429,
+        "Hitmonchan Wobbuffet": 0.75,
+        "Fighting Guys": 0.5,
+        "Zoroark Golisopod": 1.0,
+        "Mew Box": 1.0
+    },
+    "Vespiquen Flareon": {
+        "Trevenant": 0.0,
+        "Night March": 1.0,
+        "Zoroark Golisopod": 1.0,
+        "Mew Box": 0.0,
+        "Shock Lock": 0.0
+    },
+    "Zoroark Golisopod": {
+        "Night March": 0.0,
+        "Pikachu Zekrom": 1.0,
+        "Vespiquen Flareon": 0.0,
+        "bye": 0.0,
+        "Zoroark Garbodor": 0.0
+    },
+    "Shock Lock": {
+        "Trevenant": 0.5,
+        "Zoroark Garbodor": 0.0,
+        "Night March": 1.0,
+        "Vespiquen Flareon": 1.0
+    },
+    "Gallade": {
+        "Trevenant": 0.0,
+        "bye": 0.0,
+        "Pikachu Zekrom": 1.0,
+        "Fighting Guys": 0.0
+    },
+    "Pikachu Zekrom": {
+        "Zoroark Garbodor": 0.0,
+        "Zoroark Golisopod": 0.0,
+        "Night March": 0.0,
+        "Gallade": 0.0,
+        "Buzzwole Garbodor": 0.0
+    }
+}
+    var data = {"labels": ["Trevenant", "Mew Box", "Archie's Blastoise", "Night March", "Hitmonchan Wobbuffet", "Buzzwole Garbodor", "Fighting Guys", "Egg Drop", "Zoroark Garbodor", "Vespiquen Flareon", "Zoroark Golisopod", "Shock Lock", "Gallade", "Pikachu Zekrom"], "datasets": [{"label": "", "data": [56, 6, 6, 22, 10, 5, 10, 5, 17, 5, 5, 5, 5, 5], "backgroundColor": ["rgba(103,58,183,.5)", "rgba(103,58,183,.5)", "rgba(3,169,244,.5)", "rgba(103,58,183,.5)", "rgba(255,87,34,.5)", "rgba(255,87,34,.5)", "rgba(255,87,34,.5)", "rgba(130,119,23,.5)", "rgba(66,66,66,.5)", "rgba(76,175,80,.5)", "rgba(66,66,66,.5)", "rgba(255,193,7,.5)", "rgba(255,87,34,.5)", "rgba(255,193,7,.5)"]}]}
+    $(document).ready( 
+        function () {
+            var ctx = $("#deckDistribution");
+            var myNewChart = new Chart(ctx,{
+                    type: 'pie',
+                    data: data
+                });  
+                    
+            var ctx2 = $("#detailedMatchups");
+            var detailed = new Chart(ctx2, {
+                type: 'line',
+                data: 
+    {"labels": [56, 6, 6, 22, 10, 5, 10, 5, 17, 5, 5, 5, 5, 5], "datasets": []}
+                        ,
+                options: {
+                    scales: {
+                        xAxes: [{
+                            ticks: {
+                                maxTicksLimit: 100,
+                                autoSkip: false
+                            }
+                        }]
+                    }
+                }
+                })
+
+                $("#deckDistribution").click( 
+                    function(evt){
+                        var activeElement = myNewChart.getElementsAtEvent(evt);
+                        var clickedData = data.datasets[activeElement[0]._datasetIndex].data[activeElement[0]._index];
+                        var clickedLabel = data.labels[activeElement[0]._index];
+                        var clickedColor = data.datasets[activeElement[0]._datasetIndex].backgroundColor[activeElement[0]._index];
+                        //alert(clickedLabel);
+
+                        var repeat = false;
+                        var i = 0;
+                            
+                        for(var d = 0; d < detailed.data.datasets.length; d++) {
+                            if (detailed.data.datasets[d]["label"] == clickedLabel){
+                                repeat = true;
+                                i = d;
+                            }
+                        }
+
+                        if (repeat) {
+                            detailed.data.datasets.splice(i, 1);
+                            detailed.update();
+                        }
+                        else {
+                            var temp_dataset = {};
+                            temp_dataset["data"] = [];
+                            temp_dataset["label"] = clickedLabel;
+                            temp_dataset["backgroundColor"] = clickedColor;
+
+                            for (var d in decks[clickedLabel]) {
+                                // iterate through labels
+                                for (var i = 0; i < detailed.data.labels.length; i++) {
+                                    temp_dataset["data"].push(decks[clickedLabel][detailed.data.labels[i]])
+                                }
+                            }
+
+                            detailed.data.datasets.push(temp_dataset)
+                            detailed.update();
+                        }
+
+                    }
+                );    
+            }
+        );
+    </script>
+    <div class="chart-container" style="height:500; width:500">
+        <canvas id="deckDistribution"></canvas>
+    </div>
+    <div class="chart-container" style="height:500; width:1000">
+        <canvas id="detailedMatchups"></canvas>
+    </div>
+    

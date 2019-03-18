@@ -1,7 +1,6 @@
-# NOT WORKING
-
+import os
 import json
-import pokeflow_vars
+from scripts import pokeflow_vars
 
 # Algorithm idea:
 # for each list:
@@ -9,57 +8,67 @@ import pokeflow_vars
 #       if card matches archetype:
 #           return archetype name
 
-def tidyUpMatchups(self):
+tidyMatchups = {}
+tidySpecificMatchupsBase = {}
+specificTidyMatchups = {}
+
+def count(deck):
+    return deck["wins"] + deck["losses"] + deck["ties"]
+
+def tidyUpMatchups(tournament, decks):
     print("Tidying matchups...")
 
+    # Get archetypes
+    archetypes = {}
+    if tournament["format"] == "standard":
+        archetypes = pokeflow_vars.standardArchetypes
+    if tournament["format"] == "expanded":
+        archetypes = pokeflow_vars.expandedArchetypes
+
     # Initialize the data structure, per chart.js's standards :)
-    self.tidyMatchups = {}
-    self.tidyMatchups["labels"] = []
-    self.tidyMatchups["datasets"] = []
-    self.tidyMatchups["datasets"].append({})
-    self.tidyMatchups["datasets"][0]["label"] = self.title
-    self.tidyMatchups["datasets"][0]["data"] = []
-    self.tidyMatchups["datasets"][0]["backgroundColor"] = []
+    tidyMatchups["labels"] = []
+    tidyMatchups["datasets"] = []
+    tidyMatchups["datasets"].append({})
+    tidyMatchups["datasets"][0]["label"] = ""
+    tidyMatchups["datasets"][0]["data"] = []
+    tidyMatchups["datasets"][0]["backgroundColor"] = []
 
     # Iterate through all decks
     # Here we're adding all of the deck counts to the pie chart json
-    for deck in self.deckCounts:
+    for deckName, deck in decks.items():
         # Add deck to pie chart label
-        self.tidyMatchups["labels"].append(deck[0])
+        tidyMatchups["labels"].append(deckName)
 
-        # Add each deck's card count to the data
-        self.tidyMatchups["datasets"][0]["data"].append(deck[1])
+        # Add each deck's count to the data
+        tidyMatchups["datasets"][0]["data"].append(count(deck))
 
         # Get the color for each deck and add it to backgroundColor array
-        self.tidyMatchups["datasets"][0]["backgroundColor"].append(pokeflow.typeColors[self.archetypes[deck[0]]["type"]])
+        tidyMatchups["datasets"][0]["backgroundColor"].append(pokeflow_vars.typeColors[archetypes[deckName]["type"]])
 
-def tidyUpSpecificMatchups(self):
+def tidyUpSpecificMatchups(decks):
     print("Tidying up specific matchups...")
 
     # Exports the data template for the expanded graph
-    self.tidySpecificMatchupsBase = {}
-    self.tidySpecificMatchupsBase["labels"] = []
-    self.tidySpecificMatchupsBase["datasets"] = []
+    tidySpecificMatchupsBase["labels"] = []
+    tidySpecificMatchupsBase["datasets"] = []
 
-    for deck in self.deckCounts:
-        self.tidySpecificMatchupsBase["labels"].append(deck[0])
+    for deckName, deck in decks.items():
+        sum = deck["wins"] + deck["ties"] + deck["losses"]
+        tidySpecificMatchupsBase["labels"].append(sum)
 
     # now we work on the specifics
-    self.specificTidyMatchups = {}
-    self.specificTidyMatchups = {}
-    self.specificTidyMatchups
-    for deck in self.deckMatchups:
-        self.specificTidyMatchups[deck] = {}
+    for deck in decks:
+        specificTidyMatchups[deck] = {}
 
-        for oppDeck in self.deckMatchups[deck]:
+        for oppDeck in decks[deck]:
             if oppDeck != "wins" and oppDeck != "ties" and oppDeck != "losses":
-                stats = self.deckMatchups[deck][oppDeck]
+                stats = decks[deck][oppDeck]
                 winRatio = (stats["wins"] + 0.5 * stats["ties"]) / (stats["wins"] + stats["ties"] + stats["losses"])
-                self.specificTidyMatchups[deck][oppDeck] = winRatio
+                specificTidyMatchups[deck][oppDeck] = winRatio
 
-def mergeChartHtml(self):
+def mergeChartHtml(tournament, year, filename):
     print("Merging into index.html...")
-    file = open("index.html", "+w")
+    file = open("./charts/" + filename, "+w")
     file.write(
     """<b><span style="font-size: large;"><u>Day 2 Meta Spread</u></span></b><br />
     <br />
@@ -68,10 +77,10 @@ def mergeChartHtml(self):
     <script type="text/javascript">
     var decks =
     """ + 
-    json.dumps(self.specificTidyMatchups, indent=4) +
+    json.dumps(specificTidyMatchups, indent=4) +
     """
     var data = """ +
-    json.dumps(self.tidyMatchups) +
+    json.dumps(tidyMatchups) +
     """
     $(document).ready( 
         function () {
@@ -86,7 +95,7 @@ def mergeChartHtml(self):
                 type: 'line',
                 data: 
     """ +
-    json.dumps(self.tidySpecificMatchupsBase) +
+    json.dumps(tidySpecificMatchupsBase) +
     """
                         ,
                 options: {
@@ -156,14 +165,19 @@ def mergeChartHtml(self):
 
 def main():
     for yearName, year in pokeflow_vars.tournaments.items():
-        for tournament in year.items():
-            deckFilename = yearName + "_" + tournament.format + ".json"
+        for tournamentName, tournamentData in year.items():
+            filename = yearName + "_" + tournamentName + ".html"
 
-            with open("./json/tournaments/" + deckFilename, "r") as tournamentIn:
-                tournament = json.load(tournamentIn)
-            
+            if os.path.isfile("./charts/" + filename):
+                print(filename, "already exists! Skipping...")
+            else:
+                deckFilename = yearName + "_" + tournamentData["format"] + ".json"
+                with open("./json/decks/" + deckFilename, "r") as tournamentDecksIn:
+                    tournamentDecks = json.load(tournamentDecksIn)
 
-    mergeChartHtml()
+                tidyUpMatchups(tournamentData, tournamentDecks)
+                tidyUpSpecificMatchups(tournamentDecks)
+                mergeChartHtml(tournamentName, yearName, filename)
     print("done!")
 
 if __name__ == "__main__":

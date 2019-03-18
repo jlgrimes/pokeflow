@@ -1,0 +1,517 @@
+{
+    "Trevenant": {
+        "wins": 23,
+        "losses": 14,
+        "ties": 19,
+        "Trevenant": {
+            "wins": 6,
+            "ties": 10,
+            "losses": 6
+        },
+        "bye": {
+            "wins": 3,
+            "ties": 1,
+            "losses": 1
+        },
+        "Vespiquen Flareon": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Shock Lock": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 1
+        },
+        "Fighting Guys": {
+            "wins": 1,
+            "ties": 1,
+            "losses": 0
+        },
+        "Gallade": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 0
+        },
+        "Night March": {
+            "wins": 3,
+            "ties": 2,
+            "losses": 2
+        },
+        "Hitmonchan Wobbuffet": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 0
+        },
+        "Mew Box": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Zoroark Garbodor": {
+            "wins": 0,
+            "ties": 5,
+            "losses": 2
+        },
+        "Archie's Blastoise": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 2
+        },
+        "Egg Drop": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Buzzwole Garbodor": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        }
+    },
+    "Mew Box": {
+        "wins": 3,
+        "losses": 2,
+        "ties": 1,
+        "Archie's Blastoise": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Trevenant": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "bye": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Vespiquen Flareon": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Hitmonchan Wobbuffet": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Zoroark Garbodor": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        }
+    },
+    "Archie's Blastoise": {
+        "wins": 3,
+        "losses": 2,
+        "ties": 1,
+        "Mew Box": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Night March": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 1
+        },
+        "Trevenant": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 1
+        }
+    },
+    "Night March": {
+        "wins": 9,
+        "losses": 11,
+        "ties": 2,
+        "Hitmonchan Wobbuffet": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 2
+        },
+        "Zoroark Golisopod": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Zoroark Garbodor": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Trevenant": {
+            "wins": 2,
+            "ties": 2,
+            "losses": 3
+        },
+        "Archie's Blastoise": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 1
+        },
+        "Fighting Guys": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 1
+        },
+        "Vespiquen Flareon": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "bye": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Pikachu Zekrom": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Shock Lock": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Night March": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 1
+        }
+    },
+    "Hitmonchan Wobbuffet": {
+        "wins": 4,
+        "losses": 5,
+        "ties": 1,
+        "Night March": {
+            "wins": 2,
+            "ties": 0,
+            "losses": 1
+        },
+        "Buzzwole Garbodor": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Trevenant": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 2
+        },
+        "Zoroark Garbodor": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 1
+        },
+        "Mew Box": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Egg Drop": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        }
+    },
+    "Buzzwole Garbodor": {
+        "wins": 1,
+        "losses": 3,
+        "ties": 1,
+        "Hitmonchan Wobbuffet": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Fighting Guys": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Egg Drop": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Trevenant": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Pikachu Zekrom": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        }
+    },
+    "Fighting Guys": {
+        "wins": 2,
+        "losses": 2,
+        "ties": 6,
+        "Egg Drop": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Trevenant": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 1
+        },
+        "Night March": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 1
+        },
+        "Buzzwole Garbodor": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Fighting Guys": {
+            "wins": 0,
+            "ties": 2,
+            "losses": 0
+        },
+        "Zoroark Garbodor": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Gallade": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        }
+    },
+    "Egg Drop": {
+        "wins": 1,
+        "losses": 3,
+        "ties": 1,
+        "Fighting Guys": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Zoroark Garbodor": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Buzzwole Garbodor": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Trevenant": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Hitmonchan Wobbuffet": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        }
+    },
+    "Zoroark Garbodor": {
+        "wins": 8,
+        "losses": 1,
+        "ties": 8,
+        "bye": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Night March": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Pikachu Zekrom": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Shock Lock": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Egg Drop": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Trevenant": {
+            "wins": 2,
+            "ties": 5,
+            "losses": 0
+        },
+        "Hitmonchan Wobbuffet": {
+            "wins": 1,
+            "ties": 1,
+            "losses": 0
+        },
+        "Fighting Guys": {
+            "wins": 0,
+            "ties": 1,
+            "losses": 0
+        },
+        "Zoroark Golisopod": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Mew Box": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        }
+    },
+    "Vespiquen Flareon": {
+        "wins": 2,
+        "losses": 3,
+        "ties": 0,
+        "Trevenant": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Night March": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Zoroark Golisopod": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Mew Box": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Shock Lock": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        }
+    },
+    "Zoroark Golisopod": {
+        "wins": 1,
+        "losses": 4,
+        "ties": 0,
+        "Night March": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Pikachu Zekrom": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Vespiquen Flareon": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "bye": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zoroark Garbodor": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        }
+    },
+    "Shock Lock": {
+        "wins": 3,
+        "losses": 2,
+        "ties": 0,
+        "Trevenant": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zoroark Garbodor": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Night March": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Vespiquen Flareon": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        }
+    },
+    "Gallade": {
+        "wins": 1,
+        "losses": 4,
+        "ties": 0,
+        "Trevenant": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 2
+        },
+        "bye": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Pikachu Zekrom": {
+            "wins": 1,
+            "ties": 0,
+            "losses": 0
+        },
+        "Fighting Guys": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        }
+    },
+    "Pikachu Zekrom": {
+        "wins": 0,
+        "losses": 5,
+        "ties": 0,
+        "Zoroark Garbodor": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Zoroark Golisopod": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Night March": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Gallade": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        },
+        "Buzzwole Garbodor": {
+            "wins": 0,
+            "ties": 0,
+            "losses": 1
+        }
+    }
+}
