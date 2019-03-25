@@ -3,6 +3,10 @@
 		"names": ["Magikarp & Wailord GX"],
 		"type": "water"
 	},
+	"Buzzwole Carbink": {
+		"names": ["Buzzwole GX", "Carbink"],
+		"type": "fighting"
+	},
 	"Buzzwole Garbodor": {
 		"names": ["Buzzwole", "Garbodor"],
 		"type": "fighting"
@@ -35,6 +39,10 @@
 		"names": ["Mega Gardevoir"],
 		"type": "psychic"
 	},
+	"Mismagius Garbodor": {
+		"names": ["Mismagius", "Garbodor"],
+		"type": "psychic"
+	},
 	"Mew Box": {
 		"names": ["Mew", "Sudowoodo"],
 		"type": "psychic"
@@ -47,8 +55,12 @@
 		"names": ["Pikachu & Zekrom GX"],
 		"type": "electric"
 	},
+	"Rayquaza": {
+		"names": ["Rayquaza GX"],
+		"type": "electric"
+	},
 	"Seismitoad Garbodor": {
-		"names": ["Sesmitoad EX", "Garbodor"],
+		"names": ["Seismitoad EX", "Garbodor"],
 		"type": "water"
 	},
 	"Shock Lock": {
@@ -72,7 +84,7 @@
 		"type": "electric"
 	},
 	"Zoroark Control": {
-		"names": ["Zoroark GX", "Seismitoad EX"],
+		"names": ["Zoroark GX", "Oranguru"],
 		"type": "dark"
 	},
 	"Zoroark Garbodor": {

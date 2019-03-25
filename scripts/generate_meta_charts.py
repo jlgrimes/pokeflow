@@ -1,6 +1,6 @@
 import os
 import json
-from scripts import pokeflow_vars
+import pokeflow_vars
 
 # Algorithm idea:
 # for each list:
@@ -13,7 +13,7 @@ tidySpecificMatchupsBase = {}
 specificTidyMatchups = {}
 
 def count(deck):
-    return deck["wins"] + deck["losses"] + deck["ties"]
+    return deck["count"]
 
 def tidyUpMatchups(tournament, decks):
     print("Tidying matchups...")
@@ -53,15 +53,14 @@ def tidyUpSpecificMatchups(decks):
     tidySpecificMatchupsBase["datasets"] = []
 
     for deckName, deck in decks.items():
-        sum = deck["wins"] + deck["ties"] + deck["losses"]
-        tidySpecificMatchupsBase["labels"].append(sum)
+        tidySpecificMatchupsBase["labels"].append(deckName)
 
     # now we work on the specifics
     for deck in decks:
         specificTidyMatchups[deck] = {}
 
         for oppDeck in decks[deck]:
-            if oppDeck != "wins" and oppDeck != "ties" and oppDeck != "losses":
+            if oppDeck != "wins" and oppDeck != "ties" and oppDeck != "losses" and oppDeck != "count":
                 stats = decks[deck][oppDeck]
                 winRatio = (stats["wins"] + 0.5 * stats["ties"]) / (stats["wins"] + stats["ties"] + stats["losses"])
                 specificTidyMatchups[deck][oppDeck] = winRatio

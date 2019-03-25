@@ -1,8 +1,7 @@
 import requests
-import os
 from bs4 import BeautifulSoup
 import json
-import pokeflow_vars
+from scripts import pokeflow_vars
 
 # Algorithm idea:
 # for each list:
@@ -20,9 +19,9 @@ class Tournament:
         self.pairingsUrl = tournamentObj["pairingsUrl"]
         self.dayTwoRounds = tournamentObj["dayTwoRounds"]
         
-        if tournamentObj['format'] == "standard":
+        if tournamentObj["format"] == "standard":
             self.archetypes = pokeflow_vars.standardArchetypes
-        if tournamentObj['format'] == "expanded":
+        if tournamentObj["format"] == "expanded":
             self.archetypes = pokeflow_vars.expandedArchetypes
 
         # A dictionary of the form
@@ -80,7 +79,7 @@ class Tournament:
             # Create a list of type List
             # List accepts HTML and parses it for useful information about the player/deck
             l = List(listHtml, self.archetypes)
-            self.players[formatName(l.player)] = l.__dict__
+            self.players[formatName(l.player)] = l
             
             # Add whatever the person's playing to the deckCounts variable
             if l.archetype not in self.deckCounts:
@@ -130,21 +129,20 @@ class Tournament:
                         else:
                             self.updateDeckMatchup(name, opponentName, "ties")
 
-    def updateDeckCounts(self):
-        for deckName, deckCount in self.deckCounts:
-            if deckName not in self.deckMatchups:
-                self.deckMatchups[deckName] = {}
-            self.deckMatchups[deckName]["count"] = deckCount
-                
+        # Renders an output for chart.js of the matchup data
+        self.tidyUpMatchups()
+
+        # Renders an output for chart.js of the matchup vs matchup data
+        self.tidyUpSpecificMatchups()
         
     def updateDeckMatchup(self, name, opponentName, result):
         if formatName(name) in self.players: # if players haven't DROPPED on day two
             # Get the deck that player is playing
-            deck = self.players[formatName(name)]["archetype"]
+            deck = self.players[formatName(name)].archetype
 
             if opponentName != "bye" and formatName(opponentName) in self.players: # omits byes and invvalid players
                 # Sets opponentDeck to whatever the opponent is playing
-                opponentDeck = self.players[formatName(opponentName)]["archetype"]
+                opponentDeck = self.players[formatName(opponentName)].archetype
             else:
                 opponentDeck = "bye"
 
@@ -170,13 +168,168 @@ class Tournament:
             # Example: if Zapdos plays against Maalamar and wins, we add one to both Zapdos' wins and Malamar's losses.
             self.deckMatchups[deck][opponentDeck][result] += 1
 
+    def tidyUpMatchups(self):
+        print("Tidying matchups...")
+
+        # Initialize the data structure, per chart.js's standards :)
+        self.tidyMatchups = {}
+        self.tidyMatchups["labels"] = []
+        self.tidyMatchups["datasets"] = []
+        self.tidyMatchups["datasets"].append({})
+        self.tidyMatchups["datasets"][0]["label"] = self.title
+        self.tidyMatchups["datasets"][0]["data"] = []
+        self.tidyMatchups["datasets"][0]["backgroundColor"] = []
+
+        # Iterate through all decks
+        # Here we're adding all of the deck counts to the pie chart json
+        for deck in self.deckCounts:
+            # Add deck to pie chart label
+            self.tidyMatchups["labels"].append(deck[0])
+
+            # Add each deck's card count to the data
+            self.tidyMatchups["datasets"][0]["data"].append(deck[1])
+
+            # Get the color for each deck and add it to backgroundColor array
+            self.tidyMatchups["datasets"][0]["backgroundColor"].append(pokeflow_vars.typeColors[self.archetypes[deck[0]]["type"]])
+            # self.tidyMatchups["datasets"][0].data.append(str(deckStats["wins"]) + "-" + str(deckStats["ties"]) + "-" + str(deckStats["losses"]))
+        # self.export(self.title + ".json", self.tidyMatchups)
+
+    def tidyUpSpecificMatchups(self):
+        print("Tidying up specific matchups...")
+
+        # Exports the data template for the expanded graph
+        self.tidySpecificMatchupsBase = {}
+        self.tidySpecificMatchupsBase["labels"] = []
+        self.tidySpecificMatchupsBase["datasets"] = []
+        #self.tidySpecificMatchupsBase["datasets"].append({})
+        #self.tidySpecificMatchupsBase["datasets"][0]["data"] = []
+
+        for deck in self.deckCounts:
+            self.tidySpecificMatchupsBase["labels"].append(deck[0])
+        # self.export(self.title + " labels line chart.json", self.tidySpecificMatchupsBase)
+
+        # now we work on the specifics
+        self.specificTidyMatchups = {}
+        self.specificTidyMatchups = {}
+        self.specificTidyMatchups
+        for deck in self.deckMatchups:
+            self.specificTidyMatchups[deck] = {}
+
+            for oppDeck in self.deckMatchups[deck]:
+                if oppDeck != "wins" and oppDeck != "ties" and oppDeck != "losses":
+                    stats = self.deckMatchups[deck][oppDeck]
+                    winRatio = (stats["wins"] + 0.5 * stats["ties"]) / (stats["wins"] + stats["ties"] + stats["losses"])
+                    self.specificTidyMatchups[deck][oppDeck] = winRatio
+        # self.export(self.title + " matchups line chart.json", self.specificTidyMatchups)
+
+
     def destruct(self):
         del self.soup
 
     def export(self, filename, data):
         print("Exporting " + filename + "...")
-        file = open("./json/tournaments/" + filename, "w")
+        file = open(filename, "+w")
         file.write(json.dumps(data, indent=4))
+
+    def mergeChartHtml(self):
+        print("Merging into index.html...")
+        file = open("index.html", "+w")
+        file.write("""
+        <b><span style="font-size: large;"><u>Day 2 Meta Spread</u></span></b><br />
+        <br />
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.2.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+        <script type="text/javascript">
+        var decks =
+        """ + 
+        json.dumps(self.specificTidyMatchups, indent=4) +
+        """
+        var data =""" +
+        json.dumps(self.tidyMatchups) +
+        """
+        $(document).ready( 
+            function () {
+                var ctx = $("#deckDistribution");
+                var myNewChart = new Chart(ctx,{
+                        type: 'pie',
+                        data: data
+                    });  
+                    
+                var ctx2 = $("#detailedMatchups");
+                var detailed = new Chart(ctx2, {
+                    type: 'line',
+                    data: 
+        """ +
+        json.dumps(self.tidySpecificMatchupsBase) +
+        """
+                            ,
+                    options: {
+                        scales: {
+                            xAxes: [{
+                                ticks: {
+                                    maxTicksLimit: 100,
+                                    autoSkip: false
+                                }
+                            }]
+                        }
+                    }
+                    })
+
+                    $("#deckDistribution").click( 
+                        function(evt){
+                            var activeElement = myNewChart.getElementsAtEvent(evt);
+                            var clickedData = data.datasets[activeElement[0]._datasetIndex].data[activeElement[0]._index];
+                            var clickedLabel = data.labels[activeElement[0]._index];
+                            var clickedColor = data.datasets[activeElement[0]._datasetIndex].backgroundColor[activeElement[0]._index];
+                            //alert(clickedLabel);
+
+                            var repeat = false;
+                            var i = 0;
+                            
+                            for(var d = 0; d < detailed.data.datasets.length; d++) {
+                                if (detailed.data.datasets[d]["label"] == clickedLabel){
+                                    repeat = true;
+                                    i = d;
+                                }
+                            }
+
+                            if (repeat) {
+                                detailed.data.datasets.splice(i, 1);
+                                detailed.update();
+                            }
+                            else {
+                                var temp_dataset = {};
+                                temp_dataset["data"] = [];
+                                temp_dataset["label"] = clickedLabel;
+                                temp_dataset["backgroundColor"] = clickedColor;
+
+                                for (var d in decks[clickedLabel]) {
+                                    // iterate through labels
+                                    for (var i = 0; i < detailed.data.labels.length; i++) {
+                                        temp_dataset["data"].push(decks[clickedLabel][detailed.data.labels[i]])
+                                    }
+                                }
+
+                                detailed.data.datasets.push(temp_dataset)
+                                detailed.update();
+                            }
+                            
+                            //detailed.data.labels.push("four");
+                            //detailed.data.datasets[0]["data"].push(3);
+                            //detailed.update();
+                        }
+                    );    
+                }
+            );
+        </script>
+        <div class="chart-container" style="height:500; width:500">
+            <canvas id="deckDistribution"></canvas>
+        </div>
+        <div class="chart-container" style="height:500; width:1000">
+            <canvas id="detailedMatchups"></canvas>
+        </div>
+        """
+        )
 
 class List:
     def __init__(self, listHtml, archetypes):
@@ -187,7 +340,6 @@ class List:
         self.getStanding()
         self.getDeck()
         self.getArchetype()
-        self.destruct()
 
     def getPlayer(self):
         self.player = self.listHtml.findAll("h4")[0].decode_contents().split(" <span")[0]
@@ -196,18 +348,22 @@ class List:
         self.standing = self.listHtml.findAll("span", {"class": "standing"})[0].getText().split("/")[0]
 
     def getDeck(self):
-        self.pokemon = {}
-        self.trainers = {}
-        self.energies = {}
+        self.pokemon = []
+        self.trainers = []
+        self.stadiums = []
+        self.energies = []
 
         for pokemon in self.listHtml.findAll("li", {"class": "pokemon"}):
-            self.pokemon[pokemon['data-cardname']] = int(pokemon['data-quantity'])
+            self.pokemon.append(pokemon['data-cardname'])
 
         for trainer in self.listHtml.findAll("li", {"class": "trainer"}):
-            self.trainers[trainer['data-cardname']] = int(trainer['data-quantity'])
+            self.trainers.append(trainer['data-cardname'])
+
+        for stadium in self.listHtml.findAll("li", {"class": "stadium"}):
+            self.stadiums.append(stadium['data-cardname'])
 
         for energy in self.listHtml.findAll("li", {"class": "energy"}):
-            self.energies[energy['data-cardname']] = int(energy['data-quantity'])
+            self.energies.append(energy['data-cardname'])
 
     def getArchetype(self):
         self.archetype = "none"
@@ -222,75 +378,10 @@ class List:
                 self.archetype = archetypeName
                 break
 
-        if self.archetype == "none":
-            raise Exception("Deck not found for:", self.pokemon)
-
-    def destruct(self):
-        # Clean up a little ;)
-        del self.listHtml
-        del self.archetypes
-
-deck_data = {
-    "standard": {},
-    "expanded": {}
-}
-
-def updateDeckData(data, tournament, name, year):
-    totalFilename = year + "_" + tournament['format'] + ".json"
-    totalFile = open("./json/decks/" + totalFilename, "w+")
-
-    filename = year + "_" + name + ".json"
-    file = open("./json/decks/" + filename, "w+")
-
-    temp_deck_data = data
-
-    # Updates ONE TOURNAMENT into the deck_data global
-    if not deck_data[tournament['format']]:
-        deck_data[tournament['format']] = data
-    else:
-        for deck in data:
-            if deck in deck_data[tournament['format']]:
-                # Check specific matchups
-                for subDeck in data[deck]:
-                    # If sub matchup is already in there
-                    if subDeck in deck_data[tournament['format']][deck]:
-                        # Update specific deck matchups
-                        deck_data[tournament['format']][deck][subDeck]['losses'] += data[deck][subDeck]['losses']
-                        deck_data[tournament['format']][deck][subDeck]['ties'] += data[deck][subDeck]['ties']
-                        deck_data[tournament['format']][deck][subDeck]['wins'] += data[deck][subDeck]['wins']
-
-                # Update the sum deck matchups
-                deck_data[tournament['format']][deck]['losses'] += data[deck]['losses']
-                deck_data[tournament['format']][deck]['ties'] += data[deck]['ties']
-                deck_data[tournament['format']][deck]['wins'] += data[deck]['wins']
-
-
-            # If an archetype isn't in the base struct add it in
-            else:
-                deck_data[tournament['format']][deck] = data[deck]
-                temp_deck_data[tournament['format']][deck] = data[deck]
-
-    # Override the file every time just to be safe!
-    file.write(json.dumps(temp_deck_data, indent=4))
-    totalFile.write(json.dumps(data, indent=4))
-
-    print(filename, "dumped!")
-
 def main():
-    for year, tournamentsInYear in pokeflow_vars.tournaments.items():
-        for tournamentName, tournamentData in tournamentsInYear.items():
-            filename = year + "_" + tournamentName + ".json"
-
-            # If tournament already exists, we skip it. Else, read in the tournament.
-            if os.path.isfile("./json/tournaments/" + filename):
-                print(filename, "already exists! Skipping...")
-            else:
-                t = Tournament(tournamentData)
-                t.fetchMatchups()
-                t.updateDeckCounts()
-                t.export(filename, t.players)
-                updateDeckData(t.deckMatchups, tournamentData, tournamentName, year)
-            
+    t = Tournament(pokeflow_vars.tournaments["2019"]["Greensboro"])
+    t.fetchMatchups()
+    t.mergeChartHtml()
     print("done!")
 
 if __name__ == "__main__":
