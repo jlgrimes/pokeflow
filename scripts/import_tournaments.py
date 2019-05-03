@@ -11,7 +11,13 @@ import pokeflow_vars
 #           return archetype name
 
 def formatName(name):
-    n = name.split(" ")[0] + " " + name.split(" ")[1][0]
+    n = name.split(" ")[0] + " "
+    
+    # Exception for double space..?
+    if name.split(" ")[1] == "":
+        n += name.split(" ")[2][0]
+    else:
+        n += name.split(" ")[1][0]
     return n.lower()
 
 class Tournament:
@@ -214,9 +220,18 @@ class List:
 
         for archetypeName, archetypeData in self.archetypes.items():
             archetypeBool = True
-            for name in archetypeData["names"]:
-                if name not in self.pokemon:
-                    archetypeBool = False
+            for card in archetypeData["names"]:
+                if type(card) == str:
+                    if card not in self.pokemon:
+                        archetypeBool = False
+                else:
+                    for name, count in card.items():
+                        if name not in self.pokemon:
+                            archetypeBool = False
+                        else:
+                            if int(self.pokemon[name]) < int(count):
+                                archetypeBool = False
+                        
 
             if archetypeBool:
                 self.archetype = archetypeName
@@ -252,8 +267,8 @@ def updateDeckData(data, tournament, name, year):
             if deck in deck_data[tournament['format']]:
                 # Check specific matchups
                 for subDeck in data[deck]:
-                    # If sub matchup is already in there
-                    if subDeck in deck_data[tournament['format']][deck]:
+                    # If sub matchup is already in there and it's a valid deck
+                    if subDeck in deck_data[tournament['format']][deck] and subDeck != "wins" and subDeck != "ties" and subDeck != "losses" and subDeck != "count":
                         # Update specific deck matchups
                         deck_data[tournament['format']][deck][subDeck]['losses'] += data[deck][subDeck]['losses']
                         deck_data[tournament['format']][deck][subDeck]['ties'] += data[deck][subDeck]['ties']
@@ -276,13 +291,11 @@ def updateDeckData(data, tournament, name, year):
 
     print(filename, "dumped!")
 
-def main():
+def main(flags):
     for year, tournamentsInYear in pokeflow_vars.tournaments.items():
         for tournamentName, tournamentData in tournamentsInYear.items():
             filename = year + "_" + tournamentName + ".json"
-
-            # If tournament already exists, we skip it. Else, read in the tournament.
-            if os.path.isfile("./json/tournaments/" + filename):
+            if "-o" not in flags and os.path.isfile("./json/tournaments/" + filename):
                 print(filename, "already exists! Skipping...")
             else:
                 t = Tournament(tournamentData)
@@ -294,4 +307,4 @@ def main():
     print("done!")
 
 if __name__ == "__main__":
-    main()
+    main("")

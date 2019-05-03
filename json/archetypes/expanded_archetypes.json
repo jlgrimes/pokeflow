@@ -59,6 +59,10 @@
 		"names": ["Rayquaza GX"],
 		"type": "electric"
 	},
+	"Sableye Garbodor": {
+		"names": ["Sableye", "Garbodor"],
+		"type": "psychic"
+	},
 	"Seismitoad Garbodor": {
 		"names": ["Seismitoad EX", "Garbodor"],
 		"type": "water"
@@ -83,10 +87,6 @@
 		"names": ["Zapdos", "Jirachi"],
 		"type": "electric"
 	},
-	"Zoroark Control": {
-		"names": ["Zoroark GX", "Oranguru"],
-		"type": "dark"
-	},
 	"Zoroark Garbodor": {
 		"names": ["Zoroark GX", "Garbodor"],
 		"type": "dark"
@@ -97,6 +97,14 @@
 	},
     "Zoroark Lycanroc": {
 		"names": ["Zoroark GX", "Lycanroc GX"],
+		"type": "dark"
+	},
+	"Zoroark Seismitoad": {
+		"names": ["Zoroark GX", {"Seismitoad EX": "3"}],
+		"type": "water"
+	},
+	"Zoroark Control": {
+		"names": ["Zoroark GX", "Oranguru"],
 		"type": "dark"
 	}
 }

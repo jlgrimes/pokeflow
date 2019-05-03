@@ -17,6 +17,12 @@
             "pairingsUrl": "https://player.rk9labs.com/pairings/CD157C8A?round=",
             "dayTwoRounds": [10, 17],
             "format": "expanded"
+        },
+        "Daytona": {
+            "listUrl": "http://files.rk9labs.com/decklists/20190420-Daytona-Beach-TCG-Masters-Top-37-DXAUATPM.html?fbclid=IwAR3V8Uk9sd1rJQ2RZ4lBMDnzjGAnusCP0TDYjozfwlSdnX8tYeIXGiqVorg",
+            "pairingsUrl": "https://player.rk9labs.com/pairings/E7895A5D?round=",
+            "dayTwoRounds": [10, 17],
+            "format": "expanded"
         }
     } 
 }
