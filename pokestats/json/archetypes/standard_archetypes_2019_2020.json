@@ -1,0 +1,62 @@
+{
+    "Mew Box": {
+        "names": ["Mewtwo & Mew GX", "Espeon & Deoxys GX"],
+        "type": "psychic"
+    },
+    "Pikachu Zekrom": {
+        "names": ["Pikachu & Zekrom GX"],
+        "type": "lightning"
+    },
+    "Blacephalon Naganadel": {
+        "names": ["Blacephalon GX", "Naganadel"],
+        "type": "fire"
+    },
+    "Baby Blowns Pidgey": {
+        "names": ["Blacephalon", "Pidgey"],
+        "type": "fire"
+    },
+    "Pidgey Control": {
+        "names": ["Oranguru", "Pidgey"],
+        "type": "normal"
+    },
+    "Lucario Melmetal": {
+        "names": ["Lucario & Melmetal GX"],
+        "type": "steel"
+    },
+    "Greens Reshiram Charizard": {
+        "names": ["Reshiram & Charizard GX", "Volcanion"],
+        "type": "fire"
+    },
+    "Ability Reshiram Charizard": {
+        "names": ["Reshiram & Charizard GX", "Heatran GX"],
+        "type": "fire"
+    },
+    "Gardevoir Sylveon": {
+        "names": ["Gardevoir & Sylveon GX"],
+        "type": "fairy"
+    },
+    "Malamar": {
+        "names": ["Malamar"],
+        "type": "psychic"
+    },
+    "Ultra Necrozma": {
+        "names": ["Ultra Necrozma GX"],
+        "type": "dragon"
+    },
+    "Fossils": {
+        "names": ["Carracosta"],
+        "type": "water"
+    },
+    "Quagsire Naganadel": {
+        "names": ["Quagsire", "Naganadel"],
+        "type": "water"
+    },
+    "Naganadel Checkmate": {
+        "names": ["Naganadel GX", "Dewgong"],
+        "type": "dragon"
+    },
+    "Froslass Fossils": {
+        "names": ["Froslass", "Aerodactyl"],
+        "type": "water"
+    }
+}

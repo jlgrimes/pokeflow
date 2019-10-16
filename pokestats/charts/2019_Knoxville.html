@@ -1,0 +1,235 @@
+<b><span style="font-size: large;"><u>Day 2 Meta Spread</u></span></b><br />
+    <br />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script type="text/javascript">
+    var decks =
+    {
+    "Mew Box": {
+        "Mew Box": 0.5,
+        "Pidgey Control": 0.75,
+        "Blacephalon Naganadel": 0.4375,
+        "Fossils": 0.75,
+        "Ability Reshiram Charizard": 0.4,
+        "Malamar": 0.3181818181818182,
+        "Pikachu Zekrom": 0.53125,
+        "Greens Reshiram Charizard": 0.16666666666666666,
+        "Gardevoir Sylveon": 0.5,
+        "Baby Blowns Pidgey": 1.0,
+        "bye": 1.0,
+        "Froslass Fossils": 0.5,
+        "Lucario Melmetal": 0.0
+    },
+    "Pidgey Control": {
+        "Mew Box": 0.25,
+        "Greens Reshiram Charizard": 1.0,
+        "Pidgey Control": 0.5,
+        "Malamar": 0.9166666666666666,
+        "Naganadel Checkmate": 1.0,
+        "Ability Reshiram Charizard": 0.625,
+        "Pikachu Zekrom": 0.4444444444444444,
+        "Fossils": 0.0,
+        "Blacephalon Naganadel": 0.5714285714285714,
+        "Gardevoir Sylveon": 0.75,
+        "Baby Blowns Pidgey": 0.0
+    },
+    "Greens Reshiram Charizard": {
+        "Pidgey Control": 0.0,
+        "Baby Blowns Pidgey": 0.5,
+        "Gardevoir Sylveon": 0.5,
+        "Mew Box": 0.8333333333333334,
+        "Pikachu Zekrom": 0.3,
+        "Lucario Melmetal": 0.25,
+        "Malamar": 0.35,
+        "Froslass Fossils": 0.0,
+        "Naganadel Checkmate": 0.5,
+        "Blacephalon Naganadel": 0.6666666666666666,
+        "Ability Reshiram Charizard": 0.375,
+        "bye": 0.0
+    },
+    "Baby Blowns Pidgey": {
+        "Greens Reshiram Charizard": 0.5,
+        "Gardevoir Sylveon": 1.0,
+        "Lucario Melmetal": 1.0,
+        "Mew Box": 0.0,
+        "Pidgey Control": 1.0
+    },
+    "Blacephalon Naganadel": {
+        "Mew Box": 0.5625,
+        "Malamar": 1.0,
+        "Pikachu Zekrom": 0.16666666666666666,
+        "Ability Reshiram Charizard": 0.6666666666666666,
+        "Gardevoir Sylveon": 0.5,
+        "Pidgey Control": 0.42857142857142855,
+        "Greens Reshiram Charizard": 0.3333333333333333,
+        "bye": 1.0,
+        "Fossils": 1.0,
+        "Quagsire Naganadel": 0.5,
+        "Blacephalon Naganadel": 0.5
+    },
+    "Fossils": {
+        "Mew Box": 0.25,
+        "Pidgey Control": 1.0,
+        "Pikachu Zekrom": 0.0,
+        "Blacephalon Naganadel": 0.0,
+        "Quagsire Naganadel": 0.0
+    },
+    "Pikachu Zekrom": {
+        "Pikachu Zekrom": 0.5,
+        "Gardevoir Sylveon": 0.5833333333333334,
+        "Quagsire Naganadel": 0.6666666666666666,
+        "Blacephalon Naganadel": 0.8333333333333334,
+        "Mew Box": 0.46875,
+        "Ability Reshiram Charizard": 0.16666666666666666,
+        "Malamar": 0.5,
+        "Greens Reshiram Charizard": 0.7,
+        "Pidgey Control": 0.5555555555555556,
+        "Fossils": 1.0,
+        "Froslass Fossils": 0.6666666666666666,
+        "Naganadel Checkmate": 1.0
+    },
+    "Lucario Melmetal": {
+        "Malamar": 1.0,
+        "Greens Reshiram Charizard": 0.75,
+        "Baby Blowns Pidgey": 0.0,
+        "Quagsire Naganadel": 1.0,
+        "Mew Box": 1.0
+    },
+    "Malamar": {
+        "Lucario Melmetal": 0.0,
+        "Pidgey Control": 0.08333333333333333,
+        "Blacephalon Naganadel": 0.0,
+        "Mew Box": 0.6818181818181818,
+        "Gardevoir Sylveon": 0.7142857142857143,
+        "Malamar": 0.5,
+        "bye": 1.0,
+        "Pikachu Zekrom": 0.5,
+        "Greens Reshiram Charizard": 0.65,
+        "Quagsire Naganadel": 0.0,
+        "Ability Reshiram Charizard": 0.75,
+        "Naganadel Checkmate": 1.0
+    },
+    "Froslass Fossils": {
+        "Gardevoir Sylveon": 0.0,
+        "Greens Reshiram Charizard": 1.0,
+        "Pikachu Zekrom": 0.3333333333333333,
+        "Mew Box": 0.5
+    },
+    "Gardevoir Sylveon": {
+        "Froslass Fossils": 1.0,
+        "Pikachu Zekrom": 0.4166666666666667,
+        "Malamar": 0.2857142857142857,
+        "Greens Reshiram Charizard": 0.5,
+        "Baby Blowns Pidgey": 0.0,
+        "Blacephalon Naganadel": 0.5,
+        "Ability Reshiram Charizard": 0.3333333333333333,
+        "Mew Box": 0.5,
+        "Pidgey Control": 0.25,
+        "Gardevoir Sylveon": 0.5,
+        "Quagsire Naganadel": 1.0
+    },
+    "Quagsire Naganadel": {
+        "Pikachu Zekrom": 0.3333333333333333,
+        "bye": 1.0,
+        "Malamar": 1.0,
+        "Quagsire Naganadel": 0.5,
+        "Lucario Melmetal": 0.0,
+        "Fossils": 1.0,
+        "Blacephalon Naganadel": 0.5,
+        "Gardevoir Sylveon": 0.0
+    },
+    "Ability Reshiram Charizard": {
+        "Mew Box": 0.6,
+        "Pidgey Control": 0.375,
+        "Pikachu Zekrom": 0.8333333333333334,
+        "Blacephalon Naganadel": 0.3333333333333333,
+        "Gardevoir Sylveon": 0.6666666666666666,
+        "Malamar": 0.25,
+        "Greens Reshiram Charizard": 0.625
+    },
+    "Naganadel Checkmate": {
+        "Pidgey Control": 0.0,
+        "Greens Reshiram Charizard": 0.5,
+        "Malamar": 0.0,
+        "Pikachu Zekrom": 0.0,
+        "bye": 0.0
+    }
+}
+    var data = {"labels": ["Mew Box", "Pikachu Zekrom", "Malamar", "Pidgey Control", "Greens Reshiram Charizard", "Gardevoir Sylveon", "Blacephalon Naganadel", "Ability Reshiram Charizard", "Quagsire Naganadel", "Baby Blowns Pidgey", "Fossils", "Lucario Melmetal", "Froslass Fossils", "Naganadel Checkmate"], "datasets": [{"label": "", "data": [13, 12, 10, 9, 8, 7, 6, 4, 2, 1, 1, 1, 1, 1], "backgroundColor": ["rgba(103,58,183,.5)", "rgba(255,193,7,.5)", "rgba(103,58,183,.5)", "rgba(158,158,158,.5)", "rgba(244,67,54,.5)", "rgba(233,30,99,.5)", "rgba(244,67,54,.5)", "rgba(244,67,54,.5)", "rgba(3,169,244,.5)", "rgba(244,67,54,.5)", "rgba(3,169,244,.5)", "rgba(96,125,139,.5)", "rgba(3,169,244,.5)", "rgba(130,119,23,.5)"]}]}
+    $(document).ready( 
+        function () {
+            var ctx = $("#deckDistribution");
+            var myNewChart = new Chart(ctx,{
+                    type: 'pie',
+                    data: data
+                });  
+                    
+            var ctx2 = $("#detailedMatchups");
+            var detailed = new Chart(ctx2, {
+                type: 'line',
+                data: 
+    {"labels": ["Mew Box", "Pidgey Control", "Greens Reshiram Charizard", "Baby Blowns Pidgey", "Blacephalon Naganadel", "Fossils", "Pikachu Zekrom", "Lucario Melmetal", "Malamar", "Froslass Fossils", "Gardevoir Sylveon", "Quagsire Naganadel", "Ability Reshiram Charizard", "Naganadel Checkmate"], "datasets": []}
+                        ,
+                options: {
+                    scales: {
+                        xAxes: [{
+                            ticks: {
+                                maxTicksLimit: 100,
+                                autoSkip: false
+                            }
+                        }]
+                    }
+                }
+                })
+
+                $("#deckDistribution").click( 
+                    function(evt){
+                        var activeElement = myNewChart.getElementsAtEvent(evt);
+                        var clickedData = data.datasets[activeElement[0]._datasetIndex].data[activeElement[0]._index];
+                        var clickedLabel = data.labels[activeElement[0]._index];
+                        var clickedColor = data.datasets[activeElement[0]._datasetIndex].backgroundColor[activeElement[0]._index];
+                        //alert(clickedLabel);
+
+                        var repeat = false;
+                        var i = 0;
+                            
+                        for(var d = 0; d < detailed.data.datasets.length; d++) {
+                            if (detailed.data.datasets[d]["label"] == clickedLabel){
+                                repeat = true;
+                                i = d;
+                            }
+                        }
+
+                        if (repeat) {
+                            detailed.data.datasets.splice(i, 1);
+                            detailed.update();
+                        }
+                        else {
+                            var temp_dataset = {};
+                            temp_dataset["data"] = [];
+                            temp_dataset["label"] = clickedLabel;
+                            temp_dataset["backgroundColor"] = clickedColor;
+
+                            for (var d in decks[clickedLabel]) {
+                                // iterate through labels
+                                for (var i = 0; i < detailed.data.labels.length; i++) {
+                                    temp_dataset["data"].push(decks[clickedLabel][detailed.data.labels[i]])
+                                }
+                            }
+
+                            detailed.data.datasets.push(temp_dataset)
+                            detailed.update();
+                        }
+
+                    }
+                );    
+            }
+        );
+    </script>
+    <div class="chart-container" style="height:500; width:500">
+        <canvas id="deckDistribution"></canvas>
+    </div>
+    <div class="chart-container" style="height:500; width:1000">
+        <canvas id="detailedMatchups"></canvas>
+    </div>
+    

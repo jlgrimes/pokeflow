@@ -23,6 +23,12 @@
             "pairingsUrl": "https://player.rk9labs.com/pairings/E7895A5D?round=",
             "dayTwoRounds": [10, 17],
             "format": "expanded"
+        },
+        "Knoxville": {
+            "listUrl": "http://files.rk9labs.com/decklists/20191012-Knoxville-TCG-Masters-Top-76-CXKUGAXF.html",
+            "pairingsUrl": "https://player.rk9labs.com/pairings/EC1B74E7?round=",
+            "dayTwoRounds": [10, 18],
+            "format": "standard"
         }
     } 
 }

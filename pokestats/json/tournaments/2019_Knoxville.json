@@ -1,0 +1,2542 @@
+{
+    "daniel a": {
+        "player": "Daniel Altavilla",
+        "standing": "1",
+        "pokemon": {
+            "Naganadel GX": 1,
+            "Solgaleo GX": 1,
+            "Espeon & Deoxys GX": 1,
+            "Jirachi GX": 1,
+            "Marshadow": 1,
+            "Mewtwo": 1,
+            "Charizard GX": 1,
+            "Latios GX": 1,
+            "Magcargo GX": 1,
+            "Dedenne GX": 4,
+            "Mewtwo & Mew GX": 4
+        },
+        "trainers": {
+            "Cherish Ball": 4,
+            "Mysterious Treasure": 4,
+            "Viridian Forest": 1,
+            "Switch": 2,
+            "Giant Hearth": 3,
+            "Welder": 4,
+            "Reset Stamp": 2,
+            "Energy Recycle System": 1,
+            "Pokegear 3.0": 3,
+            "Custom Catcher": 4,
+            "Acro Bike": 4
+        },
+        "energies": {
+            "Psychic Energy - Basic": 3,
+            "Fire Energy - Basic": 8
+        },
+        "archetype": "Mew Box"
+    },
+    "jon e": {
+        "player": "Jon Eng",
+        "standing": "2",
+        "pokemon": {
+            "Pikachu & Zekrom GX": 2,
+            "Raichu & Alolan Raichu GX": 1,
+            "Dedenne GX": 3,
+            "Zeraora GX": 1,
+            "Jirachi": 3,
+            "Mew": 1,
+            "Farfetch'd": 1,
+            "Hoopa": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Lysandre Labs": 2,
+            "Power Plant": 1,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Cynthia": 3,
+            "Volkner": 4,
+            "Electromagnetic Radar": 4,
+            "Custom Catcher": 4,
+            "Electropower": 3,
+            "Switch": 3,
+            "Tag Switch": 1,
+            "Energy Switch": 2,
+            "Reset Stamp": 3,
+            "Stadium Nav": 1,
+            "Pokemon Communication": 2,
+            "Escape Board": 1
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "justin b": {
+        "player": "Justin Brothers ",
+        "standing": "69",
+        "pokemon": {
+            "Mewtwo & Mew GX": 3,
+            "Jirachi": 4,
+            "Dedenne GX": 3,
+            "Charizard GX": 1,
+            "Reshiram & Charizard GX": 1,
+            "Latios GX": 1,
+            "Jirachi GX": 1,
+            "Espeon & Deoxys GX": 1,
+            "Solgaleo GX": 1,
+            "Naganadel GX": 1,
+            "Magcargo GX": 1,
+            "Marshadow": 1,
+            "Giratina": 1
+        },
+        "trainers": {
+            "Welder": 4,
+            "Cherish Ball": 4,
+            "Custom Catcher": 4,
+            "Mysterious Treasure": 3,
+            "Switch": 3,
+            "Escape Board": 2,
+            "Reset Stamp": 2,
+            "Pal Pad": 1,
+            "Energy Recycle System": 1,
+            "Giant Hearth": 3,
+            "Viridian Forest": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 9,
+            "Psychic Energy - Basic": 3
+        },
+        "archetype": "Mew Box"
+    },
+    "azul g": {
+        "player": "Azul Garcia Griego",
+        "standing": "4",
+        "pokemon": {
+            "Naganadel GX": 1,
+            "Magcargo GX": 1,
+            "Dedenne GX": 4,
+            "Solgaleo GX": 1,
+            "Espeon & Deoxys GX": 1,
+            "Jirachi GX": 1,
+            "Latios GX": 1,
+            "Marshadow": 1,
+            "Mewtwo": 1,
+            "Mewtwo & Mew GX": 4,
+            "Charizard GX": 1
+        },
+        "trainers": {
+            "Cherish Ball": 4,
+            "Mysterious Treasure": 4,
+            "Viridian Forest": 1,
+            "Switch": 2,
+            "Giant Hearth": 3,
+            "Welder": 4,
+            "Reset Stamp": 2,
+            "Energy Recycle System": 1,
+            "Pokegear 3.0": 3,
+            "Custom Catcher": 4,
+            "Acro Bike": 4
+        },
+        "energies": {
+            "Psychic Energy - Basic": 3,
+            "Fire Energy - Basic": 8
+        },
+        "archetype": "Mew Box"
+    },
+    "andrew m": {
+        "player": "Andrew Mahone",
+        "standing": "5",
+        "pokemon": {
+            "Pikachu & Zekrom GX": 2,
+            "Raichu & Alolan Raichu GX": 1,
+            "Zeraora GX": 1,
+            "Jirachi": 3,
+            "Hoopa": 1,
+            "Pachirisu": 1,
+            "Zapdos": 1,
+            "Dedenne GX": 3,
+            "Tapu Koko \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Volkner": 4,
+            "Cynthia": 3,
+            "Electropower": 4,
+            "Electromagnetic Radar": 4,
+            "Switch": 4,
+            "Escape Board": 1,
+            "Stadium Nav": 1,
+            "Lysandre Labs": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Pokemon Communication": 2,
+            "Energy Switch": 2,
+            "Tag Switch": 1,
+            "Custom Catcher": 4,
+            "Reset Stamp": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "hunter b": {
+        "player": "Hunter Butler",
+        "standing": "6",
+        "pokemon": {
+            "Blacephalon GX": 4,
+            "Poipole": 3,
+            "Naganadel": 3,
+            "Naganadel GX": 1,
+            "Mew": 1,
+            "Dedenne GX": 1
+        },
+        "trainers": {
+            "Beast Ring": 4,
+            "Custom Catcher": 4,
+            "Welder": 4,
+            "Cynthia": 4,
+            "Ultra Space": 2,
+            "Lysandre Labs": 2,
+            "Mysterious Treasure": 4,
+            "Cherish Ball": 3,
+            "Reset Stamp": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 14,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1,
+            "Psychic Energy - Basic": 1
+        },
+        "archetype": "Blacephalon Naganadel"
+    },
+    "isaiah b": {
+        "player": "Isaiah Bradner",
+        "standing": "7",
+        "pokemon": {
+            "Oranguru": 4,
+            "Pidgeotto": 4,
+            "Pidgey": 4,
+            "Absol": 1,
+            "Girafarig": 1,
+            "Articuno GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Professor Elm's Lecture": 4,
+            "Tate & Liza": 2,
+            "Lt. Surge's Strategy": 2,
+            "Hapu": 1,
+            "Mars": 2,
+            "Jessie & James": 1,
+            "Faba": 1,
+            "Cynthia": 1,
+            "Pokegear 3.0": 4,
+            "Acro Bike": 3,
+            "Custom Catcher": 3,
+            "Crushing Hammer": 4,
+            "Chip-Chip Ice Axe": 2,
+            "U-Turn Board": 1,
+            "Reset Stamp": 2,
+            "Power Plant": 3,
+            "Champions Festival": 1,
+            "Pokemon Fan Club": 1,
+            "Pal Pad": 1
+        },
+        "energies": {
+            "Recycle Energy - Special": 2,
+            "Water Energy - Basic": 2
+        },
+        "archetype": "Pidgey Control"
+    },
+    "grant m": {
+        "player": "Grant Manley",
+        "standing": "8",
+        "pokemon": {
+            "Oranguru": 4,
+            "Pidgeotto": 4,
+            "Pidgey": 1,
+            "Jirachi": 4,
+            "Articuno GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Absol": 1
+        },
+        "trainers": {
+            "Jessie & James": 1,
+            "Cynthia": 1,
+            "Tate & Liza": 2,
+            "Mars": 2,
+            "Lt. Surge's Strategy": 2,
+            "Professor Elm's Lecture": 4,
+            "Pokegear 3.0": 4,
+            "Acro Bike": 4,
+            "Crushing Hammer": 4,
+            "Custom Catcher": 3,
+            "Reset Stamp": 2,
+            "Chip-Chip Ice Axe": 2,
+            "Pal Pad": 1,
+            "Escape Board": 1,
+            "Power Plant": 3
+        },
+        "energies": {
+            "Water Energy - Basic": 3,
+            "Recycle Energy - Special": 1
+        },
+        "archetype": "Pidgey Control"
+    },
+    "nicholas l": {
+        "player": "Nicholas Legg",
+        "standing": "9",
+        "pokemon": {
+            "Mewtwo & Mew GX": 4,
+            "Mewtwo": 1,
+            "Solgaleo GX": 2,
+            "Latios GX": 1,
+            "Espeon & Deoxys GX": 1,
+            "Charizard GX": 1,
+            "Dedenne GX": 3,
+            "Magcargo GX": 1,
+            "Marshadow": 1,
+            "Jirachi GX": 1,
+            "Naganadel GX": 1,
+            "Reshiram & Charizard GX": 1
+        },
+        "trainers": {
+            "Switch": 3,
+            "Giant Hearth": 3,
+            "Reset Stamp": 2,
+            "Cherish Ball": 4,
+            "Hapu": 2,
+            "Welder": 4,
+            "Pokegear 3.0": 4,
+            "Mysterious Treasure": 4,
+            "Viridian Forest": 1,
+            "Energy Recycle System": 1,
+            "Acro Bike": 3
+        },
+        "energies": {
+            "Fire Energy - Basic": 8,
+            "Psychic Energy - Basic": 3
+        },
+        "archetype": "Mew Box"
+    },
+    "connor f": {
+        "player": "Connor Foster",
+        "standing": "10",
+        "pokemon": {
+            "Pidgey": 4,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Pidgeotto": 4,
+            "Oranguru": 4,
+            "Mew": 1,
+            "Absol": 1,
+            "Girafarig": 1,
+            "Articuno GX": 2
+        },
+        "trainers": {
+            "Professor Elm's Lecture": 4,
+            "Tate & Liza": 2,
+            "Cynthia": 1,
+            "Mars": 2,
+            "Jessie & James": 1,
+            "Pokemon Fan Club": 1,
+            "Faba": 1,
+            "Hapu": 1,
+            "Lt. Surge's Strategy": 2,
+            "Acro Bike": 4,
+            "Pokegear 3.0": 4,
+            "Crushing Hammer": 4,
+            "Reset Stamp": 2,
+            "Chip-Chip Ice Axe": 2,
+            "Custom Catcher": 3,
+            "Pal Pad": 1,
+            "Power Plant": 3
+        },
+        "energies": {
+            "Recycle Energy - Special": 2,
+            "Water Energy - Basic": 2
+        },
+        "archetype": "Pidgey Control"
+    },
+    "john m": {
+        "player": "John Mostowy",
+        "standing": "11",
+        "pokemon": {
+            "Lucario & Melmetal GX": 4,
+            "Hoopa": 2
+        },
+        "trainers": {
+            "Green's Exploration": 4,
+            "Welder": 4,
+            "Coach Trainer": 3,
+            "Lusamine": 1,
+            "Pokegear 3.0": 4,
+            "Custom Catcher": 4,
+            "Mixed Herbs": 4,
+            "Great Potion": 4,
+            "Metal Frying Pan": 3,
+            "Cherish Ball": 2,
+            "Energy Spinner": 2,
+            "Reset Stamp": 2,
+            "Fiery Flint": 1,
+            "Switch": 1,
+            "Power Plant": 3,
+            "Mt. Coronet": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 6,
+            "Metal Energy - Basic": 5
+        },
+        "archetype": "Lucario Melmetal"
+    },
+    "jeffrey c": {
+        "player": "Jeffrey  Criss",
+        "standing": "12",
+        "pokemon": {
+            "Blacephalon": 4,
+            "Pidgey": 4,
+            "Pidgeotto": 4,
+            "Jirachi": 3,
+            "Heatran GX": 1,
+            "Victini \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Welder": 4,
+            "Professor Elm's Lecture": 4,
+            "Fire Crystal": 4,
+            "Pokegear 3.0": 4,
+            "Fiery Flint": 3,
+            "Ultra Space": 3,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Custom Catcher": 4,
+            "Escape Board": 2
+        },
+        "energies": {
+            "Fire Energy - Basic": 14
+        },
+        "archetype": "Baby Blowns Pidgey"
+    },
+    "brian m": {
+        "player": "Brian Miller",
+        "standing": "13",
+        "pokemon": {
+            "Pidgey": 3,
+            "Pidgeotto": 4,
+            "Jirachi": 4,
+            "Oranguru": 4,
+            "Articuno GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Professor Elm's Lecture": 4,
+            "Mars": 2,
+            "Lt. Surge's Strategy": 2,
+            "Tate & Liza": 2,
+            "Jessie & James": 1,
+            "Cynthia": 1,
+            "Pokegear 3.0": 4,
+            "Acro Bike": 4,
+            "Crushing Hammer": 4,
+            "Custom Catcher": 3,
+            "Reset Stamp": 2,
+            "Chip-Chip Ice Axe": 2,
+            "Pal Pad": 2,
+            "Escape Board": 1,
+            "Power Plant": 3
+        },
+        "energies": {
+            "Water Energy - Basic": 3,
+            "Recycle Energy - Special": 1
+        },
+        "archetype": "Pidgey Control"
+    },
+    "drew c": {
+        "player": "Drew Cate",
+        "standing": "14",
+        "pokemon": {
+            "Volcanion": 4,
+            "Reshiram & Charizard GX": 3,
+            "Lugia GX": 1
+        },
+        "trainers": {
+            "Welder": 4,
+            "Green's Exploration": 4,
+            "Bill's Analysis": 1,
+            "Power Plant": 3,
+            "Martial Arts Dojo": 1,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Pokegear 3.0": 4,
+            "Custom Catcher": 4,
+            "Acro Bike": 4,
+            "Great Potion": 3,
+            "Reset Stamp": 3,
+            "Cherish Ball": 2,
+            "Mixed Herbs": 2,
+            "Fire Crystal": 2,
+            "Switch": 1,
+            "Energy Spinner": 1,
+            "Fiery Flint": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 10,
+            "Fighting Energy - Basic": 1
+        },
+        "archetype": "Greens Reshiram Charizard"
+    },
+    "hunter h": {
+        "player": "Hunter Harless",
+        "standing": "15",
+        "pokemon": {
+            "Jirachi": 4,
+            "Reshiram & Charizard GX": 1,
+            "Heatran GX": 1,
+            "Turtonator": 2,
+            "Victini \u00e2\u0099\u00a2": 1,
+            "Hoopa": 1,
+            "Vulpix": 2,
+            "Ninetales": 2,
+            "Dedenne GX": 2
+        },
+        "trainers": {
+            "Welder": 4,
+            "Cherish Ball": 4,
+            "Pokemon Communication": 3,
+            "Acro Bike": 3,
+            "Pokegear 3.0": 3,
+            "Escape Board": 2,
+            "Switch": 2,
+            "Pal Pad": 1,
+            "Giant Hearth": 3,
+            "Heat Factory \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 18
+        },
+        "archetype": "Ability Reshiram Charizard"
+    },
+    "tanner h": {
+        "player": "Tanner Hurley",
+        "standing": "16",
+        "pokemon": {
+            "Pikachu & Zekrom GX": 2,
+            "Raichu & Alolan Raichu GX": 1,
+            "Dedenne GX": 3,
+            "Jirachi": 3,
+            "Zeraora GX": 1,
+            "Hoopa": 1,
+            "Mew": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Electropower": 3,
+            "Electromagnetic Radar": 4,
+            "Pokemon Communication": 2,
+            "Lysandre Labs": 3,
+            "Stadium Nav": 1,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Tag Switch": 1,
+            "Escape Board": 1,
+            "Energy Switch": 2,
+            "Reset Stamp": 3,
+            "Switch": 3,
+            "Custom Catcher": 4,
+            "Power Plant": 1,
+            "Cynthia": 3,
+            "Volkner": 4
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "ryan s": {
+        "player": "Ryan Simons",
+        "standing": "17",
+        "pokemon": {
+            "Pidgey": 3,
+            "Pidgeotto": 4,
+            "Jirachi": 1,
+            "Oranguru": 4,
+            "Articuno GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Professor Elm's Lecture": 4,
+            "Pokegear 3.0": 4,
+            "Acro Bike": 4,
+            "Chip-Chip Ice Axe": 2,
+            "Mars": 2,
+            "Lt. Surge's Strategy": 2,
+            "Jessie & James": 1,
+            "Escape Board": 1,
+            "Crushing Hammer": 4,
+            "Custom Catcher": 3,
+            "Reset Stamp": 2,
+            "Power Plant": 3,
+            "Cynthia": 1,
+            "Pal Pad": 2,
+            "Tate & Liza": 2
+        },
+        "energies": {
+            "Water Energy - Basic": 3,
+            "Recycle Energy - Special": 1
+        },
+        "archetype": "Pidgey Control"
+    },
+    "michael c": {
+        "player": "Michael Catron",
+        "standing": "39",
+        "pokemon": {
+            "Jirachi": 3,
+            "Malamar": 4,
+            "Inkay": 4,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Mew": 2,
+            "Giratina": 1,
+            "Espeon & Deoxys GX": 1,
+            "Lunala \u00e2\u0099\u00a2": 1,
+            "Mimikyu": 1,
+            "Espurr": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Cynthia": 4,
+            "Mysterious Treasure": 4,
+            "Pokemon Communication": 4,
+            "Spell Tag": 4,
+            "Acro Bike": 3,
+            "Escape Board": 2,
+            "Switch": 2,
+            "Viridian Forest": 3,
+            "Shrine of Punishment": 2
+        },
+        "energies": {
+            "Psychic Energy - Basic": 7,
+            "Recycle Energy - Special": 1
+        },
+        "archetype": "Malamar"
+    },
+    "dean n": {
+        "player": "Dean Nezam",
+        "standing": "19",
+        "pokemon": {
+            "Gardevoir & Sylveon GX": 4,
+            "Xerneas GX": 1
+        },
+        "trainers": {
+            "Green's Exploration": 4,
+            "Coach Trainer": 4,
+            "Bill's Analysis": 2,
+            "Cynthia": 1,
+            "Pokegear 3.0": 4,
+            "Custom Catcher": 4,
+            "Switch": 4,
+            "Cherish Ball": 3,
+            "Great Potion": 3,
+            "Reset Stamp": 3,
+            "Tag Switch": 3,
+            "Energy Spinner": 2,
+            "Fairy Charm P": 2,
+            "Fairy Charm L": 2,
+            "Power Plant": 4,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Fairy Energy - Basic": 9
+        },
+        "archetype": "Gardevoir Sylveon"
+    },
+    "caleb g": {
+        "player": "Caleb Gedemer",
+        "standing": "20",
+        "pokemon": {
+            "Naganadel GX": 1,
+            "Magcargo GX": 1,
+            "Charizard GX": 1,
+            "Dedenne GX": 4,
+            "Solgaleo GX": 1,
+            "Espeon & Deoxys GX": 1,
+            "Jirachi GX": 1,
+            "Latios GX": 1,
+            "Marshadow": 1,
+            "Mewtwo": 1,
+            "Mewtwo & Mew GX": 4
+        },
+        "trainers": {
+            "Cherish Ball": 4,
+            "Mysterious Treasure": 4,
+            "Viridian Forest": 1,
+            "Switch": 2,
+            "Giant Hearth": 3,
+            "Welder": 4,
+            "Reset Stamp": 2,
+            "Energy Recycle System": 1,
+            "Pokegear 3.0": 3,
+            "Custom Catcher": 4,
+            "Acro Bike": 4
+        },
+        "energies": {
+            "Psychic Energy - Basic": 3,
+            "Fire Energy - Basic": 8
+        },
+        "archetype": "Mew Box"
+    },
+    "jimmy p": {
+        "player": "Jimmy Pendarvis",
+        "standing": "21",
+        "pokemon": {
+            "Mewtwo & Mew GX": 4,
+            "Dedenne GX": 4,
+            "Solgaleo GX": 1,
+            "Magcargo GX": 1,
+            "Naganadel GX": 1,
+            "Espeon & Deoxys GX": 1,
+            "Reshiram & Charizard GX": 1,
+            "Charizard GX": 1,
+            "Mewtwo": 1,
+            "Marshadow": 1,
+            "Giratina": 1,
+            "Latios GX": 1,
+            "Jirachi GX": 1
+        },
+        "trainers": {
+            "Welder": 4,
+            "Pokegear 3.0": 4,
+            "Reset Stamp": 2,
+            "Energy Recycle System": 1,
+            "Cherish Ball": 4,
+            "Mysterious Treasure": 4,
+            "Giant Hearth": 3,
+            "Viridian Forest": 1,
+            "Lysandre Labs": 1,
+            "Switch": 2,
+            "Custom Catcher": 4
+        },
+        "energies": {
+            "Psychic Energy - Basic": 3,
+            "Fire Energy - Basic": 8
+        },
+        "archetype": "Mew Box"
+    },
+    "alexander h": {
+        "player": "Alexander Holtz",
+        "standing": "22",
+        "pokemon": {
+            "Gardevoir & Sylveon GX": 2,
+            "Xerneas GX": 1
+        },
+        "trainers": {
+            "Green's Exploration": 4,
+            "Fairy Charm L": 2,
+            "Fairy Charm P": 1,
+            "Fairy Charm UB": 1,
+            "Reset Stamp": 3,
+            "Cynthia": 1,
+            "Bill's Analysis": 1,
+            "Erika's Hospitality": 1,
+            "Coach Trainer": 4,
+            "Switch": 4,
+            "Tag Switch": 3,
+            "Energy Spinner": 2,
+            "Cherish Ball": 4,
+            "Great Potion": 2,
+            "Pokegear 3.0": 4,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1,
+            "Power Plant": 4,
+            "Custom Catcher": 4
+        },
+        "energies": {
+            "Fairy Energy - Basic": 9
+        },
+        "archetype": "Gardevoir Sylveon"
+    },
+    "manuel g": {
+        "player": "Manuel Giannoni Guzman",
+        "standing": "23",
+        "pokemon": {
+            "Jirachi": 3,
+            "Hoopa": 2,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Pikachu & Zekrom GX": 2,
+            "Raichu & Alolan Raichu GX": 1,
+            "Zeraora GX": 1,
+            "Dedenne GX": 3,
+            "Mew": 1
+        },
+        "trainers": {
+            "Volkner": 4,
+            "Bill's Analysis": 2,
+            "Electromagnetic Radar": 4,
+            "Electropower": 4,
+            "Custom Catcher": 4,
+            "Switch": 3,
+            "Tag Switch": 1,
+            "Energy Switch": 2,
+            "Stadium Nav": 1,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Lysandre Labs": 2,
+            "Escape Board": 1,
+            "Pokemon Communication": 2,
+            "Reset Stamp": 3,
+            "Power Plant": 1
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "adler p": {
+        "player": "Adler Pierce",
+        "standing": "24",
+        "pokemon": {
+            "Jirachi": 3,
+            "Malamar": 4,
+            "Inkay": 4,
+            "Giratina": 2,
+            "Mew": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Latios GX": 1,
+            "Espurr": 1,
+            "Espeon & Deoxys GX": 1,
+            "Lunala \u00e2\u0099\u00a2": 1,
+            "Mimikyu": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Cynthia": 4,
+            "Mysterious Treasure": 4,
+            "Pokemon Communication": 4,
+            "Acro Bike": 3,
+            "Spell Tag": 4,
+            "Switch": 2,
+            "Escape Board": 2,
+            "Viridian Forest": 3,
+            "Shrine of Punishment": 1
+        },
+        "energies": {
+            "Psychic Energy - Basic": 7,
+            "Recycle Energy - Special": 1
+        },
+        "archetype": "Malamar"
+    },
+    "noah s": {
+        "player": "Noah sawyer",
+        "standing": "25",
+        "pokemon": {
+            "Jirachi": 4,
+            "Malamar": 4,
+            "Inkay": 4,
+            "Mew": 2,
+            "Giratina": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Mimikyu": 1,
+            "Espurr": 1,
+            "Espeon & Deoxys GX": 1,
+            "Latios GX": 1
+        },
+        "trainers": {
+            "Switch": 3,
+            "Viridian Forest": 3,
+            "Acro Bike": 3,
+            "Escape Board": 2,
+            "Cynthia": 4,
+            "Lillie": 4,
+            "Spell Tag": 4,
+            "Pokemon Communication": 4,
+            "Mysterious Treasure": 4
+        },
+        "energies": {
+            "Psychic Energy - Basic": 7,
+            "Recycle Energy - Special": 1
+        },
+        "archetype": "Malamar"
+    },
+    "isaac m": {
+        "player": "Isaac Milaski",
+        "standing": "26",
+        "pokemon": {
+            "Oranguru": 4,
+            "Pidgey": 1,
+            "Pidgeotto": 4,
+            "Articuno GX": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Absol": 1
+        },
+        "trainers": {
+            "Professor Elm's Lecture": 4,
+            "Tate & Liza": 2,
+            "Lt. Surge's Strategy": 2,
+            "Mars": 2,
+            "Cynthia": 1,
+            "Jessie & James": 1,
+            "Hapu": 1,
+            "Pokemon Fan Club": 1,
+            "Pokegear 3.0": 4,
+            "Acro Bike": 4,
+            "Crushing Hammer": 4,
+            "Custom Catcher": 3,
+            "Pal Pad": 2,
+            "Chip-Chip Ice Axe": 2,
+            "Reset Stamp": 2,
+            "Power Plant": 3,
+            "Sky Pillar": 1
+        },
+        "energies": {
+            "Water Energy - Basic": 3,
+            "Recycle Energy - Special": 2
+        },
+        "archetype": "Pidgey Control"
+    },
+    "eddie n": {
+        "player": "Eddie North",
+        "standing": "27",
+        "pokemon": {
+            "Poipole": 1,
+            "Naganadel": 3,
+            "Naganadel GX": 2,
+            "Heatran GX": 1,
+            "Blacephalon GX": 3,
+            "Dedenne GX": 1,
+            "Ditto \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Mysterious Treasure": 4,
+            "Cherish Ball": 3,
+            "Custom Catcher": 3,
+            "Cynthia": 4,
+            "Welder": 4,
+            "Tate & Liza": 1,
+            "Beast Ring": 4,
+            "Reset Stamp": 1,
+            "Ultra Space": 3,
+            "Heat Factory \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 14,
+            "Psychic Energy - Basic": 1,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1
+        },
+        "archetype": "Blacephalon Naganadel"
+    },
+    "ryan a": {
+        "player": "Ryan Allred",
+        "standing": "28",
+        "pokemon": {
+            "Pikachu & Zekrom GX": 2,
+            "Raichu & Alolan Raichu GX": 1,
+            "Zeraora GX": 1,
+            "Dedenne GX": 1,
+            "Hoopa": 1,
+            "Eelektross": 1,
+            "Jirachi": 4,
+            "Tapu Koko \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Volkner": 4,
+            "Judge": 3,
+            "Cynthia": 1,
+            "Electropower": 4,
+            "Electromagnetic Radar": 4,
+            "Custom Catcher": 4,
+            "Pokemon Communication": 2,
+            "Switch": 3,
+            "Tag Switch": 1,
+            "Energy Switch": 2,
+            "Escape Board": 2,
+            "Lysandre Labs": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Stadium Nav": 1,
+            "Reset Stamp": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "gordon l": {
+        "player": "Gordon Lai",
+        "standing": "29",
+        "pokemon": {
+            "Inkay": 4,
+            "Malamar": 4,
+            "Jirachi": 2,
+            "Espurr": 1,
+            "Weezing": 1,
+            "Espeon & Deoxys GX": 1,
+            "Garchomp & Giratina GX": 1,
+            "Sableye": 1,
+            "Giratina": 2,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Mew": 1
+        },
+        "trainers": {
+            "Mysterious Treasure": 4,
+            "Viridian Forest": 2,
+            "Power Plant": 1,
+            "Pokemon Communication": 4,
+            "Acro Bike": 4,
+            "Spell Tag": 3,
+            "Escape Board": 2,
+            "Switch": 2,
+            "Adventure Bag": 1,
+            "Pokegear 3.0": 1,
+            "Cynthia": 3,
+            "Copycat": 1,
+            "Lillie": 4,
+            "Reset Stamp": 1
+        },
+        "energies": {
+            "Psychic Energy - Basic": 7,
+            "Fighting Energy - Basic": 1
+        },
+        "archetype": "Malamar"
+    },
+    "brandon j": {
+        "player": "Brandon Johnson",
+        "standing": "30",
+        "pokemon": {
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Alolan Ninetales": 1,
+            "Wooper": 2,
+            "Quagsire": 3,
+            "Dedenne GX": 1,
+            "Mew": 1,
+            "Espeon & Deoxys GX": 1,
+            "Poipole": 1,
+            "Naganadel": 4,
+            "Keldeo GX": 2,
+            "Lapras": 2,
+            "Volcanion \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Acro Bike": 3,
+            "Custom Catcher": 4,
+            "Mysterious Treasure": 3,
+            "Pokemon Communication": 4,
+            "Ultra Space": 1,
+            "Viridian Forest": 2,
+            "Cynthia": 4,
+            "Lillie": 4
+        },
+        "energies": {
+            "Rainbow Energy - Special": 1,
+            "Psychic Energy - Basic": 1,
+            "Water Energy - Basic": 8
+        },
+        "archetype": "Quagsire Naganadel"
+    },
+    "darin o": {
+        "player": "Darin O'Meara",
+        "standing": "31",
+        "pokemon": {
+            "Inkay": 4,
+            "Malamar": 4,
+            "Jirachi": 3,
+            "Giratina": 2,
+            "Mew": 2,
+            "Lunala \u00e2\u0099\u00a2": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Espurr": 1,
+            "Latios GX": 1,
+            "Jynx": 1,
+            "Espeon & Deoxys GX": 1
+        },
+        "trainers": {
+            "Cynthia": 4,
+            "Lillie": 4,
+            "Mysterious Treasure": 4,
+            "Pokemon Communication": 4,
+            "Spell Tag": 4,
+            "Acro Bike": 3,
+            "Switch": 2,
+            "Escape Board": 2,
+            "Viridian Forest": 3,
+            "Shrine of Punishment": 1
+        },
+        "energies": {
+            "Psychic Energy - Basic": 7,
+            "Recycle Energy - Special": 1
+        },
+        "archetype": "Malamar"
+    },
+    "phinn (": {
+        "player": "Phinn (Daniel) Lynch",
+        "standing": "32",
+        "pokemon": {
+            "Blacephalon GX": 4,
+            "Poipole": 3,
+            "Naganadel": 3,
+            "Naganadel GX": 1,
+            "Dedenne GX": 1,
+            "Mew": 1
+        },
+        "trainers": {
+            "Cynthia": 4,
+            "Welder": 4,
+            "Ultra Space": 2,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Lysandre Labs": 1,
+            "Beast Ring": 4,
+            "Mysterious Treasure": 4,
+            "Custom Catcher": 4,
+            "Cherish Ball": 3,
+            "Reset Stamp": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 14,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1,
+            "Psychic Energy - Basic": 1
+        },
+        "archetype": "Blacephalon Naganadel"
+    },
+    "joshua s": {
+        "player": "Joshua Sutherland",
+        "standing": "33",
+        "pokemon": {
+            "Blacephalon GX": 3,
+            "Heatran GX": 1,
+            "Dedenne GX": 2,
+            "Poipole": 2,
+            "Naganadel": 4,
+            "Naganadel GX": 1,
+            "Hoopa": 1
+        },
+        "trainers": {
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Cynthia": 4,
+            "Welder": 4,
+            "Mysterious Treasure": 4,
+            "Beast Ring": 4,
+            "Custom Catcher": 4,
+            "Lysandre Labs": 1,
+            "Ultra Space": 2,
+            "Cherish Ball": 2,
+            "Reset Stamp": 2
+        },
+        "energies": {
+            "Fire Energy - Basic": 14,
+            "Psychic Energy - Basic": 1,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1
+        },
+        "archetype": "Blacephalon Naganadel"
+    },
+    "jose m": {
+        "player": "Jose Marrero",
+        "standing": "34",
+        "pokemon": {
+            "Heatran GX": 1,
+            "Poipole": 2,
+            "Naganadel": 3,
+            "Naganadel GX": 2,
+            "Mew": 1,
+            "Dedenne GX": 1,
+            "Blacephalon GX": 3
+        },
+        "trainers": {
+            "Welder": 4,
+            "Cynthia": 3,
+            "Tate & Liza": 1,
+            "Beast Ring": 4,
+            "Cherish Ball": 3,
+            "Reset Stamp": 1,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Ultra Space": 3,
+            "Mysterious Treasure": 4,
+            "Custom Catcher": 4
+        },
+        "energies": {
+            "Fire Energy - Basic": 15,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1,
+            "Psychic Energy - Basic": 1
+        },
+        "archetype": "Blacephalon Naganadel"
+    },
+    "ben c": {
+        "player": "Ben Cryer",
+        "standing": "35",
+        "pokemon": {
+            "Volcanion": 4,
+            "Reshiram & Charizard GX": 1
+        },
+        "trainers": {
+            "Green's Exploration": 4,
+            "Welder": 4,
+            "Lt. Surge's Strategy": 1,
+            "Tate & Liza": 1,
+            "Pokegear 3.0": 4,
+            "Acro Bike": 4,
+            "Custom Catcher": 4,
+            "Reset Stamp": 3,
+            "Fire Crystal": 3,
+            "Great Potion": 2,
+            "Mixed Herbs": 2,
+            "Cherish Ball": 2,
+            "Fiery Flint": 2,
+            "Switch": 1,
+            "Power Plant": 3,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Shrine of Punishment": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 11
+        },
+        "archetype": "Greens Reshiram Charizard"
+    },
+    "ahmed a": {
+        "player": "Ahmed Ali",
+        "standing": "36",
+        "pokemon": {
+            "Reshiram & Charizard GX": 2,
+            "Vulpix": 2,
+            "Ninetales": 2,
+            "Victini \u00e2\u0099\u00a2": 1,
+            "Dedenne GX": 3,
+            "Jirachi": 4,
+            "Blacephalon": 1,
+            "Turtonator": 1,
+            "Heatran GX": 1,
+            "Volcanion": 1
+        },
+        "trainers": {
+            "Fire Crystal": 4,
+            "Fiery Flint": 1,
+            "Giant Hearth": 3,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Pokegear 3.0": 2,
+            "Welder": 4,
+            "Switch": 3,
+            "Escape Board": 2,
+            "Cherish Ball": 3,
+            "Pokemon Communication": 4,
+            "Pal Pad": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 14
+        },
+        "archetype": "Greens Reshiram Charizard"
+    },
+    "kazuki k": {
+        "player": "Kazuki Kanehira",
+        "standing": "37",
+        "pokemon": {
+            "Oranguru": 4,
+            "Pidgeotto": 4,
+            "Pidgey": 3,
+            "Articuno GX": 2,
+            "Weezing": 1,
+            "Girafarig": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Absol": 1
+        },
+        "trainers": {
+            "Power Plant": 2,
+            "Sky Pillar": 1,
+            "Professor Elm's Lecture": 4,
+            "Mars": 2,
+            "Tate & Liza": 2,
+            "Hapu": 1,
+            "Jessie & James": 1,
+            "Pokemon Fan Club": 1,
+            "Cynthia": 1,
+            "Steven's Resolve": 1,
+            "Lt. Surge's Strategy": 1,
+            "Pokegear 3.0": 4,
+            "Acro Bike": 4,
+            "Crushing Hammer": 4,
+            "Custom Catcher": 3,
+            "Chip-Chip Ice Axe": 2,
+            "Reset Stamp": 2,
+            "U-Turn Board": 1,
+            "Pal Pad": 1
+        },
+        "energies": {
+            "Recycle Energy - Special": 1,
+            "Water Energy - Basic": 3
+        },
+        "archetype": "Pidgey Control"
+    },
+    "andrew w": {
+        "player": "Andrew Wamboldt",
+        "standing": "38",
+        "pokemon": {
+            "Jirachi": 3,
+            "Reshiram & Charizard GX": 2,
+            "Heatran GX": 1,
+            "Ninetales": 2,
+            "Vulpix": 2,
+            "Victini \u00e2\u0099\u00a2": 1,
+            "Turtonator": 1,
+            "Tapu Fini": 1,
+            "Dedenne GX": 1
+        },
+        "trainers": {
+            "Welder": 4,
+            "Pal Pad": 1,
+            "Acro Bike": 3,
+            "Pokemon Communication": 3,
+            "Cherish Ball": 4,
+            "Switch": 3,
+            "Reset Stamp": 2,
+            "Escape Board": 2,
+            "Giant Hearth": 3,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Stealthy Hood": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 17
+        },
+        "archetype": "Ability Reshiram Charizard"
+    },
+    "alex c": {
+        "player": "Alex Cole",
+        "standing": "40",
+        "pokemon": {
+            "Pidgey": 1,
+            "Pidgeotto": 4,
+            "Oranguru": 4,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Jirachi": 4,
+            "Articuno GX": 2,
+            "Absol": 1,
+            "Alolan Raticate GX": 1
+        },
+        "trainers": {
+            "Professor Elm's Lecture": 4,
+            "Mars": 3,
+            "Tate & Liza": 2,
+            "Lt. Surge's Strategy": 2,
+            "Jessie & James": 1,
+            "Pokegear 3.0": 4,
+            "Acro Bike": 4,
+            "Crushing Hammer": 4,
+            "Custom Catcher": 3,
+            "Reset Stamp": 2,
+            "Chip-Chip Ice Axe": 2,
+            "Escape Board": 1,
+            "Power Plant": 2,
+            "Pal Pad": 1
+        },
+        "energies": {
+            "Water Energy - Basic": 3,
+            "Recycle Energy - Special": 1
+        },
+        "archetype": "Pidgey Control"
+    },
+    "logan h": {
+        "player": "Logan Honts",
+        "standing": "41",
+        "pokemon": {
+            "Jirachi": 4,
+            "Dedenne GX": 3,
+            "Eelektross": 1,
+            "Pikachu & Zekrom GX": 2,
+            "Raichu & Alolan Raichu GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Zeraora GX": 1
+        },
+        "trainers": {
+            "Volkner": 4,
+            "Judge": 3,
+            "Choice Helmet": 1,
+            "Custom Catcher": 4,
+            "Electromagnetic Radar": 4,
+            "Electropower": 4,
+            "Energy Switch": 2,
+            "Tag Switch": 1,
+            "Switch": 3,
+            "Escape Board": 2,
+            "Pokemon Communication": 2,
+            "Reset Stamp": 1,
+            "Stadium Nav": 1,
+            "Sky Pillar": 1,
+            "Lysandre Labs": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "victor a": {
+        "player": "Victor Aung",
+        "standing": "42",
+        "pokemon": {
+            "Wooper": 2,
+            "Quagsire": 3,
+            "Poipole": 1,
+            "Naganadel": 4,
+            "Lapras": 2,
+            "Keldeo GX": 2,
+            "Dedenne GX": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Volcanion \u00e2\u0099\u00a2": 1,
+            "Alolan Ninetales": 1,
+            "Espeon & Deoxys GX": 1,
+            "Mew": 1
+        },
+        "trainers": {
+            "Cynthia": 4,
+            "Lillie": 4,
+            "Pokemon Communication": 4,
+            "Custom Catcher": 4,
+            "Acro Bike": 3,
+            "Mysterious Treasure": 3,
+            "Viridian Forest": 2,
+            "Ultra Space": 1
+        },
+        "energies": {
+            "Water Energy - Basic": 8,
+            "Psychic Energy - Basic": 1,
+            "Rainbow Energy - Special": 1
+        },
+        "archetype": "Quagsire Naganadel"
+    },
+    "christian c": {
+        "player": "Christian Chase",
+        "standing": "43",
+        "pokemon": {
+            "Reshiram & Charizard GX": 3,
+            "Volcanion": 4
+        },
+        "trainers": {
+            "Green's Exploration": 4,
+            "Welder": 4,
+            "Custom Catcher": 4,
+            "Pokegear 3.0": 4,
+            "Acro Bike": 4,
+            "Fire Crystal": 3,
+            "Reset Stamp": 3,
+            "Switch": 2,
+            "Cherish Ball": 2,
+            "Mixed Herbs": 2,
+            "Fiery Flint": 1,
+            "Great Potion": 2,
+            "Power Plant": 3,
+            "Energy Spinner": 1,
+            "Shrine of Punishment": 1,
+            "Stealthy Hood": 1,
+            "Heat Factory \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 11
+        },
+        "archetype": "Greens Reshiram Charizard"
+    },
+    "natalie s": {
+        "player": "Natalie Shampay",
+        "standing": "44",
+        "pokemon": {
+            "Jirachi": 3,
+            "Dedenne GX": 3,
+            "Pikachu & Zekrom GX": 2,
+            "Zeraora GX": 1,
+            "Raichu & Alolan Raichu GX": 1,
+            "Hoopa": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Pachirisu": 1,
+            "Zapdos": 1
+        },
+        "trainers": {
+            "Volkner": 4,
+            "Cynthia": 3,
+            "Electropower": 4,
+            "Electromagnetic Radar": 4,
+            "Custom Catcher": 4,
+            "Switch": 4,
+            "Pokemon Communication": 2,
+            "Energy Switch": 2,
+            "Reset Stamp": 2,
+            "Tag Switch": 1,
+            "Escape Board": 1,
+            "Stadium Nav": 1,
+            "Lysandre Labs": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "dalton d": {
+        "player": "Dalton Didelot",
+        "standing": "45",
+        "pokemon": {
+            "Inkay": 4,
+            "Malamar": 4,
+            "Ultra Necrozma GX": 2,
+            "Giratina": 2,
+            "Mimikyu": 1,
+            "Mew": 1,
+            "Espurr": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Jirachi": 1
+        },
+        "trainers": {
+            "Pokemon Communication": 4,
+            "Acro Bike": 4,
+            "Mysterious Treasure": 4,
+            "Switch": 3,
+            "Spell Tag": 3,
+            "Escape Board": 2,
+            "Cynthia": 4,
+            "Lillie": 4,
+            "Viridian Forest": 3
+        },
+        "energies": {
+            "Psychic Energy - Basic": 7,
+            "Metal Energy - Basic": 2
+        },
+        "archetype": "Malamar"
+    },
+    "yehoshua t": {
+        "player": "Yehoshua Tate",
+        "standing": "46",
+        "pokemon": {
+            "Carracosta": 3,
+            "Tirtouga": 3,
+            "Aerodactyl GX": 3,
+            "Hoopa": 1,
+            "Aerodactyl": 1,
+            "Jirachi": 4
+        },
+        "trainers": {
+            "Welder": 4,
+            "Custom Catcher": 4,
+            "Pokemon Research Lab": 4,
+            "Bill's Analysis": 3,
+            "Cynthia": 2,
+            "Unidentified Fossil": 2,
+            "Martial Arts Dojo": 2,
+            "Fire Crystal": 1,
+            "Fiery Flint": 1,
+            "Stadium Nav": 1,
+            "Pokemon Communication": 1,
+            "Energy Spinner": 2,
+            "Reset Stamp": 2,
+            "Escape Board": 2,
+            "Power Plant": 1,
+            "Switch": 1
+        },
+        "energies": {
+            "Fighting Energy - Basic": 5,
+            "Fire Energy - Basic": 7
+        },
+        "archetype": "Fossils"
+    },
+    "nathan b": {
+        "player": "Nathan Brower",
+        "standing": "47",
+        "pokemon": {
+            "Pidgeotto": 4,
+            "Pidgey": 3,
+            "Oranguru": 4,
+            "Articuno GX": 1,
+            "Absol": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Jirachi": 3
+        },
+        "trainers": {
+            "Professor Elm's Lecture": 4,
+            "Mars": 2,
+            "Lt. Surge's Strategy": 2,
+            "Tate & Liza": 2,
+            "Jessie & James": 1,
+            "Cynthia": 1,
+            "Pokegear 3.0": 4,
+            "Acro Bike": 3,
+            "Crushing Hammer": 4,
+            "Custom Catcher": 3,
+            "Power Plant": 3,
+            "Reset Stamp": 2,
+            "Chip-Chip Ice Axe": 2,
+            "Pal Pad": 1,
+            "Sky Pillar": 1,
+            "Escape Board": 1
+        },
+        "energies": {
+            "Water Energy - Basic": 3,
+            "Recycle Energy - Special": 2
+        },
+        "archetype": "Pidgey Control"
+    },
+    "jason a": {
+        "player": "Jason Annichiarico",
+        "standing": "48",
+        "pokemon": {
+            "Pikachu & Zekrom GX": 2,
+            "Raichu & Alolan Raichu GX": 1,
+            "Zeraora GX": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Dedenne GX": 3,
+            "Jirachi": 3,
+            "Hoopa": 2,
+            "Mew": 1
+        },
+        "trainers": {
+            "Volkner": 4,
+            "Cynthia": 3,
+            "Electromagnetic Radar": 4,
+            "Custom Catcher": 4,
+            "Tag Switch": 1,
+            "Switch": 3,
+            "Pokemon Communication": 2,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Stadium Nav": 1,
+            "Energy Switch": 2,
+            "Escape Board": 1,
+            "Lysandre Labs": 3,
+            "Electropower": 4,
+            "Reset Stamp": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "noah m": {
+        "player": "Noah Marshall",
+        "standing": "49",
+        "pokemon": {
+            "Mewtwo & Mew GX": 3,
+            "Dedenne GX": 3,
+            "Jirachi": 1,
+            "Charizard GX": 1,
+            "Reshiram & Charizard GX": 1,
+            "Jirachi GX": 1,
+            "Oranguru": 1,
+            "Solgaleo GX": 1,
+            "Espeon & Deoxys GX": 1,
+            "Greninja GX": 1,
+            "Latios GX": 1,
+            "Magcargo GX": 1,
+            "Marshadow": 1,
+            "Naganadel GX": 1
+        },
+        "trainers": {
+            "Welder": 4,
+            "Red's Challenge": 1,
+            "Cherish Ball": 4,
+            "Custom Catcher": 4,
+            "Switch": 3,
+            "Acro Bike": 2,
+            "Mysterious Treasure": 2,
+            "Giant Hearth": 3,
+            "Viridian Forest": 1,
+            "Reset Stamp": 1,
+            "Pal Pad": 1,
+            "Energy Recycle System": 1,
+            "Escape Board": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 8,
+            "Psychic Energy - Basic": 3,
+            "Water Energy - Basic": 1
+        },
+        "archetype": "Mew Box"
+    },
+    "nicholas g": {
+        "player": "Nicholas Gill",
+        "standing": "50",
+        "pokemon": {
+            "Gardevoir & Sylveon GX": 4,
+            "Xerneas GX": 1
+        },
+        "trainers": {
+            "Custom Catcher": 4,
+            "Switch": 4,
+            "Pokegear 3.0": 4,
+            "Great Potion": 3,
+            "Cherish Ball": 3,
+            "Fairy Charm L": 2,
+            "Fairy Charm P": 2,
+            "Fairy Charm UB": 2,
+            "Reset Stamp": 2,
+            "Tag Switch": 2,
+            "Energy Spinner": 2,
+            "Adventure Bag": 1,
+            "Green's Exploration": 4,
+            "Coach Trainer": 4,
+            "Bill's Analysis": 1,
+            "Cynthia": 1,
+            "Power Plant": 4,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Fairy Energy - Basic": 9
+        },
+        "archetype": "Gardevoir Sylveon"
+    },
+    "joshua e": {
+        "player": "Joshua Everly ",
+        "standing": "51",
+        "pokemon": {
+            "Inkay": 4,
+            "Malamar": 4,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Giratina": 2,
+            "Jirachi": 4,
+            "Espeon & Deoxys GX": 1,
+            "Espurr": 1,
+            "Mimikyu": 1,
+            "Mew": 2
+        },
+        "trainers": {
+            "Pokemon Communication": 4,
+            "Mysterious Treasure": 4,
+            "Spell Tag": 4,
+            "Viridian Forest": 3,
+            "Power Plant": 1,
+            "Escape Board": 2,
+            "Switch": 2,
+            "Cynthia": 4,
+            "Lillie": 4,
+            "Acro Bike": 3,
+            "Adventure Bag": 1
+        },
+        "energies": {
+            "Psychic Energy - Basic": 7,
+            "Recycle Energy - Special": 1
+        },
+        "archetype": "Malamar"
+    },
+    "johnathan t": {
+        "player": "Johnathan Thompson",
+        "standing": "52",
+        "pokemon": {
+            "Pidgey": 3,
+            "Pidgeotto": 3,
+            "Pidgeot": 1,
+            "Snorunt": 2,
+            "Froslass": 2,
+            "Aerodactyl": 2,
+            "Mew": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Farfetch'd": 1,
+            "Hoopa": 1,
+            "Mr. Mime": 1,
+            "Weavile": 1,
+            "Nihilego": 1
+        },
+        "trainers": {
+            "Grimsley": 1,
+            "Red's Challenge": 1,
+            "Brock's Grit": 1,
+            "Tate & Liza": 1,
+            "Stadium Nav": 1,
+            "Reset Stamp": 2,
+            "Shrine of Punishment": 2,
+            "Pokemon Research Lab": 3,
+            "Professor Elm's Lecture": 4,
+            "Cynthia": 4,
+            "U-Turn Board": 2,
+            "Custom Catcher": 2,
+            "Pokegear 3.0": 2,
+            "Pokemon Communication": 2,
+            "Last Chance Potion": 1
+        },
+        "energies": {
+            "Water Energy - Basic": 5,
+            "Triple Acceleration Energy - Special": 4,
+            "Rainbow Energy - Special": 2
+        },
+        "archetype": "Froslass Fossils"
+    },
+    "alex g": {
+        "player": "Alex Garcia",
+        "standing": "53",
+        "pokemon": {
+            "Inkay": 4,
+            "Malamar": 4,
+            "Jirachi": 3,
+            "Giratina": 2,
+            "Mimikyu": 1,
+            "Espurr": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Mew": 2,
+            "Espeon & Deoxys GX": 1,
+            "Latios GX": 1
+        },
+        "trainers": {
+            "Cynthia": 4,
+            "Lillie": 4,
+            "Mysterious Treasure": 4,
+            "Pokemon Communication": 4,
+            "Spell Tag": 4,
+            "Acro Bike": 3,
+            "Escape Board": 2,
+            "Viridian Forest": 3,
+            "Switch": 2,
+            "Shrine of Punishment": 2
+        },
+        "energies": {
+            "Psychic Energy - Basic": 7,
+            "Recycle Energy - Special": 1
+        },
+        "archetype": "Malamar"
+    },
+    "jesse p": {
+        "player": "Jesse Parker",
+        "standing": "54",
+        "pokemon": {
+            "Reshiram & Charizard GX": 1,
+            "Heatran GX": 1,
+            "Dedenne GX": 3,
+            "Vulpix": 2,
+            "Ninetales": 2,
+            "Jirachi": 4,
+            "Hoopa": 1,
+            "Mew": 1,
+            "Turtonator": 1,
+            "Victini \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Cherish Ball": 4,
+            "Pokemon Communication": 4,
+            "Welder": 4,
+            "Switch": 3,
+            "Escape Board": 2,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Giant Hearth": 3,
+            "Pal Pad": 1,
+            "Reset Stamp": 2,
+            "Pokegear 3.0": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 18
+        },
+        "archetype": "Ability Reshiram Charizard"
+    },
+    "zachery s": {
+        "player": "Zachery Stover",
+        "standing": "55",
+        "pokemon": {
+            "Mewtwo & Mew GX": 3,
+            "Jirachi": 4,
+            "Dedenne GX": 3,
+            "Mew": 1,
+            "Reshiram & Charizard GX": 1,
+            "Charizard GX": 1,
+            "Solgaleo GX": 1,
+            "Naganadel GX": 1,
+            "Marshadow": 1,
+            "Latios GX": 1,
+            "Espeon & Deoxys GX": 1,
+            "Turtonator": 1,
+            "Jirachi GX": 1,
+            "Magcargo GX": 1
+        },
+        "trainers": {
+            "Escape Board": 2,
+            "Giant Hearth": 3,
+            "Welder": 4,
+            "Pal Pad": 1,
+            "Custom Catcher": 4,
+            "Energy Recycle System": 1,
+            "Cherish Ball": 4,
+            "Mysterious Treasure": 3,
+            "Switch": 3,
+            "Reset Stamp": 2,
+            "Viridian Forest": 1
+        },
+        "energies": {
+            "Psychic Energy - Basic": 3,
+            "Fire Energy - Basic": 8
+        },
+        "archetype": "Mew Box"
+    },
+    "alex s": {
+        "player": "Alex Schemanske",
+        "standing": "56",
+        "pokemon": {
+            "Inkay": 4,
+            "Malamar": 4,
+            "Jirachi": 3,
+            "Espeon & Deoxys GX": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Espurr": 1,
+            "Giratina": 2,
+            "Mew": 2,
+            "Lunala \u00e2\u0099\u00a2": 1,
+            "Mimikyu": 1
+        },
+        "trainers": {
+            "Lillie": 4,
+            "Cynthia": 4,
+            "Mysterious Treasure": 4,
+            "Pokemon Communication": 4,
+            "Viridian Forest": 3,
+            "Escape Board": 2,
+            "Switch": 3,
+            "Spell Tag": 4,
+            "Acro Bike": 3,
+            "Power Plant": 1
+        },
+        "energies": {
+            "Psychic Energy - Basic": 7,
+            "Recycle Energy - Special": 1
+        },
+        "archetype": "Malamar"
+    },
+    "logan e": {
+        "player": "Logan Entrekin",
+        "standing": "57",
+        "pokemon": {
+            "Jirachi": 3,
+            "Mewtwo & Mew GX": 3,
+            "Dedenne GX": 3,
+            "Magcargo GX": 1,
+            "Charizard GX": 1,
+            "Espeon & Deoxys GX": 1,
+            "Solgaleo GX": 1,
+            "Reshiram & Charizard GX": 1,
+            "Latios GX": 1,
+            "Naganadel GX": 1,
+            "Jirachi GX": 1,
+            "Giratina": 1,
+            "Girafarig": 1
+        },
+        "trainers": {
+            "Energy Recycle System": 1,
+            "Pal Pad": 1,
+            "Reset Stamp": 1,
+            "Escape Board": 2,
+            "Switch": 2,
+            "Mysterious Treasure": 3,
+            "Acro Bike": 3,
+            "Cherish Ball": 4,
+            "Custom Catcher": 4,
+            "Welder": 4,
+            "Giant Hearth": 3,
+            "Lysandre Labs": 1,
+            "Viridian Forest": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 8,
+            "Psychic Energy - Basic": 3
+        },
+        "archetype": "Mew Box"
+    },
+    "hector i": {
+        "player": "Hector Ibarra",
+        "standing": "58",
+        "pokemon": {
+            "Espurr": 1,
+            "Inkay": 4,
+            "Malamar": 4,
+            "Jirachi": 4,
+            "Nihilego": 1,
+            "Lunala \u00e2\u0099\u00a2": 1,
+            "Espeon & Deoxys GX": 1,
+            "Giratina": 2,
+            "Mew": 2,
+            "Mimikyu": 1
+        },
+        "trainers": {
+            "Spell Tag": 4,
+            "Viridian Forest": 2,
+            "Reset Stamp": 2,
+            "Lillie": 4,
+            "Pokemon Communication": 3,
+            "Mysterious Treasure": 4,
+            "Switch": 2,
+            "Escape Board": 2,
+            "Power Plant": 2,
+            "Cynthia": 3,
+            "Tate & Liza": 2,
+            "Shrine of Punishment": 1
+        },
+        "energies": {
+            "Recycle Energy - Special": 1,
+            "Psychic Energy - Basic": 7
+        },
+        "archetype": "Malamar"
+    },
+    "isaac s": {
+        "player": "Isaac Santizojohnsonisaac-Johnson ",
+        "standing": "59",
+        "pokemon": {
+            "Mewtwo & Mew GX": 4,
+            "Solgaleo GX": 2,
+            "Charizard GX": 1,
+            "Reshiram & Charizard GX": 1,
+            "Naganadel GX": 1,
+            "Magcargo GX": 1,
+            "Latios GX": 1,
+            "Espeon & Deoxys GX": 1,
+            "Greninja GX": 1,
+            "Dedenne GX": 1,
+            "Marshadow": 1,
+            "Nincada": 2,
+            "Shedinja": 2
+        },
+        "trainers": {
+            "Cherish Ball": 4,
+            "Pokemon Communication": 4,
+            "Welder": 4,
+            "Red's Challenge": 2,
+            "Hapu": 2,
+            "Giant Hearth": 3,
+            "Lysandre Labs": 2,
+            "Switch": 2,
+            "Reset Stamp": 2
+        },
+        "energies": {
+            "Fire Energy - Basic": 8,
+            "Psychic Energy - Basic": 2,
+            "Water Energy - Basic": 1,
+            "Weakness Guard Energy - Special": 2
+        },
+        "archetype": "Mew Box"
+    },
+    "ray f": {
+        "player": "ray fernandez",
+        "standing": "60",
+        "pokemon": {
+            "Jirachi": 2,
+            "Reshiram & Charizard GX": 1,
+            "Turtonator": 1,
+            "Vulpix": 2,
+            "Ninetales": 2,
+            "Dedenne GX": 1,
+            "Eevee GX": 1,
+            "Flareon GX": 1,
+            "Blacephalon": 1,
+            "Victini \u00e2\u0099\u00a2": 1,
+            "Mew": 1,
+            "Heatran GX": 1
+        },
+        "trainers": {
+            "Giant Hearth": 3,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Welder": 4,
+            "Fire Crystal": 4,
+            "Cherish Ball": 4,
+            "Switch": 4,
+            "Pal Pad": 1,
+            "Pokemon Communication": 4,
+            "Escape Board": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 15
+        },
+        "archetype": "Ability Reshiram Charizard"
+    },
+    "harris n": {
+        "player": "Harris Noor",
+        "standing": "61",
+        "pokemon": {
+            "Pikachu & Zekrom GX": 2,
+            "Jirachi": 2,
+            "Raichu & Alolan Raichu GX": 1,
+            "Dedenne GX": 3,
+            "Zeraora GX": 1,
+            "Hoopa": 1,
+            "Mew": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Volkner": 4,
+            "Cynthia": 2,
+            "Bill's Analysis": 1,
+            "Electromagnetic Radar": 4,
+            "Electropower": 4,
+            "Custom Catcher": 4,
+            "Switch": 4,
+            "Reset Stamp": 3,
+            "Pokemon Communication": 2,
+            "Energy Switch": 2,
+            "Tag Switch": 1,
+            "Stadium Nav": 1,
+            "Lysandre Labs": 3,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Escape Board": 1
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "andre c": {
+        "player": "Andre Chiasson",
+        "standing": "62",
+        "pokemon": {
+            "Jirachi": 3,
+            "Dedenne GX": 3,
+            "Pikachu & Zekrom GX": 2,
+            "Raichu & Alolan Raichu GX": 1,
+            "Zeraora GX": 1,
+            "Mew": 1,
+            "Zapdos": 1,
+            "Tapu Koko \u00e2\u0099\u00a2": 1
+        },
+        "trainers": {
+            "Thunder Mountain \u00e2\u0099\u00a2": 1,
+            "Power Plant": 1,
+            "Lysandre Labs": 2,
+            "Custom Catcher": 4,
+            "Electropower": 4,
+            "Electromagnetic Radar": 4,
+            "Energy Switch": 3,
+            "Switch": 3,
+            "Pokemon Communication": 2,
+            "Reset Stamp": 2,
+            "Escape Board": 1,
+            "Stadium Nav": 1,
+            "Volkner": 4,
+            "Cynthia": 2,
+            "Judge": 2
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "abe m": {
+        "player": "Abe Morales",
+        "standing": "63",
+        "pokemon": {
+            "Altaria GX": 1,
+            "Marshadow": 1,
+            "Naganadel GX": 1,
+            "Greninja GX": 1,
+            "Dedenne GX": 2,
+            "Espeon & Deoxys GX": 1,
+            "Mewtwo & Mew GX": 3,
+            "Latios GX": 1,
+            "Cobalion GX": 1,
+            "Reshiram & Charizard GX": 1,
+            "Solgaleo GX": 1,
+            "Jirachi GX": 1
+        },
+        "trainers": {
+            "Coach Trainer": 3,
+            "Bill's Analysis": 1,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Giant Hearth": 2,
+            "Welder": 4,
+            "Tag Switch": 1,
+            "Switch": 2,
+            "Reset Stamp": 2,
+            "Mysterious Treasure": 4,
+            "Great Potion": 2,
+            "Fire Crystal": 2,
+            "Electromagnetic Radar": 1,
+            "Custom Catcher": 4,
+            "Cherish Ball": 4
+        },
+        "energies": {
+            "Fire Energy - Basic": 8,
+            "Rainbow Energy - Special": 4
+        },
+        "archetype": "Mew Box"
+    },
+    "zach h": {
+        "player": "Zach Holtzman",
+        "standing": "64",
+        "pokemon": {
+            "Gardevoir & Sylveon GX": 4,
+            "Xerneas GX": 1
+        },
+        "trainers": {
+            "Custom Catcher": 4,
+            "Green's Exploration": 4,
+            "Coach Trainer": 4,
+            "Pokegear 3.0": 4,
+            "Cherish Ball": 3,
+            "Great Potion": 2,
+            "Fairy Charm L": 2,
+            "Fairy Charm P": 2,
+            "Lusamine": 2,
+            "Switch": 3,
+            "Stealthy Hood": 1,
+            "Choice Helmet": 1,
+            "Super Scoop Up": 3,
+            "Power Plant": 4,
+            "Energy Spinner": 1,
+            "Reset Stamp": 2,
+            "Tag Switch": 2,
+            "Bill's Analysis": 2
+        },
+        "energies": {
+            "Fairy Energy - Basic": 9
+        },
+        "archetype": "Gardevoir Sylveon"
+    },
+    "cody k": {
+        "player": "Cody Kiehl",
+        "standing": "65",
+        "pokemon": {
+            "Volcanion": 4,
+            "Reshiram & Charizard GX": 3
+        },
+        "trainers": {
+            "Judge Whistle": 2,
+            "Pokegear 3.0": 4,
+            "Reset Stamp": 4,
+            "Shrine of Punishment": 1,
+            "Power Plant": 4,
+            "Custom Catcher": 4,
+            "Welder": 4,
+            "Green's Exploration": 4,
+            "Acro Bike": 4,
+            "Fire Crystal": 3,
+            "Switch": 2,
+            "Cherish Ball": 2,
+            "Stealthy Hood": 1,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Energy Spinner": 1,
+            "Fiery Flint": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 11
+        },
+        "archetype": "Greens Reshiram Charizard"
+    },
+    "conner h": {
+        "player": "Conner Hurst",
+        "standing": "66",
+        "pokemon": {
+            "Gardevoir & Sylveon GX": 1,
+            "Xerneas GX": 1
+        },
+        "trainers": {
+            "Green's Exploration": 4,
+            "Coach Trainer": 4,
+            "Cynthia": 1,
+            "Bill's Analysis": 1,
+            "Pokegear 3.0": 4,
+            "Cherish Ball": 4,
+            "Custom Catcher": 4,
+            "Switch": 4,
+            "Tag Switch": 2,
+            "Energy Spinner": 2,
+            "Reset Stamp": 3,
+            "Power Plant": 4,
+            "Great Potion": 2,
+            "Super Scoop Up": 2,
+            "Fairy Charm UB": 1,
+            "Fairy Charm L": 2,
+            "Fairy Charm P": 2
+        },
+        "energies": {
+            "Fairy Energy - Basic": 9
+        },
+        "archetype": "Gardevoir Sylveon"
+    },
+    "will j": {
+        "player": "Will Jenkins",
+        "standing": "67",
+        "pokemon": {
+            "Jirachi": 2,
+            "Pikachu & Zekrom GX": 2,
+            "Dedenne GX": 3,
+            "Tapu Koko \u00e2\u0099\u00a2": 1,
+            "Zeraora GX": 1,
+            "Mew": 1,
+            "Hoopa": 1,
+            "Raichu & Alolan Raichu GX": 1
+        },
+        "trainers": {
+            "Electromagnetic Radar": 4,
+            "Electropower": 4,
+            "Custom Catcher": 4,
+            "Switch": 4,
+            "Reset Stamp": 3,
+            "Pokemon Communication": 2,
+            "Energy Switch": 2,
+            "Escape Board": 1,
+            "Stadium Nav": 1,
+            "Tag Switch": 1,
+            "Volkner": 4,
+            "Cynthia": 2,
+            "Bill's Analysis": 1,
+            "Lysandre Labs": 3,
+            "Thunder Mountain \u00e2\u0099\u00a2": 1
+        },
+        "energies": {
+            "Lightning Energy - Basic": 11
+        },
+        "archetype": "Pikachu Zekrom"
+    },
+    "nick f": {
+        "player": "Nick Flores",
+        "standing": "68",
+        "pokemon": {
+            "Glaceon GX": 1,
+            "Greninja GX": 1,
+            "Solgaleo GX": 1,
+            "Espeon & Deoxys GX": 1,
+            "Latios GX": 1,
+            "Jirachi GX": 1,
+            "Blitzle": 1,
+            "Zebstrika": 1,
+            "Naganadel GX": 1,
+            "Magcargo GX": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Dedenne GX": 3,
+            "Mewtwo & Mew GX": 4,
+            "Charizard GX": 1
+        },
+        "trainers": {
+            "Lysandre Labs": 1,
+            "Energy Recycle System": 1,
+            "Reset Stamp": 2,
+            "Pokemon Communication": 2,
+            "Mysterious Treasure": 2,
+            "Hapu": 2,
+            "Switch": 2,
+            "Giant Hearth": 3,
+            "Welder": 4,
+            "Custom Catcher": 4,
+            "Cherish Ball": 4
+        },
+        "energies": {
+            "Fire Energy - Basic": 9,
+            "Psychic Energy - Basic": 2,
+            "Water Energy - Basic": 2
+        },
+        "archetype": "Mew Box"
+    },
+    "andrew b": {
+        "player": "Andrew Buckner",
+        "standing": "70",
+        "pokemon": {
+            "Jirachi": 4,
+            "Mewtwo & Mew GX": 3,
+            "Dedenne GX": 3,
+            "Solgaleo GX": 1,
+            "Espeon & Deoxys GX": 1,
+            "Reshiram & Charizard GX": 1,
+            "Magcargo GX": 1,
+            "Jirachi GX": 1,
+            "Naganadel GX": 1,
+            "Charizard GX": 1,
+            "Latios GX": 1,
+            "Marshadow": 1,
+            "Turtonator": 1
+        },
+        "trainers": {
+            "Custom Catcher": 4,
+            "Cherish Ball": 4,
+            "Giant Hearth": 3,
+            "Viridian Forest": 1,
+            "Welder": 4,
+            "Escape Board": 2,
+            "Pal Pad": 1,
+            "Mysterious Treasure": 3,
+            "Reset Stamp": 2,
+            "Energy Recycle System": 1,
+            "Switch": 3
+        },
+        "energies": {
+            "Fire Energy - Basic": 9,
+            "Psychic Energy - Basic": 3
+        },
+        "archetype": "Mew Box"
+    },
+    "oscar m": {
+        "player": "Oscar Morales",
+        "standing": "71",
+        "pokemon": {
+            "Jirachi": 4,
+            "Vulpix": 2,
+            "Ninetales": 2,
+            "Dedenne GX": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Zebstrika": 1,
+            "Tapu Fini": 1,
+            "Volcanion": 1,
+            "Victini \u00e2\u0099\u00a2": 1,
+            "Turtonator": 1,
+            "Reshiram & Charizard GX": 1,
+            "Heatran GX": 1
+        },
+        "trainers": {
+            "Welder": 4,
+            "Pokemon Communication": 4,
+            "Cherish Ball": 4,
+            "Super Scoop Up": 3,
+            "Giant Hearth": 3,
+            "Switch": 3,
+            "Stealthy Hood": 1,
+            "Escape Board": 1,
+            "Pal Pad": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 17
+        },
+        "archetype": "Greens Reshiram Charizard"
+    },
+    "josh t": {
+        "player": "Josh Trotterchaud",
+        "standing": "72",
+        "pokemon": {
+            "Poipole": 2,
+            "Naganadel": 3,
+            "Naganadel GX": 1,
+            "Blacephalon GX": 1,
+            "Heatran GX": 1,
+            "Mew": 1,
+            "Dedenne GX": 1,
+            "Girafarig": 1
+        },
+        "trainers": {
+            "Welder": 4,
+            "Cynthia": 4,
+            "Lillie": 1,
+            "Tate & Liza": 1,
+            "Custom Catcher": 4,
+            "Mysterious Treasure": 4,
+            "Beast Ring": 3,
+            "Reset Stamp": 1,
+            "Ultra Space": 2,
+            "Lysandre Labs": 1,
+            "Giant Hearth": 1,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Cherish Ball": 2
+        },
+        "energies": {
+            "Fire Energy - Basic": 14,
+            "Psychic Energy - Basic": 1,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1
+        },
+        "archetype": "Blacephalon Naganadel"
+    },
+    "mike n": {
+        "player": "Mike Newey",
+        "standing": "73",
+        "pokemon": {
+            "Jirachi": 2,
+            "Reshiram & Charizard GX": 1,
+            "Heatran GX": 1,
+            "Vulpix": 2,
+            "Ninetales": 2,
+            "Dedenne GX": 3,
+            "Turtonator": 1,
+            "Victini \u00e2\u0099\u00a2": 1,
+            "Tapu Fini": 1,
+            "Volcanion": 1
+        },
+        "trainers": {
+            "Welder": 4,
+            "Pokemon Communication": 4,
+            "Cherish Ball": 3,
+            "Switch": 3,
+            "Super Scoop Up": 3,
+            "Escape Board": 1,
+            "Giant Hearth": 3,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Pokegear 3.0": 2,
+            "Pal Pad": 1
+        },
+        "energies": {
+            "Fire Energy - Basic": 18
+        },
+        "archetype": "Greens Reshiram Charizard"
+    },
+    "edward b": {
+        "player": "Edward Blankenship",
+        "standing": "74",
+        "pokemon": {
+            "Xerneas GX": 1,
+            "Gardevoir & Sylveon GX": 4
+        },
+        "trainers": {
+            "Cherish Ball": 4,
+            "Custom Catcher": 4,
+            "Pokegear 3.0": 4,
+            "Reset Stamp": 2,
+            "Energy Spinner": 2,
+            "Adventure Bag": 1,
+            "Tag Switch": 3,
+            "Great Potion": 3,
+            "Switch": 4,
+            "Wondrous Labyrinth \u00e2\u0099\u00a2": 1,
+            "Power Plant": 4,
+            "Mina": 1,
+            "Bill's Analysis": 3,
+            "Green's Exploration": 4,
+            "Fairy Charm L": 2,
+            "Fairy Charm P": 2,
+            "Fairy Charm UB": 2
+        },
+        "energies": {
+            "Fairy Energy - Basic": 9
+        },
+        "archetype": "Gardevoir Sylveon"
+    },
+    "austin e": {
+        "player": "Austin Ellis",
+        "standing": "75",
+        "pokemon": {
+            "Poipole": 2,
+            "Naganadel GX": 3,
+            "Naganadel": 1,
+            "Celesteela": 1,
+            "Buzzwole": 1,
+            "Dusk Mane Necrozma": 1,
+            "Kartana": 1,
+            "Nihilego": 1,
+            "Snorunt": 2,
+            "Froslass": 1,
+            "Ditto \u00e2\u0099\u00a2": 1,
+            "Persian GX": 1,
+            "Aerodactyl GX": 1,
+            "Dewgong": 1,
+            "Marshadow": 1,
+            "Mew": 1,
+            "Dedenne GX": 1
+        },
+        "trainers": {
+            "Steven's Resolve": 4,
+            "Tate & Liza": 2,
+            "Grimsley": 1,
+            "Brock's Grit": 1,
+            "Pokemon Communication": 4,
+            "Custom Catcher": 4,
+            "Mysterious Treasure": 3,
+            "Reset Stamp": 2,
+            "Beast Ball": 1,
+            "Pal Pad": 1,
+            "Spell Tag": 1,
+            "Ultra Space": 3,
+            "Power Plant": 1
+        },
+        "energies": {
+            "Triple Acceleration Energy - Special": 3,
+            "Rainbow Energy - Special": 2,
+            "Beast Energy \u00e2\u0099\u00a2 - Special": 1,
+            "Recycle Energy - Special": 1,
+            "Water Energy - Basic": 1
+        },
+        "archetype": "Naganadel Checkmate"
+    },
+    "andrew h": {
+        "player": "Andrew Holder",
+        "standing": "76",
+        "pokemon": {
+            "Volcanion": 4,
+            "Reshiram & Charizard GX": 3,
+            "Lugia GX": 1
+        },
+        "trainers": {
+            "Custom Catcher": 4,
+            "Green's Exploration": 4,
+            "Welder": 4,
+            "Lusamine": 1,
+            "Energy Spinner": 1,
+            "Fiery Flint": 1,
+            "Pokegear 3.0": 4,
+            "Cherish Ball": 2,
+            "Fire Crystal": 3,
+            "Acro Bike": 4,
+            "Stealthy Hood": 1,
+            "Shrine of Punishment": 1,
+            "Heat Factory \u00e2\u0099\u00a2": 1,
+            "Judge Whistle": 3,
+            "Reset Stamp": 2,
+            "Power Plant": 3,
+            "Switch": 2
+        },
+        "energies": {
+            "Fire Energy - Basic": 11
+        },
+        "archetype": "Greens Reshiram Charizard"
+    }
+}

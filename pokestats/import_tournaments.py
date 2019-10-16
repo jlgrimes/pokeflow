@@ -2,7 +2,19 @@ import requests
 import os
 from bs4 import BeautifulSoup
 import json
-import pokeflow_vars
+
+
+with open("./json/tournaments.json", "r") as tournamentsIn:
+    tournaments = json.load(tournamentsIn)
+
+with open("./json/type_colors.json") as typeColorsIn:
+    typeColors = json.load(typeColorsIn)
+
+with open("./json/archetypes/expanded_archetypes.json") as expandedArchetypesIn:
+    expandedArchetypes = json.load(expandedArchetypesIn)
+
+with open("./json/archetypes/standard_archetypes_2019_2020.json") as standardArchetypesIn:
+    standardArchetypes = json.load(standardArchetypesIn)
 
 # Algorithm idea:
 # for each list:
@@ -27,9 +39,9 @@ class Tournament:
         self.dayTwoRounds = tournamentObj["dayTwoRounds"]
         
         if tournamentObj['format'] == "standard":
-            self.archetypes = pokeflow_vars.standardArchetypes
+            self.archetypes = standardArchetypes
         if tournamentObj['format'] == "expanded":
-            self.archetypes = pokeflow_vars.expandedArchetypes
+            self.archetypes = expandedArchetypes
 
         # A dictionary of the form
         self.players = {}
@@ -292,7 +304,7 @@ def updateDeckData(data, tournament, name, year):
     print(filename, "dumped!")
 
 def main(flags):
-    for year, tournamentsInYear in pokeflow_vars.tournaments.items():
+    for year, tournamentsInYear in tournaments.items():
         for tournamentName, tournamentData in tournamentsInYear.items():
             filename = year + "_" + tournamentName + ".json"
             if "-o" not in flags and os.path.isfile("./json/tournaments/" + filename):
